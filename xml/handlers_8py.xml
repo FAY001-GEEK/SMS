@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="handlers_8py" kind="file" language="Python">
+    <compoundname>handlers.py</compoundname>
+    <innernamespace refid="namespacesms_1_1errors_1_1handlers">sms::errors::handlers</innernamespace>
+    <innernamespace refid="namespace_e_r_r_o_r_s">ERRORS</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacesms_1_1errors_1_1handlers" refkind="compound"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>flask<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Blueprint,<sp/>render_template</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="namespacesms_1_1errors_1_1handlers_1a95ab08016f024df363aa03f818e2b1b2" refkind="member"><highlight class="normal">errors<sp/>=<sp/>Blueprint(</highlight><highlight class="stringliteral">&apos;errors&apos;</highlight><highlight class="normal">,<sp/>__name__)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">@errors.app_errorhandler(404)</highlight></codeline>
+<codeline lineno="14" refid="namespacesms_1_1errors_1_1handlers_1a173dd660d052c25a0b8e84af166a5451" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1errors_1_1handlers_1a173dd660d052c25a0b8e84af166a5451" kindref="member">error_404</ref>(error):</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>render_template(</highlight><highlight class="stringliteral">&apos;errors/404.html&apos;</highlight><highlight class="normal">),<sp/>404</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">@errors.app_errorhandler(403)</highlight></codeline>
+<codeline lineno="21" refid="namespacesms_1_1errors_1_1handlers_1aa32eafeb9d0a63cf1ca8531e0c7ab967" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1errors_1_1handlers_1aa32eafeb9d0a63cf1ca8531e0c7ab967" kindref="member">error_403</ref>(error):</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>render_template(</highlight><highlight class="stringliteral">&apos;errors/403.html&apos;</highlight><highlight class="normal">),<sp/>403</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">@errors.app_errorhandler(500)</highlight></codeline>
+<codeline lineno="28" refid="namespacesms_1_1errors_1_1handlers_1ae971019fbde0327dc07cfd4cdbad4590" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1errors_1_1handlers_1ae971019fbde0327dc07cfd4cdbad4590" kindref="member">error_500</ref>(error):</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>render_template(</highlight><highlight class="stringliteral">&apos;errors/500.html&apos;</highlight><highlight class="normal">),<sp/>500</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/errors/handlers.py"/>
+  </compounddef>
+</doxygen>

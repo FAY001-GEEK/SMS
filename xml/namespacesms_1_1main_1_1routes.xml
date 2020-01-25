@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacesms_1_1main_1_1routes" kind="namespace" language="Python">
+    <compoundname>sms::main::routes</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacesms_1_1main_1_1routes_1a373ef4bfa93d4a32c23f9ddabc40c144" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms::main::routes.main</definition>
+        <argsstring></argsstring>
+        <name>main</name>
+        <initializer>=  Blueprint(&apos;main&apos;, __name__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" line="10" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacesms_1_1main_1_1routes_1ae1c43928a64195dd347412309267ceeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.main.routes.home</definition>
+        <argsstring>()</argsstring>
+        <name>home</name>
+        <briefdescription>
+<para>Renders &apos;home.html&apos; template when accessing &apos;\home&apos; route from the template folder with the given context. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&apos;home.html&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the template to be rendered. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>&apos;title&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The variable that should be available in the context of the template to replace the &apos;title&apos; variable with &apos;HOME&apos; value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>render_template(&apos;home.html&apos;, title=&apos;HOME&apos;) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" line="20" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1main_1_1routes_1a7026fcbf0377865f0a982441e6a9fc02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.main.routes.news</definition>
+        <argsstring>()</argsstring>
+        <name>news</name>
+        <briefdescription>
+<para>Renders &apos;news.html&apos; template when accessing &apos;\news&apos; route from the template folder with the given context. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&apos;news.html&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the template to be rendered. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>&apos;title&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The variable that should be available in the context of the template to replace the &apos;title&apos; variable with &apos;NEWS&apos; value. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>&apos;news&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variable containing all the news entered by the admin in his dashboard. It is used to display the news in &apos;news.html&apos;. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>render_template(&apos;news.html&apos;, title=&apos;NEWS&apos;, news=news) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" line="31" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1main_1_1routes_1abaa8aeb95c592289fc0cb48b54c90e1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.main.routes.achievements</definition>
+        <argsstring>()</argsstring>
+        <name>achievements</name>
+        <briefdescription>
+<para>Renders &apos;achievements.html&apos; template when accessing &apos;\achievements&apos; route from the template folder with the given context. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&apos;achievements.html&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the template to be rendered. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>&apos;title&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The variable that should be available in the context of the template to replace the &apos;title&apos; variable with &apos;ACHIEVEMENTS&apos; value. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>&apos;achievements&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variable containing all the achievements entered by the admin in his dashboard. It is used to display the achievements in &apos;achievements.html&apos;. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>render_template(&apos;achievements.html&apos;, title=&apos;ACHIEVEMENTS&apos;, achievements=achievements) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" line="43" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1main_1_1routes_1a028764cae883703c2fd3d8f892156417" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.main.routes.team</definition>
+        <argsstring>()</argsstring>
+        <name>team</name>
+        <briefdescription>
+<para>Renders &apos;team.html&apos; template when accessing &apos;\team&apos; route from the template folder with the given context. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&apos;team.html&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the template to be rendered. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>&apos;title&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The variable that should be available in the context of the template to replace the &apos;title&apos; variable with &apos;TEAM&apos; value. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>&apos;team&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variable containing all the team entered by the admin in his dashboard. It is used to display the team in &apos;team.html&apos;. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>render_template(&apos;team.html&apos;, title=&apos;TEAM&apos;, team=team) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" line="55" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1main_1_1routes_1a605b6baf747968674031712f04421665" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.main.routes.contact</definition>
+        <argsstring>()</argsstring>
+        <name>contact</name>
+        <briefdescription>
+<para>Renders &apos;contact.html&apos; template when accessing &apos;\contact&apos; route from the template folder with the given context. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&apos;contact.html&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the template to be rendered. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>&apos;title&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The variable that should be available in the context of the template to replace the &apos;title&apos; variable with &apos;CONTACT&apos; value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>render_template(&apos;contact.html&apos;, title=&apos;CONTACT&apos;) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" line="66" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1main_1_1routes_1a3ccc239b1709619cacf478ea1c79cd67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.main.routes.about</definition>
+        <argsstring>()</argsstring>
+        <name>about</name>
+        <briefdescription>
+<para>Renders &apos;about.html&apos; template when accessing &apos;\about&apos; route from the template folder with the given context. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&apos;about.html&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the template to be rendered. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>&apos;title&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The variable that should be available in the context of the template to replace the &apos;title&apos; variable with &apos;ABOUT&apos; value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>render_template(&apos;about.html&apos;, title=&apos;ABOUT&apos;) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" line="76" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" bodystart="76" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1main_1_1routes_1a4ec2fd3a859ce5c49f1a51fa35415535" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.main.routes.calendar</definition>
+        <argsstring>()</argsstring>
+        <name>calendar</name>
+        <briefdescription>
+<para>Renders &apos;calendar.html&apos; template when accessing &apos;\calendar&apos; route from the template folder with the given context. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&apos;calendar.html&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the template to be rendered. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>&apos;title&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The variable that should be available in the context of the template to replace the &apos;title&apos; variable with &apos;CALENDAR&apos; value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>render_template(&apos;calendar.html&apos;, title=&apos;CALENDAR&apos;) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" line="86" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" bodystart="86" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

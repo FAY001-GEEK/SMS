@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="main_2routes_8py" kind="file" language="Python">
+    <compoundname>routes.py</compoundname>
+    <innernamespace refid="namespacesms_1_1main_1_1routes">sms::main::routes</innernamespace>
+    <innernamespace refid="namespace_m_a_i_n">MAIN</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacesms_1_1main_1_1routes" refkind="compound"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>flask<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>render_template,<sp/>request,<sp/>Blueprint</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacesms_1_1models" kindref="compound">sms.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>News,<sp/>Achievements,<sp/>Team</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="namespacesms_1_1main_1_1routes_1a373ef4bfa93d4a32c23f9ddabc40c144" refkind="member"><highlight class="normal">main<sp/>=<sp/>Blueprint(</highlight><highlight class="stringliteral">&apos;main&apos;</highlight><highlight class="normal">,<sp/>__name__)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">@main.route(</highlight><highlight class="stringliteral">&apos;/&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">@main.route(</highlight><highlight class="stringliteral">&apos;/home&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="namespacesms_1_1main_1_1routes_1ae1c43928a64195dd347412309267ceeb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1main_1_1routes_1ae1c43928a64195dd347412309267ceeb" kindref="member">home</ref>():</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>render_template(</highlight><highlight class="stringliteral">&apos;home.html&apos;</highlight><highlight class="normal">,<sp/>title=</highlight><highlight class="stringliteral">&apos;HOME&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">@main.route(</highlight><highlight class="stringliteral">&apos;/news&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="namespacesms_1_1main_1_1routes_1a7026fcbf0377865f0a982441e6a9fc02" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1main_1_1routes_1a7026fcbf0377865f0a982441e6a9fc02" kindref="member">news</ref>():</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>news<sp/>=<sp/>News.query.all()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>render_template(</highlight><highlight class="stringliteral">&apos;news.html&apos;</highlight><highlight class="normal">,<sp/>title=</highlight><highlight class="stringliteral">&apos;NEWS&apos;</highlight><highlight class="normal">,<sp/>news=news)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">@main.route(</highlight><highlight class="stringliteral">&apos;/achievements&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="namespacesms_1_1main_1_1routes_1abaa8aeb95c592289fc0cb48b54c90e1a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1main_1_1routes_1abaa8aeb95c592289fc0cb48b54c90e1a" kindref="member">achievements</ref>():</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>achievements<sp/>=<sp/>Achievements.query.all()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>render_template(</highlight><highlight class="stringliteral">&apos;achievements.html&apos;</highlight><highlight class="normal">,<sp/>title=</highlight><highlight class="stringliteral">&apos;ACHIEVEMENTS&apos;</highlight><highlight class="normal">,<sp/>achievements=achievements)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">@main.route(</highlight><highlight class="stringliteral">&apos;/team&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="namespacesms_1_1main_1_1routes_1a028764cae883703c2fd3d8f892156417" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1main_1_1routes_1a028764cae883703c2fd3d8f892156417" kindref="member">team</ref>():</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>team<sp/>=<sp/>Team.query.all()</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>render_template(</highlight><highlight class="stringliteral">&apos;team.html&apos;</highlight><highlight class="normal">,<sp/>title=</highlight><highlight class="stringliteral">&apos;TEAM&apos;</highlight><highlight class="normal">,<sp/>team=team)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">@main.route(</highlight><highlight class="stringliteral">&apos;/contact&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="namespacesms_1_1main_1_1routes_1a605b6baf747968674031712f04421665" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1main_1_1routes_1a605b6baf747968674031712f04421665" kindref="member">contact</ref>():</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>render_template(</highlight><highlight class="stringliteral">&apos;contact.html&apos;</highlight><highlight class="normal">,<sp/>title=</highlight><highlight class="stringliteral">&apos;CONTACT&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">@main.route(</highlight><highlight class="stringliteral">&apos;/about&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="namespacesms_1_1main_1_1routes_1a3ccc239b1709619cacf478ea1c79cd67" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1main_1_1routes_1a3ccc239b1709619cacf478ea1c79cd67" kindref="member">about</ref>():</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>render_template(</highlight><highlight class="stringliteral">&apos;about.html&apos;</highlight><highlight class="normal">,<sp/>title=</highlight><highlight class="stringliteral">&apos;ABOUT&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">@main.route(</highlight><highlight class="stringliteral">&apos;/calendar&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="namespacesms_1_1main_1_1routes_1a4ec2fd3a859ce5c49f1a51fa35415535" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1main_1_1routes_1a4ec2fd3a859ce5c49f1a51fa35415535" kindref="member">calendar</ref>():</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>render_template(</highlight><highlight class="stringliteral">&apos;calendar.html&apos;</highlight><highlight class="normal">,<sp/>title=</highlight><highlight class="stringliteral">&apos;CALENDAR&apos;</highlight><highlight class="normal">)</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py"/>
+  </compounddef>
+</doxygen>

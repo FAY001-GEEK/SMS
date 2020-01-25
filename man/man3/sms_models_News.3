@@ -1,0 +1,74 @@
+.TH "sms.models.News" 3 "Sat Dec 28 2019" "Version 1.2.0" "SMS" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sms.models.News \- Describes the fields for news\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Model\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fB__repr__\fP (self)"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBid\fP = db\&.Column(db\&.Integer, primary_key=True)"
+.br
+.ti -1c
+.RI "\fBtitle\fP = db\&.Column(db\&.String(100), nullable=False)"
+.br
+.ti -1c
+.RI "\fBdate_posted\fP = db\&.Column(db\&.DateTime(100), nullable=False, default=datetime\&.utcnow)"
+.br
+.ti -1c
+.RI "\fBcontent\fP = db\&.Column(db\&.Text, nullable=False)"
+.br
+.ti -1c
+.RI "\fBimage_file\fP = db\&.Column(db\&.String(20), nullable=False,default='placeholder_1\&.jpg')"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Describes the fields for news\&. 
+.PP
+Definition at line 275 of file models\&.py\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "def sms\&.models\&.News\&.__repr__ ( self)"
+
+.PP
+Definition at line 283 of file models\&.py\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "sms\&.models\&.News\&.content = db\&.Column(db\&.Text, nullable=False)\fC [static]\fP"
+
+.PP
+Definition at line 280 of file models\&.py\&.
+.SS "sms\&.models\&.News\&.date_posted = db\&.Column(db\&.DateTime(100), nullable=False, default=datetime\&.utcnow)\fC [static]\fP"
+
+.PP
+Definition at line 279 of file models\&.py\&.
+.SS "sms\&.models\&.News\&.id = db\&.Column(db\&.Integer, primary_key=True)\fC [static]\fP"
+
+.PP
+Definition at line 277 of file models\&.py\&.
+.SS "sms\&.models\&.News\&.image_file = db\&.Column(db\&.String(20), nullable=False,default='placeholder_1\&.jpg')\fC [static]\fP"
+
+.PP
+Definition at line 281 of file models\&.py\&.
+.SS "sms\&.models\&.News\&.title = db\&.Column(db\&.String(100), nullable=False)\fC [static]\fP"
+
+.PP
+Definition at line 278 of file models\&.py\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SMS from the source code\&.

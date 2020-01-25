@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_ea872cf1336acf41d2df91581de12484" kind="dir">
+    <compoundname>C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar</compoundname>
+    <innerfile refid="sms__calendar_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="actions_8py">actions.py</innerfile>
+    <innerfile refid="app__utils_8py">app_utils.py</innerfile>
+    <innerfile refid="calendar__data_8py">calendar_data.py</innerfile>
+    <innerfile refid="constants_8py">constants.py</innerfile>
+    <innerfile refid="gregorian__calendar_8py">gregorian_calendar.py</innerfile>
+    <innerfile refid="sms__calendar_2routes_8py">routes.py</innerfile>
+    <innerfile refid="uwsgi_8py">uwsgi.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/"/>
+  </compounddef>
+</doxygen>

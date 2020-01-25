@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar" kind="class" language="Python" prot="public">
+    <compoundname>sms::sms_calendar::gregorian_calendar::GregorianCalendar</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a9dbb40573189c1473fc80ea6c718c9f0" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list sms.sms_calendar.gregorian_calendar.GregorianCalendar::MONTH_NAMES</definition>
+        <argsstring></argsstring>
+        <name>MONTH_NAMES</name>
+        <initializer>=  [&quot;January&quot;,
+                   &quot;February&quot;,
+                   &quot;March&quot;,
+                   &quot;April&quot;,
+                   &quot;May&quot;,
+                   &quot;June&quot;,
+                   &quot;July&quot;,
+                   &quot;August&quot;,
+                   &quot;September&quot;,
+                   &quot;October&quot;,
+                   &quot;November&quot;,
+                   &quot;December&quot;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/gregorian_calendar.py" line="8" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/gregorian_calendar.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a7494979b73cc500d48ab4bf052336b88" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[int, int]</type>
+        <definition> Tuple[int, int] sms.sms_calendar.gregorian_calendar.GregorianCalendar.previous_month_and_year</definition>
+        <argsstring>(int year, int month)</argsstring>
+        <name>previous_month_and_year</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/gregorian_calendar.py" line="22" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/gregorian_calendar.py" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a30d630a101a55e6e1d48ef15fc8c85c6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[int, int]</type>
+        <definition> Tuple[int, int] sms.sms_calendar.gregorian_calendar.GregorianCalendar.next_month_and_year</definition>
+        <argsstring>(int year, int month)</argsstring>
+        <name>next_month_and_year</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/gregorian_calendar.py" line="27" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/gregorian_calendar.py" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a58c22234086b9443112db21683ac09ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[int, int, int]</type>
+        <definition> Tuple[int, int, int] sms.sms_calendar.gregorian_calendar.GregorianCalendar.current_date</definition>
+        <argsstring>()</argsstring>
+        <name>current_date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/gregorian_calendar.py" line="33" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/gregorian_calendar.py" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a16e361cce3df185c6233143dd4d4b9fc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Iterable[date]</type>
+        <definition> Iterable[date] sms.sms_calendar.gregorian_calendar.GregorianCalendar.month_days</definition>
+        <argsstring>(int year, int month)</argsstring>
+        <name>month_days</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/gregorian_calendar.py" line="38" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/gregorian_calendar.py" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1abf97761369bbb350500717ec8ae0af88" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List[List[int]]</type>
+        <definition> List[List[int]] sms.sms_calendar.gregorian_calendar.GregorianCalendar.month_days_with_weekday</definition>
+        <argsstring>(int year, int month)</argsstring>
+        <name>month_days_with_weekday</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/gregorian_calendar.py" line="42" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/gregorian_calendar.py" bodystart="42" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/gregorian_calendar.py" line="6" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/gregorian_calendar.py" bodystart="6" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a58c22234086b9443112db21683ac09ec" prot="public" virt="non-virtual"><scope>sms::sms_calendar::gregorian_calendar::GregorianCalendar</scope><name>current_date</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a16e361cce3df185c6233143dd4d4b9fc" prot="public" virt="non-virtual"><scope>sms::sms_calendar::gregorian_calendar::GregorianCalendar</scope><name>month_days</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1abf97761369bbb350500717ec8ae0af88" prot="public" virt="non-virtual"><scope>sms::sms_calendar::gregorian_calendar::GregorianCalendar</scope><name>month_days_with_weekday</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a9dbb40573189c1473fc80ea6c718c9f0" prot="public" virt="non-virtual"><scope>sms::sms_calendar::gregorian_calendar::GregorianCalendar</scope><name>MONTH_NAMES</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a30d630a101a55e6e1d48ef15fc8c85c6" prot="public" virt="non-virtual"><scope>sms::sms_calendar::gregorian_calendar::GregorianCalendar</scope><name>next_month_and_year</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a7494979b73cc500d48ab4bf052336b88" prot="public" virt="non-virtual"><scope>sms::sms_calendar::gregorian_calendar::GregorianCalendar</scope><name>previous_month_and_year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacesms" kind="namespace" language="Python">
+    <compoundname>sms</compoundname>
+    <innernamespace refid="namespacesms_1_1config">sms::config</innernamespace>
+    <innernamespace refid="namespacesms_1_1errors">sms::errors</innernamespace>
+    <innernamespace refid="namespacesms_1_1main">sms::main</innernamespace>
+    <innernamespace refid="namespacesms_1_1models">sms::models</innernamespace>
+    <innernamespace refid="namespacesms_1_1posts">sms::posts</innernamespace>
+    <innernamespace refid="namespacesms_1_1sms__calendar">sms::sms_calendar</innernamespace>
+    <innernamespace refid="namespacesms_1_1users">sms::users</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacesms_1a1f3f5a8d11d0e7530b39489a38784043" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <initializer>=  SQLAlchemy()</initializer>
+        <briefdescription>
+<para>Creates instances of imported libraries to use in the application. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" line="28" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1a393f87eefa684418e0accdd5a961bcc0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms.migrate</definition>
+        <argsstring></argsstring>
+        <name>migrate</name>
+        <initializer>=  Migrate()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" line="29" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1a2aaa54fcff62f7f2fed2fbae2c82bfa0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms.manager</definition>
+        <argsstring></argsstring>
+        <name>manager</name>
+        <initializer>=  Manager()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" line="30" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1a4dbdaabf86f04d42d186fde342ec3ff7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms.bcrypt</definition>
+        <argsstring></argsstring>
+        <name>bcrypt</name>
+        <initializer>=  Bcrypt()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" line="31" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1aea8ff796d0f2ddb97ff7e195e7f26dc9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms.login_manager</definition>
+        <argsstring></argsstring>
+        <name>login_manager</name>
+        <initializer>=  LoginManager()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" line="32" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1af246b71dc6a9663e755e58278bc8fa6e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms.login_view</definition>
+        <argsstring></argsstring>
+        <name>login_view</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" line="33" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1a3f5c244eee98e34ef6a55d34e2a0f05e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms.login_message_category</definition>
+        <argsstring></argsstring>
+        <name>login_message_category</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" line="34" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1a26cb5d9c8f9df0203f9124d8d5511b3e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms.mail</definition>
+        <argsstring></argsstring>
+        <name>mail</name>
+        <initializer>=  Mail()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" line="35" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1a6b67060fcb802b399240a7a38ea9ed0e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms.admin</definition>
+        <argsstring></argsstring>
+        <name>admin</name>
+        <initializer>=  Admin(name=&apos;ALI for ABA&apos;, template_mode=&apos;bootstrap3&apos;)</initializer>
+        <briefdescription>
+<para>Creates an instance of Flask-Admin dashboard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Project Name </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>template_mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dashboard Style </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" line="40" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacesms_1aeea4dd1b119356e07dc9a543af33a24d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.create_app</definition>
+        <argsstring>(config_class=Config)</argsstring>
+        <name>create_app</name>
+        <param>
+          <type>config_class</type>
+          <defname>config_class</defname>
+          <defval><ref refid="classsms_1_1config_1_1_config" kindref="compound">Config</ref></defval>
+        </param>
+        <briefdescription>
+<para>A Flask application is an instance of the Flask class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It contains everything about the application, such as configuration and URLs. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A Config file is a configuration file used by the application. It defines settings or preferences for building or running the program. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" line="47" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" bodystart="47" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

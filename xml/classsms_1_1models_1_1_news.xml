@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classsms_1_1models_1_1_news" kind="class" language="Python" prot="public">
+    <compoundname>sms::models::News</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1models_1_1_news_1a03dbbec3464a894faeddc5b8dde839e2" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.models.News::__tablename__</definition>
+        <argsstring></argsstring>
+        <name>__tablename__</name>
+        <initializer>=  &apos;news&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="276" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1models_1_1_news_1a6f815cfd6e4adae7147ef6d2cc781ceb" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.News::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <initializer>=  db.Column(db.Integer, primary_key=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="277" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_news_1a909110f76d9ad00512dd4bc92a9725ee" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.News::title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <initializer>=  db.Column(db.String(100), nullable=False)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="278" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_news_1a1667a6d423d51400e078827c4c03b8e1" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.News::date_posted</definition>
+        <argsstring></argsstring>
+        <name>date_posted</name>
+        <initializer>=  db.Column(db.DateTime(100), nullable=False, default=datetime.utcnow)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="279" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_news_1a4803bedc60385133ad3a741075f1688e" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.News::content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <initializer>=  db.Column(db.Text, nullable=False)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="280" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_news_1a6eedcce29163b035f3dd81ad05140c70" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.News::image_file</definition>
+        <argsstring></argsstring>
+        <name>image_file</name>
+        <initializer>=  db.Column(db.String(20), nullable=False,default=&apos;placeholder_1.jpg&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="281" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsms_1_1models_1_1_news_1a5d997990e004e7cf04f8e75d65c06033" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.models.News.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="283" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="283" bodyend="286"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Describes the fields for news. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>sms.models.News</label>
+        <link refid="classsms_1_1models_1_1_news"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>sms.models.News</label>
+        <link refid="classsms_1_1models_1_1_news"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="275" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="275" bodyend="287"/>
+    <listofallmembers>
+      <member refid="classsms_1_1models_1_1_news_1a5d997990e004e7cf04f8e75d65c06033" prot="public" virt="non-virtual"><scope>sms::models::News</scope><name>__repr__</name></member>
+      <member refid="classsms_1_1models_1_1_news_1a03dbbec3464a894faeddc5b8dde839e2" prot="private" virt="non-virtual"><scope>sms::models::News</scope><name>__tablename__</name></member>
+      <member refid="classsms_1_1models_1_1_news_1a4803bedc60385133ad3a741075f1688e" prot="public" virt="non-virtual"><scope>sms::models::News</scope><name>content</name></member>
+      <member refid="classsms_1_1models_1_1_news_1a1667a6d423d51400e078827c4c03b8e1" prot="public" virt="non-virtual"><scope>sms::models::News</scope><name>date_posted</name></member>
+      <member refid="classsms_1_1models_1_1_news_1a6f815cfd6e4adae7147ef6d2cc781ceb" prot="public" virt="non-virtual"><scope>sms::models::News</scope><name>id</name></member>
+      <member refid="classsms_1_1models_1_1_news_1a6eedcce29163b035f3dd81ad05140c70" prot="public" virt="non-virtual"><scope>sms::models::News</scope><name>image_file</name></member>
+      <member refid="classsms_1_1models_1_1_news_1a909110f76d9ad00512dd4bc92a9725ee" prot="public" virt="non-virtual"><scope>sms::models::News</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

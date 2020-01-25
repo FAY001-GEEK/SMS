@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacesms_1_1posts_1_1routes" kind="namespace" language="Python">
+    <compoundname>sms::posts::routes</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacesms_1_1posts_1_1routes_1ac725e96937618f7aaa381e72d2dce4d4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms::posts::routes.posts</definition>
+        <argsstring></argsstring>
+        <name>posts</name>
+        <initializer>=  Blueprint(&apos;posts&apos;, __name__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts/routes.py" line="7" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts/routes.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1_1posts_1_1routes_1a8b4a0092febded8f1ee8cb21255ee12f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms::posts::routes.methods</definition>
+        <argsstring></argsstring>
+        <name>methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts/routes.py" line="10" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts/routes.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacesms_1_1posts_1_1routes_1aefb744586e7220c487666f807cb0cae1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.posts.routes.new_post</definition>
+        <argsstring>()</argsstring>
+        <name>new_post</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts/routes.py" line="12" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts/routes.py" bodystart="12" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1posts_1_1routes_1a725d1aedb98910bc21353416258782d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.posts.routes.post</definition>
+        <argsstring>(post_id)</argsstring>
+        <name>post</name>
+        <param>
+          <type>post_id</type>
+          <defname>post_id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts/routes.py" line="25" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts/routes.py" bodystart="25" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1posts_1_1routes_1a4a806432feb2eefc93cab99a21e6c94b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.posts.routes.update_post</definition>
+        <argsstring>(post_id)</argsstring>
+        <name>update_post</name>
+        <param>
+          <type>post_id</type>
+          <defname>post_id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts/routes.py" line="32" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts/routes.py" bodystart="32" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1posts_1_1routes_1aef4a19a0f9a35c231157dc3f8a5653cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.posts.routes.delete_post</definition>
+        <argsstring>(post_id)</argsstring>
+        <name>delete_post</name>
+        <param>
+          <type>post_id</type>
+          <defname>post_id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts/routes.py" line="51" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts/routes.py" bodystart="51" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts/routes.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

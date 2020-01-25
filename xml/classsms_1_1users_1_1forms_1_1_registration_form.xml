@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classsms_1_1users_1_1forms_1_1_registration_form" kind="class" language="Python" prot="public">
+    <compoundname>sms::users::forms::RegistrationForm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FlaskForm</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1users_1_1forms_1_1_registration_form_1a089a30e30d8570c24c0aed158ee940da" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.users.forms.RegistrationForm::username</definition>
+        <argsstring></argsstring>
+        <name>username</name>
+        <initializer>=  StringField(&apos;Username&apos;, validators=[
+                           DataRequired(), Length(min=2, max=20)])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="13" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1users_1_1forms_1_1_registration_form_1add910c70280910e8e904f2a59595445f" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.users.forms.RegistrationForm::email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <initializer>=  StringField(&apos;Email&apos;, validators=[DataRequired(), Email()])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="15" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1users_1_1forms_1_1_registration_form_1a75e56295da82570206a87f8598fa3e52" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.users.forms.RegistrationForm::password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <initializer>=  PasswordField(&apos;Password&apos;, validators=[DataRequired()])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="16" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1users_1_1forms_1_1_registration_form_1a56f45d52b6ebf5c54970e0d39b525a3a" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.users.forms.RegistrationForm::confirm_password</definition>
+        <argsstring></argsstring>
+        <name>confirm_password</name>
+        <initializer>=  PasswordField(&apos;Confirm Password&apos;, validators=[
+                                     DataRequired(), EqualTo(&apos;<ref refid="classsms_1_1users_1_1forms_1_1_registration_form_1a75e56295da82570206a87f8598fa3e52" kindref="member">password</ref>&apos;)])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="17" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1users_1_1forms_1_1_registration_form_1a53ab472ab1a3b96f8920ff270febaa98" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.users.forms.RegistrationForm::submit</definition>
+        <argsstring></argsstring>
+        <name>submit</name>
+        <initializer>=  SubmitField(&apos;Sign Up&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="19" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsms_1_1users_1_1forms_1_1_registration_form_1a6a41a2970fd50fe6e27313edaeac7e92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.users.forms.RegistrationForm.validate_username</definition>
+        <argsstring>(self, username)</argsstring>
+        <name>validate_username</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classsms_1_1users_1_1forms_1_1_registration_form_1a089a30e30d8570c24c0aed158ee940da" kindref="member">username</ref></type>
+          <defname>username</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="21" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1users_1_1forms_1_1_registration_form_1a932fff0f5fc206d94c5cacac4835e1ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.users.forms.RegistrationForm.validate_email</definition>
+        <argsstring>(self, email)</argsstring>
+        <name>validate_email</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classsms_1_1users_1_1forms_1_1_registration_form_1add910c70280910e8e904f2a59595445f" kindref="member">email</ref></type>
+          <defname>email</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="26" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="26" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FlaskForm</label>
+      </node>
+      <node id="1">
+        <label>sms.users.forms.RegistrationForm</label>
+        <link refid="classsms_1_1users_1_1forms_1_1_registration_form"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FlaskForm</label>
+      </node>
+      <node id="1">
+        <label>sms.users.forms.RegistrationForm</label>
+        <link refid="classsms_1_1users_1_1forms_1_1_registration_form"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="12" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="12" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classsms_1_1users_1_1forms_1_1_registration_form_1a56f45d52b6ebf5c54970e0d39b525a3a" prot="public" virt="non-virtual"><scope>sms::users::forms::RegistrationForm</scope><name>confirm_password</name></member>
+      <member refid="classsms_1_1users_1_1forms_1_1_registration_form_1add910c70280910e8e904f2a59595445f" prot="public" virt="non-virtual"><scope>sms::users::forms::RegistrationForm</scope><name>email</name></member>
+      <member refid="classsms_1_1users_1_1forms_1_1_registration_form_1a75e56295da82570206a87f8598fa3e52" prot="public" virt="non-virtual"><scope>sms::users::forms::RegistrationForm</scope><name>password</name></member>
+      <member refid="classsms_1_1users_1_1forms_1_1_registration_form_1a53ab472ab1a3b96f8920ff270febaa98" prot="public" virt="non-virtual"><scope>sms::users::forms::RegistrationForm</scope><name>submit</name></member>
+      <member refid="classsms_1_1users_1_1forms_1_1_registration_form_1a089a30e30d8570c24c0aed158ee940da" prot="public" virt="non-virtual"><scope>sms::users::forms::RegistrationForm</scope><name>username</name></member>
+      <member refid="classsms_1_1users_1_1forms_1_1_registration_form_1a932fff0f5fc206d94c5cacac4835e1ab" prot="public" virt="non-virtual"><scope>sms::users::forms::RegistrationForm</scope><name>validate_email</name></member>
+      <member refid="classsms_1_1users_1_1forms_1_1_registration_form_1a6a41a2970fd50fe6e27313edaeac7e92" prot="public" virt="non-virtual"><scope>sms::users::forms::RegistrationForm</scope><name>validate_username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

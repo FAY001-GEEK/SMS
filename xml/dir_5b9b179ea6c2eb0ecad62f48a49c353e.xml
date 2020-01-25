@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_5b9b179ea6c2eb0ecad62f48a49c353e" kind="dir">
+    <compoundname>C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/errors</compoundname>
+    <innerfile refid="errors_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="handlers_8py">handlers.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/errors/"/>
+  </compounddef>
+</doxygen>

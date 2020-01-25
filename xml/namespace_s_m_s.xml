@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespace_s_m_s" kind="namespace" language="Python">
+    <compoundname>SMS</compoundname>
+    <briefdescription>
+<para>School Management System (<ref refid="namespace_s_m_s" kindref="compound">SMS</ref>) is a software developed from scratch for &apos;ALI for ABA&apos; association in order to present the services of this association and to facilitate the communication between staff and parents. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="version"><para>1.0.0 </para>
+</simplesect>
+<simplesect kind="date"><para>28 December 2019 </para>
+</simplesect>
+<simplesect kind="authors"><para>FAITMA ANWAR YOUNES </para>
+</simplesect>
+<simplesect kind="authors"><para>MARIAM HASAN FAWAZ </para>
+</simplesect>
+<simplesect kind="authors"><para>RAWAN JIHAD BANNOUT </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/__init__.py" line="11" column="1"/>
+  </compounddef>
+</doxygen>

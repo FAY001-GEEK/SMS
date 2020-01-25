@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="run_8py" kind="file" language="Python">
+    <compoundname>run.py</compoundname>
+    <innernamespace refid="namespacerun">run</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacerun" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>sms<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>create_app</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespacerun_1a7fcda7c89f1e8edb85c99b2a8d625d53" refkind="member"><highlight class="normal">app<sp/>=<sp/><ref refid="namespacesms_1aeea4dd1b119356e07dc9a543af33a24d" kindref="member">create_app</ref>()</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>__name__<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;__main__&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="6" refid="namespacerun_1a24785e11198aac41f0051e51857331aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>app.run(debug=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/run.py"/>
+  </compounddef>
+</doxygen>

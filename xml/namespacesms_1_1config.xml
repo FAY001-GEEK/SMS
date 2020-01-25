@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacesms_1_1config" kind="namespace" language="Python">
+    <compoundname>sms::config</compoundname>
+    <innerclass refid="classsms_1_1config_1_1_config" prot="public">sms::config::Config</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacesms_1_1config_1a34e50171f7aba5a2ac43fd6448e050ff" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms::config.basedir</definition>
+        <argsstring></argsstring>
+        <name>basedir</name>
+        <initializer>=  os.path.abspath(os.path.dirname(__file__))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="2" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

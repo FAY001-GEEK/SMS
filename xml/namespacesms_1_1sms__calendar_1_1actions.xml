@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacesms_1_1sms__calendar_1_1actions" kind="namespace" language="Python">
+    <compoundname>sms::sms_calendar::actions</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1actions_1a09ee0906d5441ca518bf1ba8a530eb7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Response</type>
+        <definition> Response sms.sms_calendar.actions.main_calendar_action</definition>
+        <argsstring>(str calendar_id)</argsstring>
+        <name>main_calendar_action</name>
+        <param>
+          <type>str</type>
+          <declname>calendar_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" line="13" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" bodystart="13" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1actions_1aa8952353c7db440b029fe7ce2679807e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Response</type>
+        <definition> Response sms.sms_calendar.actions.new_task_action</definition>
+        <argsstring>(str calendar_id, int year, int month)</argsstring>
+        <name>new_task_action</name>
+        <param>
+          <type>str</type>
+          <declname>calendar_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" line="55" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" bodystart="55" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1actions_1ac4ded5d838e2d39ff548fafd37171af1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Response</type>
+        <definition> Response sms.sms_calendar.actions.edit_task_action</definition>
+        <argsstring>(str calendar_id, int year, int month, int day, int task_id)</argsstring>
+        <name>edit_task_action</name>
+        <param>
+          <type>str</type>
+          <declname>calendar_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>task_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" line="89" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" bodystart="89" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1actions_1a35381980ba02e23db710ac2f998045ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Response</type>
+        <definition> Response sms.sms_calendar.actions.update_task_action</definition>
+        <argsstring>(str calendar_id, str year, str month, str day, str task_id)</argsstring>
+        <name>update_task_action</name>
+        <param>
+          <type>str</type>
+          <declname>calendar_id</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>day</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>task_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" line="126" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" bodystart="126" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1actions_1af027ed73e016c6f2dc6a83d09212b544" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Response</type>
+        <definition> Response sms.sms_calendar.actions.save_task_action</definition>
+        <argsstring>(str calendar_id)</argsstring>
+        <name>save_task_action</name>
+        <param>
+          <type>str</type>
+          <declname>calendar_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" line="178" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" bodystart="178" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1actions_1aac07aec3fce0a475b0d2d6f94a555656" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Response</type>
+        <definition> Response sms.sms_calendar.actions.delete_task_action</definition>
+        <argsstring>(str calendar_id, str year, str month, str day, str task_id)</argsstring>
+        <name>delete_task_action</name>
+        <param>
+          <type>str</type>
+          <declname>calendar_id</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>day</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>task_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" line="218" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" bodystart="218" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1actions_1a8c1ec1e2fa6c265cb1bb3c6681f30a5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Response</type>
+        <definition> Response sms.sms_calendar.actions.update_task_day_action</definition>
+        <argsstring>(str calendar_id, str year, str month, str day, str task_id)</argsstring>
+        <name>update_task_day_action</name>
+        <param>
+          <type>str</type>
+          <declname>calendar_id</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>day</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>task_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" line="230" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" bodystart="230" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1actions_1a957d2828b73e9dec2ee8f8d70f459af6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Response</type>
+        <definition> Response sms.sms_calendar.actions.hide_repetition_task_instance_action</definition>
+        <argsstring>(str calendar_id, str year, str month, str day, str task_id)</argsstring>
+        <name>hide_repetition_task_instance_action</name>
+        <param>
+          <type>str</type>
+          <declname>calendar_id</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>day</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>task_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" line="245" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" bodystart="245" bodyend="254"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/actions.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

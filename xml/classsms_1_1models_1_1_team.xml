@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classsms_1_1models_1_1_team" kind="class" language="Python" prot="public">
+    <compoundname>sms::models::Team</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1models_1_1_team_1a449c6cbab532c2d98c5abe54cf33841f" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.models.Team::__tablename__</definition>
+        <argsstring></argsstring>
+        <name>__tablename__</name>
+        <initializer>=  &apos;team&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="303" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1models_1_1_team_1add21501ebea72f127be189d149208a09" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.Team::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <initializer>=  db.Column(db.Integer, primary_key=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="304" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_team_1ae173fa50228d78ca5e82591db69bb4ba" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.Team::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <initializer>=  db.Column(db.String(), unique=True, nullable=False)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="305" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_team_1a17012edec11ba1f39e812aa568c397f5" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.Team::content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <initializer>=  db.Column(db.Text, nullable=False)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="306" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_team_1a494978322f13dcec7fba5ff7ca565df1" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.Team::image_file</definition>
+        <argsstring></argsstring>
+        <name>image_file</name>
+        <initializer>=  db.Column(db.String(), nullable=False,
+                           default=&apos;person_placeholder.jpg&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="307" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_team_1aea1b62977ff11f5680bf330c0cb0de84" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.Team::date_posted</definition>
+        <argsstring></argsstring>
+        <name>date_posted</name>
+        <initializer>=  db.Column(db.DateTime(
+        100), nullable=False, default=datetime.utcnow)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="309" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Describes the fields for team. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>sms.models.Team</label>
+        <link refid="classsms_1_1models_1_1_team"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>sms.models.Team</label>
+        <link refid="classsms_1_1models_1_1_team"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="302" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="302" bodyend="313"/>
+    <listofallmembers>
+      <member refid="classsms_1_1models_1_1_team_1a449c6cbab532c2d98c5abe54cf33841f" prot="private" virt="non-virtual"><scope>sms::models::Team</scope><name>__tablename__</name></member>
+      <member refid="classsms_1_1models_1_1_team_1a17012edec11ba1f39e812aa568c397f5" prot="public" virt="non-virtual"><scope>sms::models::Team</scope><name>content</name></member>
+      <member refid="classsms_1_1models_1_1_team_1aea1b62977ff11f5680bf330c0cb0de84" prot="public" virt="non-virtual"><scope>sms::models::Team</scope><name>date_posted</name></member>
+      <member refid="classsms_1_1models_1_1_team_1add21501ebea72f127be189d149208a09" prot="public" virt="non-virtual"><scope>sms::models::Team</scope><name>id</name></member>
+      <member refid="classsms_1_1models_1_1_team_1a494978322f13dcec7fba5ff7ca565df1" prot="public" virt="non-virtual"><scope>sms::models::Team</scope><name>image_file</name></member>
+      <member refid="classsms_1_1models_1_1_team_1ae173fa50228d78ca5e82591db69bb4ba" prot="public" virt="non-virtual"><scope>sms::models::Team</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

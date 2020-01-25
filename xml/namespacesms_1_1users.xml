@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacesms_1_1users" kind="namespace" language="Python">
+    <compoundname>sms::users</compoundname>
+    <innernamespace refid="namespacesms_1_1users_1_1forms">sms::users::forms</innernamespace>
+    <innernamespace refid="namespacesms_1_1users_1_1routes">sms::users::routes</innernamespace>
+    <innernamespace refid="namespacesms_1_1users_1_1utils">sms::users::utils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

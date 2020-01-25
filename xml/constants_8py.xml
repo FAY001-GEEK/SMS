@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="constants_8py" kind="file" language="Python">
+    <compoundname>constants.py</compoundname>
+    <innernamespace refid="namespacesms_1_1sms__calendar_1_1constants">sms::sms_calendar::constants</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacesms_1_1sms__calendar_1_1constants" refkind="compound"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2" refid="namespacesms_1_1sms__calendar_1_1constants_1aa28fd5cea91c4b3e9d2ce4b052bbbf28" refkind="member"><highlight class="normal">SESSION_ID<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;sid&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/constants.py"/>
+  </compounddef>
+</doxygen>

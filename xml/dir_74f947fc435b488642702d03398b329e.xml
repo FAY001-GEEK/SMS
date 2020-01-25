@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_74f947fc435b488642702d03398b329e" kind="dir">
+    <compoundname>C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms</compoundname>
+    <innerdir refid="dir_5b9b179ea6c2eb0ecad62f48a49c353e">C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/errors</innerdir>
+    <innerdir refid="dir_942970d5e3cf96e7f445e1e38e0a2f5a">C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main</innerdir>
+    <innerdir refid="dir_c0dba9f6a8ab2c84faa75b5e049247c1">C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts</innerdir>
+    <innerdir refid="dir_ea872cf1336acf41d2df91581de12484">C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar</innerdir>
+    <innerdir refid="dir_eb5ea458dbaf950a6f616368c4ed3e69">C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users</innerdir>
+    <innerfile refid="____init_____8py">__init__.py</innerfile>
+    <innerfile refid="config_8py">config.py</innerfile>
+    <innerfile refid="models_8py">models.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/"/>
+  </compounddef>
+</doxygen>

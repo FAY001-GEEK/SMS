@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="config_8py" kind="file" language="Python">
+    <compoundname>config.py</compoundname>
+    <innerclass refid="classsms_1_1config_1_1_config" prot="public">sms::config::Config</innerclass>
+    <innernamespace refid="namespacesms_1_1config">sms::config</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacesms_1_1config" refkind="compound"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>os</highlight></codeline>
+<codeline lineno="2" refid="namespacesms_1_1config_1a34e50171f7aba5a2ac43fd6448e050ff" refkind="member"><highlight class="normal">basedir<sp/>=<sp/>os.path.abspath(os.path.dirname(__file__))</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classsms_1_1config_1_1_config" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsms_1_1config_1_1_config" kindref="compound">Config</ref>:</highlight></codeline>
+<codeline lineno="5" refid="classsms_1_1config_1_1_config_1a65c23939cfa5d9edcd0d5ee6f440d75b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>SECRET_KEY<sp/>=<sp/>os.environ.get(</highlight><highlight class="stringliteral">&apos;SECRET_KEY&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="6" refid="classsms_1_1config_1_1_config_1aaa67cce3e9cebc9370f9e98b20849d3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>SQLALCHEMY_DATABASE_URI<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;sqlite:///&apos;</highlight><highlight class="normal"><sp/>+<sp/>os.path.join(basedir,<sp/></highlight><highlight class="stringliteral">&apos;sms.db&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="7" refid="classsms_1_1config_1_1_config_1a87b40912b931c7beb93b52bede694f0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>SQLALCHEMY_TRACK_MODIFICATIONS<sp/>=<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#SQLALCHEMY_DATABASE_URI<sp/>=<sp/>os.environ.get(&apos;SQLALCHEMY_DATABASE_URI&apos;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classsms_1_1config_1_1_config_1a5204dad8525195c7a36aaf28144d0f8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FLASK_ADMIN_SWATCH<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;paper&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classsms_1_1config_1_1_config_1a6d069502b5a03fa003ccd9489cb5e2e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MAIL_SERVER<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;smtp.googlemail.com&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classsms_1_1config_1_1_config_1a754f3405fe6ae965c191a60518219328" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MAIL_PORT<sp/>=<sp/>587</highlight></codeline>
+<codeline lineno="12" refid="classsms_1_1config_1_1_config_1ac930152031973cbb908909c6260ae33d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MAIL_USE_TLS<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classsms_1_1config_1_1_config_1a26cf13c621c170026c18aff19752b3b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MAIL_USERNAME<sp/>=<sp/>os.environ.get(</highlight><highlight class="stringliteral">&apos;EMAIL_USER&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14" refid="classsms_1_1config_1_1_config_1a1d1b5411903826cb59b665e5ea10a319" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MAIL_PASSWORD<sp/>=<sp/>os.environ.get(</highlight><highlight class="stringliteral">&apos;EMAIL_PASSWORD&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classsms_1_1config_1_1_config_1ad3a5444cf7a685d55fb71392cc960f4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>DATA_FOLDER<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;data&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classsms_1_1config_1_1_config_1aac253cf9d660a2e980a0cd445f9f6108" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MIN_YEAR<sp/>=<sp/>2019</highlight></codeline>
+<codeline lineno="19" refid="classsms_1_1config_1_1_config_1a6786d62b690782432deb0ecd0d6e284f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MAX_YEAR<sp/>=<sp/>2100</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classsms_1_1config_1_1_config_1a39b2d6f935fb90911ebde43c86c39ed8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>LOCALE<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;es_ES.UTF-8&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>https://en.wikipedia.org/wiki/List_of_tz_database_time_zones</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classsms_1_1config_1_1_config_1a0d1a4ea882fcb05138c644077e5df052" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TIMEZONE<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Europe/Madrid&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="classsms_1_1config_1_1_config_1ac2528fc81b9adf89d1ba7440ace71cc3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MONTHS_TO_EXPORT<sp/>=<sp/>6<sp/><sp/></highlight><highlight class="comment">#<sp/>currently<sp/>only<sp/>used<sp/>for<sp/>ICS<sp/>export</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classsms_1_1config_1_1_config_1ad658a6461218ddd2d24eb297ee03a0db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FEATURE_FLAG_ICAL_EXPORT<sp/>=<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>(base<sp/>^<sp/>attempts<sp/>)<sp/>second<sp/>delays<sp/>between<sp/>failed<sp/>logins</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classsms_1_1config_1_1_config_1a08889dd3e781f5077974bbd4ad9295d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FAILED_LOGIN_DELAY_BASE<sp/>=<sp/>2</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>If<sp/>true,<sp/>will<sp/>automatically<sp/>decorate<sp/>hyperlinks<sp/>with<sp/>&lt;a&gt;<sp/>tags<sp/>upon<sp/>rendering<sp/>them</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="classsms_1_1config_1_1_config_1aae26fd343d0478f05d6dfa50c1d0cdf8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>AUTO_DECORATE_TASK_DETAILS_HYPERLINK<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="classsms_1_1config_1_1_config_1abf7a5fc1eba60caffe01c5f8f1a16c5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>SHOW_VIEW_PAST_BUTTON<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Of<sp/>use<sp/>if<sp/>SHOW_VIEW_PAST_BUTTON<sp/>is<sp/>False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classsms_1_1config_1_1_config_1afd3036ea22578aadca7c276a290dce2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>HIDE_PAST_TASKS<sp/>=<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>days<sp/>past<sp/>to<sp/>keep<sp/>hidden<sp/>tasks<sp/>(future<sp/>ones<sp/>always<sp/>kept)<sp/>counting<sp/>all<sp/>months<sp/>as<sp/>31<sp/>days<sp/>long</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="classsms_1_1config_1_1_config_1afde41787b1a83ccc517ec06d2c78e8f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>DAYS_PAST_TO_KEEP_HIDDEN_TASKS<sp/>=<sp/>62</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>If<sp/>to<sp/>render<sp/>emoji<sp/>buttons<sp/>at<sp/>the<sp/>task<sp/>create/edit<sp/>page</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="classsms_1_1config_1_1_config_1adc35240b483672651c6c1cdb2ec1501d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>EMOJIS_ENABLED<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py"/>
+  </compounddef>
+</doxygen>

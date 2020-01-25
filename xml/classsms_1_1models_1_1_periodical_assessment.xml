@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classsms_1_1models_1_1_periodical_assessment" kind="class" language="Python" prot="public">
+    <compoundname>sms::models::PeriodicalAssessment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1models_1_1_periodical_assessment_1af2b632871344c02a79331cd8d6f2c290" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.models.PeriodicalAssessment::__tablename__</definition>
+        <argsstring></argsstring>
+        <name>__tablename__</name>
+        <initializer>=  &apos;periodical_assessment&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="257" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1models_1_1_periodical_assessment_1abde5760bf08ec25ce7e38cbaca0dfa0c" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.PeriodicalAssessment::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <initializer>=  db.Column(db.Integer, primary_key=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="258" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_periodical_assessment_1acc015609a0ed9d064fe17bb8d787a269" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.PeriodicalAssessment::skills</definition>
+        <argsstring></argsstring>
+        <name>skills</name>
+        <initializer>=  db.Column(db.String(), nullable=False)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="259" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Describes the fields for periodical assessment. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>sms.models.PeriodicalAssessment</label>
+        <link refid="classsms_1_1models_1_1_periodical_assessment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>sms.models.PeriodicalAssessment</label>
+        <link refid="classsms_1_1models_1_1_periodical_assessment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="256" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="256" bodyend="267"/>
+    <listofallmembers>
+      <member refid="classsms_1_1models_1_1_periodical_assessment_1af2b632871344c02a79331cd8d6f2c290" prot="private" virt="non-virtual"><scope>sms::models::PeriodicalAssessment</scope><name>__tablename__</name></member>
+      <member refid="classsms_1_1models_1_1_periodical_assessment_1abde5760bf08ec25ce7e38cbaca0dfa0c" prot="public" virt="non-virtual"><scope>sms::models::PeriodicalAssessment</scope><name>id</name></member>
+      <member refid="classsms_1_1models_1_1_periodical_assessment_1acc015609a0ed9d064fe17bb8d787a269" prot="public" virt="non-virtual"><scope>sms::models::PeriodicalAssessment</scope><name>skills</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

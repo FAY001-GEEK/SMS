@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="posts_2forms_8py" kind="file" language="Python">
+    <compoundname>forms.py</compoundname>
+    <innerclass refid="classsms_1_1posts_1_1forms_1_1_post_form" prot="public">sms::posts::forms::PostForm</innerclass>
+    <innernamespace refid="namespacesms_1_1posts_1_1forms">sms::posts::forms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacesms_1_1posts_1_1forms" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>flask_wtf<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>FlaskForm</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>wtforms<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>StringField,<sp/>SubmitField,<sp/>TextAreaField</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>wtforms.validators<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>DataRequired</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="classsms_1_1posts_1_1forms_1_1_post_form" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsms_1_1posts_1_1forms_1_1_post_form" kindref="compound">PostForm</ref>(FlaskForm):</highlight></codeline>
+<codeline lineno="6" refid="classsms_1_1posts_1_1forms_1_1_post_form_1ad7592f72a0ce2bd3e5e1efed418b884c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>title<sp/>=<sp/>StringField(</highlight><highlight class="stringliteral">&apos;Title&apos;</highlight><highlight class="normal">,<sp/>validators=[DataRequired()])</highlight></codeline>
+<codeline lineno="7" refid="classsms_1_1posts_1_1forms_1_1_post_form_1afe3409faea3c22b6c42a448d512405a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>content<sp/>=<sp/>TextAreaField(</highlight><highlight class="stringliteral">&apos;Content&apos;</highlight><highlight class="normal">,<sp/>validators=[DataRequired()])</highlight></codeline>
+<codeline lineno="8" refid="classsms_1_1posts_1_1forms_1_1_post_form_1ac7a1f5e7fef0c3466db1fb1f10c736f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>submit<sp/>=<sp/>SubmitField(</highlight><highlight class="stringliteral">&apos;Post&apos;</highlight><highlight class="normal">)</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts/forms.py"/>
+  </compounddef>
+</doxygen>

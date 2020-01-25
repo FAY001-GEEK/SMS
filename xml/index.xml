@@ -1,0 +1,480 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.16">
+  <compound refid="classsms_1_1models_1_1_a_b_l_l_s___assessment" kind="class"><name>sms::models::ABLLS_Assessment</name>
+    <member refid="classsms_1_1models_1_1_a_b_l_l_s___assessment_1a5b3b9a67dba8cfdfd1b72a569fd14ede" kind="variable"><name>__tablename__</name></member>
+    <member refid="classsms_1_1models_1_1_a_b_l_l_s___assessment_1aaf1614933c830e50c76497c6bb84bab9" kind="variable"><name>id</name></member>
+    <member refid="classsms_1_1models_1_1_a_b_l_l_s___assessment_1a610878bc87d4ff2f4de3ab3de627bf5b" kind="variable"><name>skills</name></member>
+  </compound>
+  <compound refid="classsms_1_1models_1_1_achievements" kind="class"><name>sms::models::Achievements</name>
+    <member refid="classsms_1_1models_1_1_achievements_1ac98cef56cc25f582780cbd51ba55cde0" kind="variable"><name>__tablename__</name></member>
+    <member refid="classsms_1_1models_1_1_achievements_1adda7c71e9060e798f6beef09ce35aee7" kind="variable"><name>id</name></member>
+    <member refid="classsms_1_1models_1_1_achievements_1a009015787e2eabbd702061ee7f8ccfd9" kind="variable"><name>date_posted</name></member>
+    <member refid="classsms_1_1models_1_1_achievements_1a879e6bfa4281be9e8616f30d69ff3ffc" kind="variable"><name>content</name></member>
+    <member refid="classsms_1_1models_1_1_achievements_1a1752717e0c561d1ec7025e0d3a00289e" kind="variable"><name>image_file</name></member>
+    <member refid="classsms_1_1models_1_1_achievements_1a0f8fb2df14811f4bd6b71efca52ac934" kind="function"><name>__repr__</name></member>
+  </compound>
+  <compound refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data" kind="class"><name>sms::sms_calendar::calendar_data::CalendarData</name>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a58f2999cc08701fb6c2f1b708341ea7b" kind="variable"><name>REPETITION_TYPE_WEEKLY</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a88cadbedd181dc337344b3515ae98cd0" kind="variable"><name>REPETITION_TYPE_MONTHLY</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1ab1dd83459123f46b05c846a01f6e21c5" kind="variable"><name>REPETITION_SUBTYPE_WEEK_DAY</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a15652b99200537f571a31a16e7a2cf32" kind="variable"><name>REPETITION_SUBTYPE_MONTH_DAY</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a007657e9154d6e71162e3eda16e94e66" kind="variable"><name>data_folder</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a20ae524a77dd07f80cf295e0b45c058f" kind="function"><name>__init__</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1afe1ac603b72afba4d48196f9f4fc3189" kind="function"><name>load_calendar</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a5da0e8513f2ee3b5ea6f8ebf9c30345b" kind="function"><name>users_list</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a864dde82195295c63e1125580aa76286" kind="function"><name>user_details</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a3769193fcef26bb5c22cc52e01180ecd" kind="function"><name>tasks_from_calendar</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1afa4c486eb7cc920374d39a92ee53a13a" kind="function"><name>hide_past_tasks</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a9972d5180047ce87d6f547a58211bc79" kind="function"><name>task_from_calendar</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1ae748317cbc9d68af611e695e81367305" kind="function"><name>repetitive_task_from_calendar</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1abc90207511ca7ce2526cd868d4b1e3db" kind="function"><name>add_repetitive_tasks_from_calendar</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1af258bc9e6c6f9736c27974420dee23de" kind="function"><name>delete_task</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a3b4a68520c3504495227b963751e09e2" kind="function"><name>update_task_day</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a3904dff4ae5dfcc358ebf28c56e0187d" kind="function"><name>create_task</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1ac510f6074ec91bdf66fdf7d12bb5c148" kind="function"><name>hide_repetition_task_instance</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1afcbcab16d79a406f0a560bf1000c287e" kind="function"><name>is_past</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a8a710487c5f72dc336107d784635a3b1" kind="function"><name>date_for_frontend</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1aaf8ae979e1ba5bafc51f7a447fe3da3e" kind="function"><name>add_task_to_list</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1af5b8464a05b1f6b19fc712fb649fa3b5" kind="function"><name>_repetitive_tasks_from_calendar</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a0e7ee8b62623b5780aba9b6eaef3a466" kind="function"><name>_save_calendar</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a55a4735b66180a6355ff4c358f0dbf06" kind="function"><name>_is_repetition_hidden_for_day</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1afb28f8ee25d7663ebe25ada9bd5602e5" kind="function"><name>_is_repetition_hidden</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a0a7518a3d4212ad716ff0f8be0cdb170" kind="function"><name>_clear_empty_entries</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1ac74d2dd2d5b9b86294120334b4d874c2" kind="function"><name>_clear_past_hidden_entries</name></member>
+  </compound>
+  <compound refid="classsms_1_1config_1_1_config" kind="class"><name>sms::config::Config</name>
+    <member refid="classsms_1_1config_1_1_config_1a65c23939cfa5d9edcd0d5ee6f440d75b" kind="variable"><name>SECRET_KEY</name></member>
+    <member refid="classsms_1_1config_1_1_config_1aaa67cce3e9cebc9370f9e98b20849d3a" kind="variable"><name>SQLALCHEMY_DATABASE_URI</name></member>
+    <member refid="classsms_1_1config_1_1_config_1a87b40912b931c7beb93b52bede694f0c" kind="variable"><name>SQLALCHEMY_TRACK_MODIFICATIONS</name></member>
+    <member refid="classsms_1_1config_1_1_config_1a5204dad8525195c7a36aaf28144d0f8e" kind="variable"><name>FLASK_ADMIN_SWATCH</name></member>
+    <member refid="classsms_1_1config_1_1_config_1a6d069502b5a03fa003ccd9489cb5e2e0" kind="variable"><name>MAIL_SERVER</name></member>
+    <member refid="classsms_1_1config_1_1_config_1a754f3405fe6ae965c191a60518219328" kind="variable"><name>MAIL_PORT</name></member>
+    <member refid="classsms_1_1config_1_1_config_1ac930152031973cbb908909c6260ae33d" kind="variable"><name>MAIL_USE_TLS</name></member>
+    <member refid="classsms_1_1config_1_1_config_1a26cf13c621c170026c18aff19752b3b8" kind="variable"><name>MAIL_USERNAME</name></member>
+    <member refid="classsms_1_1config_1_1_config_1a1d1b5411903826cb59b665e5ea10a319" kind="variable"><name>MAIL_PASSWORD</name></member>
+    <member refid="classsms_1_1config_1_1_config_1ad3a5444cf7a685d55fb71392cc960f4f" kind="variable"><name>DATA_FOLDER</name></member>
+    <member refid="classsms_1_1config_1_1_config_1aac253cf9d660a2e980a0cd445f9f6108" kind="variable"><name>MIN_YEAR</name></member>
+    <member refid="classsms_1_1config_1_1_config_1a6786d62b690782432deb0ecd0d6e284f" kind="variable"><name>MAX_YEAR</name></member>
+    <member refid="classsms_1_1config_1_1_config_1a39b2d6f935fb90911ebde43c86c39ed8" kind="variable"><name>LOCALE</name></member>
+    <member refid="classsms_1_1config_1_1_config_1a0d1a4ea882fcb05138c644077e5df052" kind="variable"><name>TIMEZONE</name></member>
+    <member refid="classsms_1_1config_1_1_config_1ac2528fc81b9adf89d1ba7440ace71cc3" kind="variable"><name>MONTHS_TO_EXPORT</name></member>
+    <member refid="classsms_1_1config_1_1_config_1ad658a6461218ddd2d24eb297ee03a0db" kind="variable"><name>FEATURE_FLAG_ICAL_EXPORT</name></member>
+    <member refid="classsms_1_1config_1_1_config_1a08889dd3e781f5077974bbd4ad9295d4" kind="variable"><name>FAILED_LOGIN_DELAY_BASE</name></member>
+    <member refid="classsms_1_1config_1_1_config_1aae26fd343d0478f05d6dfa50c1d0cdf8" kind="variable"><name>AUTO_DECORATE_TASK_DETAILS_HYPERLINK</name></member>
+    <member refid="classsms_1_1config_1_1_config_1abf7a5fc1eba60caffe01c5f8f1a16c5e" kind="variable"><name>SHOW_VIEW_PAST_BUTTON</name></member>
+    <member refid="classsms_1_1config_1_1_config_1afd3036ea22578aadca7c276a290dce2d" kind="variable"><name>HIDE_PAST_TASKS</name></member>
+    <member refid="classsms_1_1config_1_1_config_1afde41787b1a83ccc517ec06d2c78e8f1" kind="variable"><name>DAYS_PAST_TO_KEEP_HIDDEN_TASKS</name></member>
+    <member refid="classsms_1_1config_1_1_config_1adc35240b483672651c6c1cdb2ec1501d" kind="variable"><name>EMOJIS_ENABLED</name></member>
+  </compound>
+  <compound refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar" kind="class"><name>sms::sms_calendar::gregorian_calendar::GregorianCalendar</name>
+    <member refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a9dbb40573189c1473fc80ea6c718c9f0" kind="variable"><name>MONTH_NAMES</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a7494979b73cc500d48ab4bf052336b88" kind="function"><name>previous_month_and_year</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a30d630a101a55e6e1d48ef15fc8c85c6" kind="function"><name>next_month_and_year</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a58c22234086b9443112db21683ac09ec" kind="function"><name>current_date</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a16e361cce3df185c6233143dd4d4b9fc" kind="function"><name>month_days</name></member>
+    <member refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1abf97761369bbb350500717ec8ae0af88" kind="function"><name>month_days_with_weekday</name></member>
+  </compound>
+  <compound refid="classsms_1_1users_1_1forms_1_1_login_form" kind="class"><name>sms::users::forms::LoginForm</name>
+    <member refid="classsms_1_1users_1_1forms_1_1_login_form_1a64187d8bc16785ae7a049899667975a0" kind="variable"><name>email</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_login_form_1a6bea1b2cbfa2dab892954210e7b912af" kind="variable"><name>password</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_login_form_1a344902c3995119eb7c756ed380c76a9a" kind="variable"><name>remember</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_login_form_1a1f6bd82245d91b3500c69bf8cad06e4c" kind="variable"><name>submit</name></member>
+  </compound>
+  <compound refid="classsms_1_1models_1_1_news" kind="class"><name>sms::models::News</name>
+    <member refid="classsms_1_1models_1_1_news_1a03dbbec3464a894faeddc5b8dde839e2" kind="variable"><name>__tablename__</name></member>
+    <member refid="classsms_1_1models_1_1_news_1a6f815cfd6e4adae7147ef6d2cc781ceb" kind="variable"><name>id</name></member>
+    <member refid="classsms_1_1models_1_1_news_1a909110f76d9ad00512dd4bc92a9725ee" kind="variable"><name>title</name></member>
+    <member refid="classsms_1_1models_1_1_news_1a1667a6d423d51400e078827c4c03b8e1" kind="variable"><name>date_posted</name></member>
+    <member refid="classsms_1_1models_1_1_news_1a4803bedc60385133ad3a741075f1688e" kind="variable"><name>content</name></member>
+    <member refid="classsms_1_1models_1_1_news_1a6eedcce29163b035f3dd81ad05140c70" kind="variable"><name>image_file</name></member>
+    <member refid="classsms_1_1models_1_1_news_1a5d997990e004e7cf04f8e75d65c06033" kind="function"><name>__repr__</name></member>
+  </compound>
+  <compound refid="classsms_1_1main_1_1forms_1_1_news_form" kind="class"><name>sms::main::forms::NewsForm</name>
+    <member refid="classsms_1_1main_1_1forms_1_1_news_form_1ae0d53b01ccaa147703b1a06b153b0aa1" kind="variable"><name>title</name></member>
+    <member refid="classsms_1_1main_1_1forms_1_1_news_form_1ae0da1b1bc77e065749b411c9734b63e9" kind="variable"><name>content</name></member>
+    <member refid="classsms_1_1main_1_1forms_1_1_news_form_1acbbc4c6ca228e7ef3af2f8f4de0ddb2c" kind="variable"><name>submit</name></member>
+  </compound>
+  <compound refid="classsms_1_1models_1_1_periodical_assessment" kind="class"><name>sms::models::PeriodicalAssessment</name>
+    <member refid="classsms_1_1models_1_1_periodical_assessment_1af2b632871344c02a79331cd8d6f2c290" kind="variable"><name>__tablename__</name></member>
+    <member refid="classsms_1_1models_1_1_periodical_assessment_1abde5760bf08ec25ce7e38cbaca0dfa0c" kind="variable"><name>id</name></member>
+    <member refid="classsms_1_1models_1_1_periodical_assessment_1acc015609a0ed9d064fe17bb8d787a269" kind="variable"><name>skills</name></member>
+  </compound>
+  <compound refid="classsms_1_1models_1_1_post" kind="class"><name>sms::models::Post</name>
+    <member refid="classsms_1_1models_1_1_post_1a317ec32c6c13abd8c06e8eae09a5307a" kind="variable"><name>id</name></member>
+    <member refid="classsms_1_1models_1_1_post_1a7fb429768ff3e842dd86e5fc94fe3eaa" kind="variable"><name>title</name></member>
+    <member refid="classsms_1_1models_1_1_post_1a4728317e87e8b037fec3120cd50dcc4d" kind="variable"><name>date_posted</name></member>
+    <member refid="classsms_1_1models_1_1_post_1a03f0bbb0e238d2193d7c4a824efb0193" kind="variable"><name>content</name></member>
+    <member refid="classsms_1_1models_1_1_post_1a87bad663fdec9f6661ff60db32365e36" kind="function"><name>__repr__</name></member>
+  </compound>
+  <compound refid="classsms_1_1posts_1_1forms_1_1_post_form" kind="class"><name>sms::posts::forms::PostForm</name>
+    <member refid="classsms_1_1posts_1_1forms_1_1_post_form_1ad7592f72a0ce2bd3e5e1efed418b884c" kind="variable"><name>title</name></member>
+    <member refid="classsms_1_1posts_1_1forms_1_1_post_form_1afe3409faea3c22b6c42a448d512405a1" kind="variable"><name>content</name></member>
+    <member refid="classsms_1_1posts_1_1forms_1_1_post_form_1ac7a1f5e7fef0c3466db1fb1f10c736f3" kind="variable"><name>submit</name></member>
+  </compound>
+  <compound refid="classsms_1_1users_1_1forms_1_1_registration_form" kind="class"><name>sms::users::forms::RegistrationForm</name>
+    <member refid="classsms_1_1users_1_1forms_1_1_registration_form_1a089a30e30d8570c24c0aed158ee940da" kind="variable"><name>username</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_registration_form_1add910c70280910e8e904f2a59595445f" kind="variable"><name>email</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_registration_form_1a75e56295da82570206a87f8598fa3e52" kind="variable"><name>password</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_registration_form_1a56f45d52b6ebf5c54970e0d39b525a3a" kind="variable"><name>confirm_password</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_registration_form_1a53ab472ab1a3b96f8920ff270febaa98" kind="variable"><name>submit</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_registration_form_1a6a41a2970fd50fe6e27313edaeac7e92" kind="function"><name>validate_username</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_registration_form_1a932fff0f5fc206d94c5cacac4835e1ab" kind="function"><name>validate_email</name></member>
+  </compound>
+  <compound refid="classsms_1_1users_1_1forms_1_1_request_reset_form" kind="class"><name>sms::users::forms::RequestResetForm</name>
+    <member refid="classsms_1_1users_1_1forms_1_1_request_reset_form_1a0136f36f543d795d717741cee3f5c189" kind="variable"><name>email</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_request_reset_form_1a3cedd56cc2a4b4615e04c8eac2ba12db" kind="variable"><name>submit</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_request_reset_form_1ac93632c5dfdc32c268b6c6648ff4e4a7" kind="function"><name>validate_email</name></member>
+  </compound>
+  <compound refid="classsms_1_1users_1_1forms_1_1_reset_password_form" kind="class"><name>sms::users::forms::ResetPasswordForm</name>
+    <member refid="classsms_1_1users_1_1forms_1_1_reset_password_form_1aa892833091d6abfc4cc997b086746b06" kind="variable"><name>password</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_reset_password_form_1aeba16ced60bd643cce27dd802c1595ac" kind="variable"><name>confirm_password</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_reset_password_form_1ab0c5da341137ae712a20e7166f715e34" kind="variable"><name>submit</name></member>
+  </compound>
+  <compound refid="classsms_1_1models_1_1_staff" kind="class"><name>sms::models::Staff</name>
+    <member refid="classsms_1_1models_1_1_staff_1a235068ce241d7445df6f689e30bcab81" kind="variable"><name>__tablename__</name></member>
+    <member refid="classsms_1_1models_1_1_staff_1a5c217cc1abdcf96bf4eb1ee023a4e8db" kind="variable"><name>_password</name></member>
+    <member refid="classsms_1_1models_1_1_staff_1a06689590a6cd069032fd163a94a4db2b" kind="variable"><name>id</name></member>
+    <member refid="classsms_1_1models_1_1_staff_1a9987862ab123f73fea7e330eb430f949" kind="variable"><name>username</name></member>
+    <member refid="classsms_1_1models_1_1_staff_1aab3b238589939a254452e642c8c82472" kind="variable"><name>first_name</name></member>
+    <member refid="classsms_1_1models_1_1_staff_1a3ec9e349fdff7b915d6cb9f8a7f44af1" kind="variable"><name>middle_name</name></member>
+    <member refid="classsms_1_1models_1_1_staff_1a969574201a106b03e7e8a6d56874f827" kind="variable"><name>last_name</name></member>
+    <member refid="classsms_1_1models_1_1_staff_1a2185fb5a3929e7e15168a8654e561789" kind="variable"><name>mother_name</name></member>
+    <member refid="classsms_1_1models_1_1_staff_1a2cb3ab44887bd089d1589698a86a6cb1" kind="variable"><name>email</name></member>
+    <member refid="classsms_1_1models_1_1_staff_1aa2abc70266ea5e3aa701d2e217e7d1c4" kind="variable"><name>phone_number</name></member>
+    <member refid="classsms_1_1models_1_1_staff_1a9add6031d8de9acd87630b5ed491dfe9" kind="variable"><name>address</name></member>
+    <member refid="classsms_1_1models_1_1_staff_1a2b7ce1ca8b776b73f947644858d5c96c" kind="variable"><name>image_file</name></member>
+    <member refid="classsms_1_1models_1_1_staff_1a0b7bbe732f5af5e9fd54157d1d8c7d92" kind="variable"><name>date_created</name></member>
+    <member refid="classsms_1_1models_1_1_staff_1a3fbf5d4290dcc66ad7922e4e92dccf86" kind="variable"><name>date_updated</name></member>
+    <member refid="classsms_1_1models_1_1_staff_1a90f5bc023e1dfb2d962102d884429ad8" kind="function"><name>password</name></member>
+    <member refid="classsms_1_1models_1_1_staff_1a14d6971bb4667879a2fe78f8d375946c" kind="function"><name>password</name></member>
+  </compound>
+  <compound refid="classsms_1_1models_1_1_staff_view" kind="class"><name>sms::models::StaffView</name>
+    <member refid="classsms_1_1models_1_1_staff_view_1a1f231753fc8602dd17698ea6722fda11" kind="variable"><name>page_size</name></member>
+    <member refid="classsms_1_1models_1_1_staff_view_1a4a30b1d744db500dae0ce9e7d0c5c71b" kind="variable"><name>can_view_details</name></member>
+    <member refid="classsms_1_1models_1_1_staff_view_1a45a26c0ecb0cc021fdefad977bd8fe7a" kind="variable"><name>column_list</name></member>
+    <member refid="classsms_1_1models_1_1_staff_view_1a4e02e824a20c883e643c559ec131cf10" kind="variable"><name>column_exclude_list</name></member>
+    <member refid="classsms_1_1models_1_1_staff_view_1a1e45935197f3320b9668e31ceefd4be9" kind="variable"><name>form_columns</name></member>
+    <member refid="classsms_1_1models_1_1_staff_view_1ad3700283edf491b2a72e672962149fb6" kind="variable"><name>form_widget_args</name></member>
+    <member refid="classsms_1_1models_1_1_staff_view_1af44e2f05ad7253b8fd0d60bc2b2ae5da" kind="variable"><name>column_searchable_list</name></member>
+    <member refid="classsms_1_1models_1_1_staff_view_1a24200ca1fe3859ff255d85d881ea11af" kind="variable"><name>column_default_sort</name></member>
+    <member refid="classsms_1_1models_1_1_staff_view_1a57015d56d6b05f55d8bba883cc3428bb" kind="variable"><name>column_sortable_list</name></member>
+    <member refid="classsms_1_1models_1_1_staff_view_1ad6035db78237f37188f1b97c41811151" kind="variable"><name>can_export</name></member>
+    <member refid="classsms_1_1models_1_1_staff_view_1a39d4ca0da579d24aeafb1650e2a5f721" kind="variable"><name>column_filters</name></member>
+    <member refid="classsms_1_1models_1_1_staff_view_1a7def39678c8d4ab4ecfa9ff1137a5e9f" kind="variable"><name>column_export_list</name></member>
+  </compound>
+  <compound refid="classsms_1_1models_1_1_students" kind="class"><name>sms::models::Students</name>
+    <member refid="classsms_1_1models_1_1_students_1a352355c8849040847602f6efb7a3a979" kind="variable"><name>__tablename__</name></member>
+    <member refid="classsms_1_1models_1_1_students_1a1a07328ce7916c74c792226b09fba908" kind="variable"><name>_password</name></member>
+    <member refid="classsms_1_1models_1_1_students_1a7d157ab9212bb91276c4f003a405cec9" kind="variable"><name>id</name></member>
+    <member refid="classsms_1_1models_1_1_students_1a314c48e5adc05ffd525e4fec4b7ef11c" kind="variable"><name>username</name></member>
+    <member refid="classsms_1_1models_1_1_students_1a853e93ef694491ea96fd70bea13c1fc0" kind="variable"><name>first_name</name></member>
+    <member refid="classsms_1_1models_1_1_students_1a5df020c42f03d8a497041952abdafbee" kind="variable"><name>middle_name</name></member>
+    <member refid="classsms_1_1models_1_1_students_1ae7dbf96acb85c5e21f2c68356bc53a88" kind="variable"><name>last_name</name></member>
+    <member refid="classsms_1_1models_1_1_students_1ac9600659b3641cfc2ca8a3907408e041" kind="variable"><name>mother_name</name></member>
+    <member refid="classsms_1_1models_1_1_students_1afa2ada44f6c440b06b00f746bbcc316a" kind="variable"><name>email</name></member>
+    <member refid="classsms_1_1models_1_1_students_1af59dd39303bc53a30c3f61b528f9883a" kind="variable"><name>phone_number</name></member>
+    <member refid="classsms_1_1models_1_1_students_1a6c20dbfc9afec9df65504d4f8667b903" kind="variable"><name>address</name></member>
+    <member refid="classsms_1_1models_1_1_students_1a4253aafc22045e4fcba1acf031051ef0" kind="variable"><name>image_file</name></member>
+    <member refid="classsms_1_1models_1_1_students_1a8ab1adb50df7f54a817ca9e46a342a49" kind="variable"><name>date_created</name></member>
+    <member refid="classsms_1_1models_1_1_students_1ad4a94d71c3b72dbf037c44c8a6bbf4ca" kind="variable"><name>date_updated</name></member>
+    <member refid="classsms_1_1models_1_1_students_1a4b6eed6a54090b1d6d80e187cec0330c" kind="variable"><name>students_subjects</name></member>
+    <member refid="classsms_1_1models_1_1_students_1a0277adeef5d77d4d25d0707b4e908d63" kind="function"><name>password</name></member>
+    <member refid="classsms_1_1models_1_1_students_1aec77db3324dcbd886bfa536a41f890db" kind="function"><name>password</name></member>
+  </compound>
+  <compound refid="classsms_1_1models_1_1_students_view" kind="class"><name>sms::models::StudentsView</name>
+    <member refid="classsms_1_1models_1_1_students_view_1afc60720e88442ae031a91ed270cc1450" kind="variable"><name>page_size</name></member>
+    <member refid="classsms_1_1models_1_1_students_view_1a1e7661efd947537484b5c479344bcb7f" kind="variable"><name>can_view_details</name></member>
+    <member refid="classsms_1_1models_1_1_students_view_1ad5f4e404e78f24e1e8566f762099bf11" kind="variable"><name>column_list</name></member>
+    <member refid="classsms_1_1models_1_1_students_view_1ae84056b50f1598b8519fd1c2d2ca8705" kind="variable"><name>column_exclude_list</name></member>
+    <member refid="classsms_1_1models_1_1_students_view_1a3e6e308f83f81f724b4cf03c732ec841" kind="variable"><name>form_columns</name></member>
+    <member refid="classsms_1_1models_1_1_students_view_1a01d2229446331d97bdc7b99d0ebff989" kind="variable"><name>form_widget_args</name></member>
+    <member refid="classsms_1_1models_1_1_students_view_1ab0a8368329d925b5e618d643f5610688" kind="variable"><name>column_searchable_list</name></member>
+    <member refid="classsms_1_1models_1_1_students_view_1a6e922e1947ccdbc8f6a1385dcfdff4be" kind="variable"><name>column_default_sort</name></member>
+    <member refid="classsms_1_1models_1_1_students_view_1add50d4f8991f18113a3c2aee29772697" kind="variable"><name>column_sortable_list</name></member>
+    <member refid="classsms_1_1models_1_1_students_view_1abc8fd8776e127d3583fa6fc2c3e133d9" kind="variable"><name>can_export</name></member>
+    <member refid="classsms_1_1models_1_1_students_view_1a984115fe87217b08736386641075b1cd" kind="variable"><name>column_filters</name></member>
+    <member refid="classsms_1_1models_1_1_students_view_1a6693ebd5475149f8e2b43339db2233ef" kind="variable"><name>column_export_list</name></member>
+  </compound>
+  <compound refid="classsms_1_1models_1_1_subjects" kind="class"><name>sms::models::Subjects</name>
+    <member refid="classsms_1_1models_1_1_subjects_1af7d790fcdebfe2fa472ecbd9e3c12c1e" kind="variable"><name>__tablename__</name></member>
+    <member refid="classsms_1_1models_1_1_subjects_1a78cb1861d7da2cf39ca5f9519d8c8ee1" kind="variable"><name>id</name></member>
+    <member refid="classsms_1_1models_1_1_subjects_1a8bfc0712aa5bb0f441e130b30122387f" kind="variable"><name>name</name></member>
+    <member refid="classsms_1_1models_1_1_subjects_1ad58e962437a3f94b265d1d66b1579b6b" kind="variable"><name>description</name></member>
+  </compound>
+  <compound refid="classsms_1_1models_1_1_team" kind="class"><name>sms::models::Team</name>
+    <member refid="classsms_1_1models_1_1_team_1a449c6cbab532c2d98c5abe54cf33841f" kind="variable"><name>__tablename__</name></member>
+    <member refid="classsms_1_1models_1_1_team_1add21501ebea72f127be189d149208a09" kind="variable"><name>id</name></member>
+    <member refid="classsms_1_1models_1_1_team_1ae173fa50228d78ca5e82591db69bb4ba" kind="variable"><name>name</name></member>
+    <member refid="classsms_1_1models_1_1_team_1a17012edec11ba1f39e812aa568c397f5" kind="variable"><name>content</name></member>
+    <member refid="classsms_1_1models_1_1_team_1a494978322f13dcec7fba5ff7ca565df1" kind="variable"><name>image_file</name></member>
+    <member refid="classsms_1_1models_1_1_team_1aea1b62977ff11f5680bf330c0cb0de84" kind="variable"><name>date_posted</name></member>
+  </compound>
+  <compound refid="classsms_1_1users_1_1forms_1_1_update_account_form" kind="class"><name>sms::users::forms::UpdateAccountForm</name>
+    <member refid="classsms_1_1users_1_1forms_1_1_update_account_form_1adc894935be50747362b5cca81772e0c0" kind="variable"><name>username</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_update_account_form_1a09b8aec7fcda66ded5e005b752abee21" kind="variable"><name>email</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_update_account_form_1acd0cec96beb04955105a4639557af77d" kind="variable"><name>picture</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_update_account_form_1a53a640d411f1d5bacc43a75b993a4ec0" kind="variable"><name>submit</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_update_account_form_1acd97e0619a8748623f8c4b9e53be85c7" kind="function"><name>validate_username</name></member>
+    <member refid="classsms_1_1users_1_1forms_1_1_update_account_form_1a10a2c32fe2dd70835f5fd842ae8ec0bb" kind="function"><name>validate_email</name></member>
+  </compound>
+  <compound refid="classsms_1_1models_1_1_user" kind="class"><name>sms::models::User</name>
+    <member refid="classsms_1_1models_1_1_user_1a8faa592536d1ab17279e439a336ac766" kind="variable"><name>__tablename__</name></member>
+    <member refid="classsms_1_1models_1_1_user_1ae421d5f33646b4f51e430dbc2301e063" kind="variable"><name>_password</name></member>
+    <member refid="classsms_1_1models_1_1_user_1a665af804b272b41390e686bbda5255c8" kind="variable"><name>id</name></member>
+    <member refid="classsms_1_1models_1_1_user_1a66570184b6bed6c5312bf18066543bab" kind="variable"><name>username</name></member>
+    <member refid="classsms_1_1models_1_1_user_1a6056241051afc456b511a9fc367851fb" kind="variable"><name>first_name</name></member>
+    <member refid="classsms_1_1models_1_1_user_1a215330c6e60b908796303d6a1b6b6bb4" kind="variable"><name>middle_name</name></member>
+    <member refid="classsms_1_1models_1_1_user_1a01c62d8c40431142930cbd23a1baf212" kind="variable"><name>last_name</name></member>
+    <member refid="classsms_1_1models_1_1_user_1a07cdeb59ad2373e4ffe5d583c07fd50a" kind="variable"><name>mother_name</name></member>
+    <member refid="classsms_1_1models_1_1_user_1a05a7523afc916882f9695a8bba698d91" kind="variable"><name>email</name></member>
+    <member refid="classsms_1_1models_1_1_user_1a9d3e9c839c677ce6922bb94d2caccda2" kind="variable"><name>phone_number</name></member>
+    <member refid="classsms_1_1models_1_1_user_1a5c423e0ca548bb7663cbd7ae5cb8f5fc" kind="variable"><name>address</name></member>
+    <member refid="classsms_1_1models_1_1_user_1a3d2538d40a10b40f0270c631388ce123" kind="variable"><name>image_file</name></member>
+    <member refid="classsms_1_1models_1_1_user_1a07d22a9a8a78f7bb683ea9feb05c64b9" kind="variable"><name>date_created</name></member>
+    <member refid="classsms_1_1models_1_1_user_1a2517282e43da3903541565af9aab6d68" kind="variable"><name>date_updated</name></member>
+    <member refid="classsms_1_1models_1_1_user_1a0fcebafd9f5e02b452e2c440adbdceec" kind="function"><name>password</name></member>
+    <member refid="classsms_1_1models_1_1_user_1a5faf183c50115d0ccf0973884e62d8b7" kind="function"><name>password</name></member>
+    <member refid="classsms_1_1models_1_1_user_1ad79d67a7c943edbf1b7cd1282535141c" kind="function"><name>get_reset_token</name></member>
+    <member refid="classsms_1_1models_1_1_user_1aa4cfb2f4ba1aaec6d7318b8f47c97134" kind="function"><name>__repr__</name></member>
+    <member refid="classsms_1_1models_1_1_user_1aa95e825b928b6c23a5bc91f384bc9566" kind="function"><name>verify_reset_token</name></member>
+  </compound>
+  <compound refid="classsms_1_1models_1_1_user_view" kind="class"><name>sms::models::UserView</name>
+    <member refid="classsms_1_1models_1_1_user_view_1aa8d631b095bbe9e76c01b0b1358ec20a" kind="variable"><name>page_size</name></member>
+    <member refid="classsms_1_1models_1_1_user_view_1a92779ca8071cbc6c4498af352e84d113" kind="variable"><name>can_view_details</name></member>
+    <member refid="classsms_1_1models_1_1_user_view_1a2184823ba58394ae0769d2f551c366d2" kind="variable"><name>column_list</name></member>
+    <member refid="classsms_1_1models_1_1_user_view_1a8e830dc92b6133bf10c1367afbc96621" kind="variable"><name>column_exclude_list</name></member>
+    <member refid="classsms_1_1models_1_1_user_view_1abbebc751ac36cdde929f08c5d2fdcf6f" kind="variable"><name>form_columns</name></member>
+    <member refid="classsms_1_1models_1_1_user_view_1aa090967168a5d27fa55eca0999babf33" kind="variable"><name>form_widget_args</name></member>
+    <member refid="classsms_1_1models_1_1_user_view_1ad022dfe3a897aa8d68aa463fcbc38d6d" kind="variable"><name>column_searchable_list</name></member>
+    <member refid="classsms_1_1models_1_1_user_view_1a08757415c11b5d7db75cb59bc47ebc5d" kind="variable"><name>column_default_sort</name></member>
+    <member refid="classsms_1_1models_1_1_user_view_1aa4b5a052154f6660ddc7fe0b3a1cbc90" kind="variable"><name>column_sortable_list</name></member>
+    <member refid="classsms_1_1models_1_1_user_view_1a43ab63ebde06f94251c087603331c16d" kind="variable"><name>can_export</name></member>
+    <member refid="classsms_1_1models_1_1_user_view_1ac77911038999a8f840e112fbbf83856a" kind="variable"><name>column_filters</name></member>
+    <member refid="classsms_1_1models_1_1_user_view_1aa1299c37e56721b814b25b42f90c6866" kind="variable"><name>column_export_list</name></member>
+  </compound>
+  <compound refid="namespaceenv" kind="namespace"><name>env</name>
+    <member refid="namespaceenv_1a5568485159882bb0d26691968a5c5711" kind="variable"><name>config</name></member>
+    <member refid="namespaceenv_1a6a025f87d2f04a9739a03ad3d8439a28" kind="variable"><name>logger</name></member>
+    <member refid="namespaceenv_1abb1ea34bea9fb8fbc6a51b6b3ccb1557" kind="variable"><name>target_metadata</name></member>
+    <member refid="namespaceenv_1af5a0f4785a69de8eacb489ad29ebd555" kind="function"><name>run_migrations_offline</name></member>
+    <member refid="namespaceenv_1a24ba20c6a253ad3a86827eb0b721d0d8" kind="function"><name>run_migrations_online</name></member>
+  </compound>
+  <compound refid="namespace_e_r_r_o_r_s" kind="namespace"><name>ERRORS</name>
+  </compound>
+  <compound refid="namespacef1c90aad993e__" kind="namespace"><name>f1c90aad993e_</name>
+    <member refid="namespacef1c90aad993e___1ac1118ec3db45dee4c41c1850cb5ff57a" kind="variable"><name>revision</name></member>
+    <member refid="namespacef1c90aad993e___1ada6dd600da88cf26b249c29a7b43eec9" kind="variable"><name>down_revision</name></member>
+    <member refid="namespacef1c90aad993e___1a6dedd884b2054676efdfc955712dc1fc" kind="variable"><name>branch_labels</name></member>
+    <member refid="namespacef1c90aad993e___1ac3a1b91f96a625b102b79a2ed59728ae" kind="variable"><name>depends_on</name></member>
+    <member refid="namespacef1c90aad993e___1ab21f3f50408e98d083dc0df31650b3f4" kind="function"><name>upgrade</name></member>
+    <member refid="namespacef1c90aad993e___1a0252fad8d3707c083a0d1e640f4096d1" kind="function"><name>downgrade</name></member>
+  </compound>
+  <compound refid="namespace_m_a_i_n" kind="namespace"><name>MAIN</name>
+  </compound>
+  <compound refid="namespacerun" kind="namespace"><name>run</name>
+    <member refid="namespacerun_1a7fcda7c89f1e8edb85c99b2a8d625d53" kind="variable"><name>app</name></member>
+    <member refid="namespacerun_1a24785e11198aac41f0051e51857331aa" kind="variable"><name>debug</name></member>
+  </compound>
+  <compound refid="namespace_s_m_s" kind="namespace"><name>SMS</name>
+  </compound>
+  <compound refid="namespacesms" kind="namespace"><name>sms</name>
+    <member refid="namespacesms_1a1f3f5a8d11d0e7530b39489a38784043" kind="variable"><name>db</name></member>
+    <member refid="namespacesms_1a393f87eefa684418e0accdd5a961bcc0" kind="variable"><name>migrate</name></member>
+    <member refid="namespacesms_1a2aaa54fcff62f7f2fed2fbae2c82bfa0" kind="variable"><name>manager</name></member>
+    <member refid="namespacesms_1a4dbdaabf86f04d42d186fde342ec3ff7" kind="variable"><name>bcrypt</name></member>
+    <member refid="namespacesms_1aea8ff796d0f2ddb97ff7e195e7f26dc9" kind="variable"><name>login_manager</name></member>
+    <member refid="namespacesms_1af246b71dc6a9663e755e58278bc8fa6e" kind="variable"><name>login_view</name></member>
+    <member refid="namespacesms_1a3f5c244eee98e34ef6a55d34e2a0f05e" kind="variable"><name>login_message_category</name></member>
+    <member refid="namespacesms_1a26cb5d9c8f9df0203f9124d8d5511b3e" kind="variable"><name>mail</name></member>
+    <member refid="namespacesms_1a6b67060fcb802b399240a7a38ea9ed0e" kind="variable"><name>admin</name></member>
+    <member refid="namespacesms_1aeea4dd1b119356e07dc9a543af33a24d" kind="function"><name>create_app</name></member>
+  </compound>
+  <compound refid="namespacesms_1_1config" kind="namespace"><name>sms::config</name>
+    <member refid="namespacesms_1_1config_1a34e50171f7aba5a2ac43fd6448e050ff" kind="variable"><name>basedir</name></member>
+  </compound>
+  <compound refid="namespacesms_1_1errors" kind="namespace"><name>sms::errors</name>
+  </compound>
+  <compound refid="namespacesms_1_1errors_1_1handlers" kind="namespace"><name>sms::errors::handlers</name>
+    <member refid="namespacesms_1_1errors_1_1handlers_1a95ab08016f024df363aa03f818e2b1b2" kind="variable"><name>errors</name></member>
+    <member refid="namespacesms_1_1errors_1_1handlers_1a173dd660d052c25a0b8e84af166a5451" kind="function"><name>error_404</name></member>
+    <member refid="namespacesms_1_1errors_1_1handlers_1aa32eafeb9d0a63cf1ca8531e0c7ab967" kind="function"><name>error_403</name></member>
+    <member refid="namespacesms_1_1errors_1_1handlers_1ae971019fbde0327dc07cfd4cdbad4590" kind="function"><name>error_500</name></member>
+  </compound>
+  <compound refid="namespacesms_1_1main" kind="namespace"><name>sms::main</name>
+  </compound>
+  <compound refid="namespacesms_1_1main_1_1forms" kind="namespace"><name>sms::main::forms</name>
+  </compound>
+  <compound refid="namespacesms_1_1main_1_1routes" kind="namespace"><name>sms::main::routes</name>
+    <member refid="namespacesms_1_1main_1_1routes_1a373ef4bfa93d4a32c23f9ddabc40c144" kind="variable"><name>main</name></member>
+    <member refid="namespacesms_1_1main_1_1routes_1ae1c43928a64195dd347412309267ceeb" kind="function"><name>home</name></member>
+    <member refid="namespacesms_1_1main_1_1routes_1a7026fcbf0377865f0a982441e6a9fc02" kind="function"><name>news</name></member>
+    <member refid="namespacesms_1_1main_1_1routes_1abaa8aeb95c592289fc0cb48b54c90e1a" kind="function"><name>achievements</name></member>
+    <member refid="namespacesms_1_1main_1_1routes_1a028764cae883703c2fd3d8f892156417" kind="function"><name>team</name></member>
+    <member refid="namespacesms_1_1main_1_1routes_1a605b6baf747968674031712f04421665" kind="function"><name>contact</name></member>
+    <member refid="namespacesms_1_1main_1_1routes_1a3ccc239b1709619cacf478ea1c79cd67" kind="function"><name>about</name></member>
+    <member refid="namespacesms_1_1main_1_1routes_1a4ec2fd3a859ce5c49f1a51fa35415535" kind="function"><name>calendar</name></member>
+  </compound>
+  <compound refid="namespacesms_1_1models" kind="namespace"><name>sms::models</name>
+    <member refid="namespacesms_1_1models_1aebc4ba0ec45babe63fc34aa86a7ed7bd" kind="variable"><name>students_subjects</name></member>
+    <member refid="namespacesms_1_1models_1ac95ebce713f88474403cfeec667c5eaf" kind="function"><name>load_user</name></member>
+  </compound>
+  <compound refid="namespacesms_1_1posts" kind="namespace"><name>sms::posts</name>
+  </compound>
+  <compound refid="namespacesms_1_1posts_1_1forms" kind="namespace"><name>sms::posts::forms</name>
+  </compound>
+  <compound refid="namespacesms_1_1posts_1_1routes" kind="namespace"><name>sms::posts::routes</name>
+    <member refid="namespacesms_1_1posts_1_1routes_1ac725e96937618f7aaa381e72d2dce4d4" kind="variable"><name>posts</name></member>
+    <member refid="namespacesms_1_1posts_1_1routes_1a8b4a0092febded8f1ee8cb21255ee12f" kind="variable"><name>methods</name></member>
+    <member refid="namespacesms_1_1posts_1_1routes_1aefb744586e7220c487666f807cb0cae1" kind="function"><name>new_post</name></member>
+    <member refid="namespacesms_1_1posts_1_1routes_1a725d1aedb98910bc21353416258782d7" kind="function"><name>post</name></member>
+    <member refid="namespacesms_1_1posts_1_1routes_1a4a806432feb2eefc93cab99a21e6c94b" kind="function"><name>update_post</name></member>
+    <member refid="namespacesms_1_1posts_1_1routes_1aef4a19a0f9a35c231157dc3f8a5653cb" kind="function"><name>delete_post</name></member>
+  </compound>
+  <compound refid="namespacesms_1_1sms__calendar" kind="namespace"><name>sms::sms_calendar</name>
+  </compound>
+  <compound refid="namespacesms_1_1sms__calendar_1_1actions" kind="namespace"><name>sms::sms_calendar::actions</name>
+    <member refid="namespacesms_1_1sms__calendar_1_1actions_1a09ee0906d5441ca518bf1ba8a530eb7a" kind="function"><name>main_calendar_action</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1actions_1aa8952353c7db440b029fe7ce2679807e" kind="function"><name>new_task_action</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1actions_1ac4ded5d838e2d39ff548fafd37171af1" kind="function"><name>edit_task_action</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1actions_1a35381980ba02e23db710ac2f998045ee" kind="function"><name>update_task_action</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1actions_1af027ed73e016c6f2dc6a83d09212b544" kind="function"><name>save_task_action</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1actions_1aac07aec3fce0a475b0d2d6f94a555656" kind="function"><name>delete_task_action</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1actions_1a8c1ec1e2fa6c265cb1bb3c6681f30a5c" kind="function"><name>update_task_day_action</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1actions_1a957d2828b73e9dec2ee8f8d70f459af6" kind="function"><name>hide_repetition_task_instance_action</name></member>
+  </compound>
+  <compound refid="namespacesms_1_1sms__calendar_1_1app__utils" kind="namespace"><name>sms::sms_calendar::app_utils</name>
+    <member refid="namespacesms_1_1sms__calendar_1_1app__utils_1a94327fd891401cb0e9917819d0866c9a" kind="variable"><name>cache</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1app__utils_1a2d6cc849278a4675b9321a74e2fc1de4" kind="variable"><name>URLS_REGEX_PATTERN</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1app__utils_1a5e162e9c1b896e11664476d970e04ef1" kind="variable"><name>DECORATED_URL_FORMAT</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1app__utils_1a427d0b98130b93877a8a82489074194c" kind="function"><name>previous_month_link</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1app__utils_1acb549ff3f181ac2fa649155f34f4c5e8" kind="function"><name>next_month_link</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1app__utils_1a86e6be4f1e0b297d61f5a20dc13dfaec" kind="function"><name>new_session_id</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1app__utils_1af7da0f97d48615d96f6f6ea521103e87" kind="function"><name>is_session_valid</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1app__utils_1a12f5b8dc1cb847209d61aec089a087e8" kind="function"><name>add_session</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1app__utils_1a26f70063c59ab02c73a2af7e979bc79c" kind="function"><name>get_session_username</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1app__utils_1a73fd715d60085b88a556f61da3a58568" kind="function"><name>task_details_for_markup</name></member>
+  </compound>
+  <compound refid="namespacesms_1_1sms__calendar_1_1calendar__data" kind="namespace"><name>sms::sms_calendar::calendar_data</name>
+    <member refid="namespacesms_1_1sms__calendar_1_1calendar__data_1a62622d35525d192b9f83610feba1810c" kind="variable"><name>KEY_TASKS</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1calendar__data_1a16576dbe79985787cd272f42c3b55cd9" kind="variable"><name>KEY_USERS</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1calendar__data_1a696e02f128d79a90c503b2a9f46cafaf" kind="variable"><name>KEY_NORMAL_TASK</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1calendar__data_1a3d398b17a6c73aa8ff50e97e3851604f" kind="variable"><name>KEY_REPETITIVE_TASK</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1calendar__data_1a9af69564e70b0199217b37fadb12c67b" kind="variable"><name>KEY_REPETITIVE_HIDDEN_TASK</name></member>
+  </compound>
+  <compound refid="namespacesms_1_1sms__calendar_1_1constants" kind="namespace"><name>sms::sms_calendar::constants</name>
+    <member refid="namespacesms_1_1sms__calendar_1_1constants_1aa28fd5cea91c4b3e9d2ce4b052bbbf28" kind="variable"><name>SESSION_ID</name></member>
+  </compound>
+  <compound refid="namespacesms_1_1sms__calendar_1_1gregorian__calendar" kind="namespace"><name>sms::sms_calendar::gregorian_calendar</name>
+  </compound>
+  <compound refid="namespacesms_1_1sms__calendar_1_1routes" kind="namespace"><name>sms::sms_calendar::routes</name>
+    <member refid="namespacesms_1_1sms__calendar_1_1routes_1a854cc61842f14a352db41e140d54862f" kind="variable"><name>sms_calendar</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1routes_1a405f04df0a5dc578d9dc280c663bc227" kind="function"><name>favicon</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1routes_1a626b24f66693f04d4ad1e21551b98327" kind="function"><name>calendar</name></member>
+  </compound>
+  <compound refid="namespacesms_1_1sms__calendar_1_1uwsgi" kind="namespace"><name>sms::sms_calendar::uwsgi</name>
+    <member refid="namespacesms_1_1sms__calendar_1_1uwsgi_1a401cec14b3efa746c676952b87fa824d" kind="variable"><name>app</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1uwsgi_1ab78e8f4af12a0be814977c9c67b5d7c8" kind="variable"><name>debug</name></member>
+    <member refid="namespacesms_1_1sms__calendar_1_1uwsgi_1ad0b4949df49e867fe549d03ab3d0acdd" kind="variable"><name>host</name></member>
+  </compound>
+  <compound refid="namespacesms_1_1users" kind="namespace"><name>sms::users</name>
+  </compound>
+  <compound refid="namespacesms_1_1users_1_1forms" kind="namespace"><name>sms::users::forms</name>
+  </compound>
+  <compound refid="namespacesms_1_1users_1_1routes" kind="namespace"><name>sms::users::routes</name>
+    <member refid="namespacesms_1_1users_1_1routes_1a6e3b5eb4a0ac32fea8dd1c478e15da36" kind="variable"><name>users</name></member>
+    <member refid="namespacesms_1_1users_1_1routes_1ad8f179341c3f346b0258fc4551e20c6c" kind="variable"><name>methods</name></member>
+    <member refid="namespacesms_1_1users_1_1routes_1a2e609e29f3edfb13a93a9b708a58b7c3" kind="function"><name>register</name></member>
+    <member refid="namespacesms_1_1users_1_1routes_1a10e385aadcc7fb324b460f1e5169e06a" kind="function"><name>login</name></member>
+    <member refid="namespacesms_1_1users_1_1routes_1a0c488ca47029766a0564d8af8fdb60d0" kind="function"><name>logout</name></member>
+    <member refid="namespacesms_1_1users_1_1routes_1aa7b7fcf8c894695d0f6cef26c2e7de14" kind="function"><name>account</name></member>
+    <member refid="namespacesms_1_1users_1_1routes_1a861c72ab460921d5d4112a378493a8d7" kind="function"><name>user_posts</name></member>
+    <member refid="namespacesms_1_1users_1_1routes_1a84c9d79c8086dcd85e936b30d4e691bb" kind="function"><name>reset_request</name></member>
+    <member refid="namespacesms_1_1users_1_1routes_1a3e4d98b7af706f4835f9aa233c0f6628" kind="function"><name>reset_token</name></member>
+  </compound>
+  <compound refid="namespacesms_1_1users_1_1utils" kind="namespace"><name>sms::users::utils</name>
+    <member refid="namespacesms_1_1users_1_1utils_1a917e170ed19a3357820e8d617efc75e0" kind="function"><name>save_picture</name></member>
+    <member refid="namespacesms_1_1users_1_1utils_1ac954421f184dc0c27ad5a80e75807a2b" kind="function"><name>send_reset_email</name></member>
+  </compound>
+  <compound refid="namespace_u_s_e_r_s" kind="namespace"><name>USERS</name>
+  </compound>
+  <compound refid="env_8py" kind="file"><name>env.py</name>
+  </compound>
+  <compound refid="f1c90aad993e___8py" kind="file"><name>f1c90aad993e_.py</name>
+  </compound>
+  <compound refid="run_8py" kind="file"><name>run.py</name>
+  </compound>
+  <compound refid="____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="errors_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="main_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="posts_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="sms__calendar_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="users_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="config_8py" kind="file"><name>config.py</name>
+  </compound>
+  <compound refid="handlers_8py" kind="file"><name>handlers.py</name>
+  </compound>
+  <compound refid="main_2forms_8py" kind="file"><name>forms.py</name>
+  </compound>
+  <compound refid="posts_2forms_8py" kind="file"><name>forms.py</name>
+  </compound>
+  <compound refid="users_2forms_8py" kind="file"><name>forms.py</name>
+  </compound>
+  <compound refid="main_2routes_8py" kind="file"><name>routes.py</name>
+  </compound>
+  <compound refid="posts_2routes_8py" kind="file"><name>routes.py</name>
+  </compound>
+  <compound refid="sms__calendar_2routes_8py" kind="file"><name>routes.py</name>
+  </compound>
+  <compound refid="users_2routes_8py" kind="file"><name>routes.py</name>
+  </compound>
+  <compound refid="models_8py" kind="file"><name>models.py</name>
+  </compound>
+  <compound refid="actions_8py" kind="file"><name>actions.py</name>
+  </compound>
+  <compound refid="app__utils_8py" kind="file"><name>app_utils.py</name>
+  </compound>
+  <compound refid="calendar__data_8py" kind="file"><name>calendar_data.py</name>
+  </compound>
+  <compound refid="constants_8py" kind="file"><name>constants.py</name>
+  </compound>
+  <compound refid="gregorian__calendar_8py" kind="file"><name>gregorian_calendar.py</name>
+  </compound>
+  <compound refid="uwsgi_8py" kind="file"><name>uwsgi.py</name>
+  </compound>
+  <compound refid="utils_8py" kind="file"><name>utils.py</name>
+  </compound>
+  <compound refid="dir_382429c62498963f439fab7fbf6168cc" kind="dir"><name>C:/Users/HP/Desktop/CODE</name>
+  </compound>
+  <compound refid="dir_e5327c3def5e890525b74d0a067935ee" kind="dir"><name>C:/Users/HP/Desktop</name>
+  </compound>
+  <compound refid="dir_5b9b179ea6c2eb0ecad62f48a49c353e" kind="dir"><name>C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/errors</name>
+  </compound>
+  <compound refid="dir_b7c7ac1363b15d4e0fa2920a0f48fb2f" kind="dir"><name>C:/Users/HP</name>
+  </compound>
+  <compound refid="dir_942970d5e3cf96e7f445e1e38e0a2f5a" kind="dir"><name>C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main</name>
+  </compound>
+  <compound refid="dir_b8d4d81da4390e9c6190b802413383a4" kind="dir"><name>C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations</name>
+  </compound>
+  <compound refid="dir_c0dba9f6a8ab2c84faa75b5e049247c1" kind="dir"><name>C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts</name>
+  </compound>
+  <compound refid="dir_e44586c734cb2c6b4abe0e8a46bed1de" kind="dir"><name>C:/Users/HP/Desktop/CODE/PROJECTS</name>
+  </compound>
+  <compound refid="dir_74f947fc435b488642702d03398b329e" kind="dir"><name>C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms</name>
+  </compound>
+  <compound refid="dir_c71bfa365205ee084440841fbfefd444" kind="dir"><name>C:/Users/HP/Desktop/CODE/PROJECTS/SMS</name>
+  </compound>
+  <compound refid="dir_ea872cf1336acf41d2df91581de12484" kind="dir"><name>C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+  <compound refid="dir_eb5ea458dbaf950a6f616368c4ed3e69" kind="dir"><name>C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users</name>
+  </compound>
+  <compound refid="dir_1c15e01b384c1a35657a684375cedc07" kind="dir"><name>C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/versions</name>
+  </compound>
+</doxygenindex>

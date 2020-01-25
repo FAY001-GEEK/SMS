@@ -1,0 +1,81 @@
+.TH "sms.users.forms.UpdateAccountForm" 3 "Sat Dec 28 2019" "Version 1.2.0" "SMS" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sms.users.forms.UpdateAccountForm
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits FlaskForm\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBvalidate_username\fP (self, \fBusername\fP)"
+.br
+.ti -1c
+.RI "def \fBvalidate_email\fP (self, \fBemail\fP)"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBusername\fP"
+.br
+.ti -1c
+.RI "\fBemail\fP = StringField('Email', validators=[DataRequired(), Email()])"
+.br
+.ti -1c
+.RI "\fBpicture\fP"
+.br
+.ti -1c
+.RI "\fBsubmit\fP = SubmitField('Update')"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 39 of file forms\&.py\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "def sms\&.users\&.forms\&.UpdateAccountForm\&.validate_email ( self,  email)"
+
+.PP
+Definition at line 53 of file forms\&.py\&.
+.SS "def sms\&.users\&.forms\&.UpdateAccountForm\&.validate_username ( self,  username)"
+
+.PP
+Definition at line 47 of file forms\&.py\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "sms\&.users\&.forms\&.UpdateAccountForm\&.email = StringField('Email', validators=[DataRequired(), Email()])\fC [static]\fP"
+
+.PP
+Definition at line 42 of file forms\&.py\&.
+.SS "sms\&.users\&.forms\&.UpdateAccountForm\&.picture\fC [static]\fP"
+\fBInitial value:\fP
+.PP
+.nf
+=  FileField('Update Profile Picture', validators=[
+                        FileAllowed(['jpg', 'png'])])
+.fi
+.PP
+Definition at line 43 of file forms\&.py\&.
+.SS "sms\&.users\&.forms\&.UpdateAccountForm\&.submit = SubmitField('Update')\fC [static]\fP"
+
+.PP
+Definition at line 45 of file forms\&.py\&.
+.SS "sms\&.users\&.forms\&.UpdateAccountForm\&.username\fC [static]\fP"
+\fBInitial value:\fP
+.PP
+.nf
+=  StringField('Username', validators=[
+                           DataRequired(), Length(min=2, max=20)])
+.fi
+.PP
+Definition at line 40 of file forms\&.py\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SMS from the source code\&.

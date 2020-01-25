@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespace_m_a_i_n" kind="namespace" language="Python">
+    <compoundname>MAIN</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The &apos;<ref refid="namespace_m_a_i_n" kindref="compound">MAIN</ref>&apos; package contains all routes, forms, and utils that aren&apos;t specific for someone and doesn&apos;t require login.</para>
+<para>Mainly, the &apos;<ref refid="namespace_m_a_i_n" kindref="compound">MAIN</ref>&apos; package contain blog-related routes and forms such as &apos;Home&apos;, &apos;News&apos;, &apos;Achievements&apos;, etc.. </para>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/routes.py" line="3" column="1"/>
+  </compounddef>
+</doxygen>

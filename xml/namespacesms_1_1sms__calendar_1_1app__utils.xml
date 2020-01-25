@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacesms_1_1sms__calendar_1_1app__utils" kind="namespace" language="Python">
+    <compoundname>sms::sms_calendar::app_utils</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacesms_1_1sms__calendar_1_1app__utils_1a94327fd891401cb0e9917819d0866c9a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms::sms_calendar::app_utils.cache</definition>
+        <argsstring></argsstring>
+        <name>cache</name>
+        <initializer>=  SimpleCache()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" line="13" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1_1sms__calendar_1_1app__utils_1a2d6cc849278a4675b9321a74e2fc1de4" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string sms::sms_calendar::app_utils.URLS_REGEX_PATTERN</definition>
+        <argsstring></argsstring>
+        <name>URLS_REGEX_PATTERN</name>
+        <initializer>=  r&quot;((?:(?:https?):\/\/)?[\w/\-?=%.]+\.[\w/\-?=%.&amp;]+)&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" line="16" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1_1sms__calendar_1_1app__utils_1a5e162e9c1b896e11664476d970e04ef1" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string sms::sms_calendar::app_utils.DECORATED_URL_FORMAT</definition>
+        <argsstring></argsstring>
+        <name>DECORATED_URL_FORMAT</name>
+        <initializer>=  &quot;&lt;a href=\&quot;{}\&quot; target=\&quot;_blank\&quot;&gt;{}&lt;/a&gt;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" line="17" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1app__utils_1a427d0b98130b93877a8a82489074194c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str sms.sms_calendar.app_utils.previous_month_link</definition>
+        <argsstring>(int year, int month)</argsstring>
+        <name>previous_month_link</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" line="20" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" bodystart="20" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1app__utils_1acb549ff3f181ac2fa649155f34f4c5e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str sms.sms_calendar.app_utils.next_month_link</definition>
+        <argsstring>(int year, int month)</argsstring>
+        <name>next_month_link</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" line="29" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1app__utils_1a86e6be4f1e0b297d61f5a20dc13dfaec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str sms.sms_calendar.app_utils.new_session_id</definition>
+        <argsstring>()</argsstring>
+        <name>new_session_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" line="38" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1app__utils_1af7da0f97d48615d96f6f6ea521103e87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool sms.sms_calendar.app_utils.is_session_valid</definition>
+        <argsstring>(str session_id)</argsstring>
+        <name>is_session_valid</name>
+        <param>
+          <type>str</type>
+          <declname>session_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" line="42" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1app__utils_1a12f5b8dc1cb847209d61aec089a087e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None sms.sms_calendar.app_utils.add_session</definition>
+        <argsstring>(str session_id, str username)</argsstring>
+        <name>add_session</name>
+        <param>
+          <type>str</type>
+          <declname>session_id</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" line="46" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1app__utils_1a26f70063c59ab02c73a2af7e979bc79c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str sms.sms_calendar.app_utils.get_session_username</definition>
+        <argsstring>(str session_id)</argsstring>
+        <name>get_session_username</name>
+        <param>
+          <type>str</type>
+          <declname>session_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" line="50" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1app__utils_1a73fd715d60085b88a556f61da3a58568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str sms.sms_calendar.app_utils.task_details_for_markup</definition>
+        <argsstring>(str details)</argsstring>
+        <name>task_details_for_markup</name>
+        <param>
+          <type>str</type>
+          <declname>details</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" line="54" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" bodystart="54" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

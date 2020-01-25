@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacef1c90aad993e__" kind="namespace" language="Python">
+    <compoundname>f1c90aad993e_</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacef1c90aad993e___1ac1118ec3db45dee4c41c1850cb5ff57a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string f1c90aad993e_.revision</definition>
+        <argsstring></argsstring>
+        <name>revision</name>
+        <initializer>=  &apos;f1c90aad993e&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/versions/f1c90aad993e_.py" line="13" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/versions/f1c90aad993e_.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacef1c90aad993e___1ada6dd600da88cf26b249c29a7b43eec9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>f1c90aad993e_.down_revision</definition>
+        <argsstring></argsstring>
+        <name>down_revision</name>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/versions/f1c90aad993e_.py" line="14" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/versions/f1c90aad993e_.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacef1c90aad993e___1a6dedd884b2054676efdfc955712dc1fc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>f1c90aad993e_.branch_labels</definition>
+        <argsstring></argsstring>
+        <name>branch_labels</name>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/versions/f1c90aad993e_.py" line="15" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/versions/f1c90aad993e_.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacef1c90aad993e___1ac3a1b91f96a625b102b79a2ed59728ae" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>f1c90aad993e_.depends_on</definition>
+        <argsstring></argsstring>
+        <name>depends_on</name>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/versions/f1c90aad993e_.py" line="16" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/versions/f1c90aad993e_.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacef1c90aad993e___1ab21f3f50408e98d083dc0df31650b3f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def f1c90aad993e_.upgrade</definition>
+        <argsstring>()</argsstring>
+        <name>upgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/versions/f1c90aad993e_.py" line="19" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/versions/f1c90aad993e_.py" bodystart="19" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacef1c90aad993e___1a0252fad8d3707c083a0d1e640f4096d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def f1c90aad993e_.downgrade</definition>
+        <argsstring>()</argsstring>
+        <name>downgrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/versions/f1c90aad993e_.py" line="135" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/versions/f1c90aad993e_.py" bodystart="135" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>empty message
+
+Revision ID: f1c90aad993e
+Revises: 
+Create Date: 2019-12-28 18:29:15.127104</verbatim> </para>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/versions/f1c90aad993e_.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="uwsgi_8py" kind="file" language="Python">
+    <compoundname>uwsgi.py</compoundname>
+    <innernamespace refid="namespacesms_1_1sms__calendar_1_1uwsgi">sms::sms_calendar::uwsgi</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacesms_1_1sms__calendar_1_1uwsgi" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>sms_calendar<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>app<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>flask_app</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespacesms_1_1sms__calendar_1_1uwsgi_1a401cec14b3efa746c676952b87fa824d" refkind="member"><highlight class="normal">app<sp/>=<sp/>flask_app.create_app()</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>__name__<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;__main__&quot;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="7" refid="namespacesms_1_1sms__calendar_1_1uwsgi_1ad0b4949df49e867fe549d03ab3d0acdd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>app.run(debug=app.config[</highlight><highlight class="stringliteral">&apos;DEBUG&apos;</highlight><highlight class="normal">],<sp/>host=app.config[</highlight><highlight class="stringliteral">&apos;HOST_IP&apos;</highlight><highlight class="normal">])</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/uwsgi.py"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classsms_1_1users_1_1forms_1_1_login_form" kind="class" language="Python" prot="public">
+    <compoundname>sms::users::forms::LoginForm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FlaskForm</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1users_1_1forms_1_1_login_form_1a64187d8bc16785ae7a049899667975a0" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.users.forms.LoginForm::email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <initializer>=  StringField(&apos;Email&apos;, validators=[DataRequired(), Email()])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="33" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1users_1_1forms_1_1_login_form_1a6bea1b2cbfa2dab892954210e7b912af" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.users.forms.LoginForm::password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <initializer>=  PasswordField(&apos;Password&apos;, validators=[DataRequired()])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="34" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1users_1_1forms_1_1_login_form_1a344902c3995119eb7c756ed380c76a9a" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.users.forms.LoginForm::remember</definition>
+        <argsstring></argsstring>
+        <name>remember</name>
+        <initializer>=  BooleanField(&apos;Remember Me&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="35" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1users_1_1forms_1_1_login_form_1a1f6bd82245d91b3500c69bf8cad06e4c" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.users.forms.LoginForm::submit</definition>
+        <argsstring></argsstring>
+        <name>submit</name>
+        <initializer>=  SubmitField(&apos;Sign In&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="36" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FlaskForm</label>
+      </node>
+      <node id="1">
+        <label>sms.users.forms.LoginForm</label>
+        <link refid="classsms_1_1users_1_1forms_1_1_login_form"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FlaskForm</label>
+      </node>
+      <node id="1">
+        <label>sms.users.forms.LoginForm</label>
+        <link refid="classsms_1_1users_1_1forms_1_1_login_form"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="32" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="32" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classsms_1_1users_1_1forms_1_1_login_form_1a64187d8bc16785ae7a049899667975a0" prot="public" virt="non-virtual"><scope>sms::users::forms::LoginForm</scope><name>email</name></member>
+      <member refid="classsms_1_1users_1_1forms_1_1_login_form_1a6bea1b2cbfa2dab892954210e7b912af" prot="public" virt="non-virtual"><scope>sms::users::forms::LoginForm</scope><name>password</name></member>
+      <member refid="classsms_1_1users_1_1forms_1_1_login_form_1a344902c3995119eb7c756ed380c76a9a" prot="public" virt="non-virtual"><scope>sms::users::forms::LoginForm</scope><name>remember</name></member>
+      <member refid="classsms_1_1users_1_1forms_1_1_login_form_1a1f6bd82245d91b3500c69bf8cad06e4c" prot="public" virt="non-virtual"><scope>sms::users::forms::LoginForm</scope><name>submit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

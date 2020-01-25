@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacesms_1_1models" kind="namespace" language="Python">
+    <compoundname>sms::models</compoundname>
+    <innerclass refid="classsms_1_1models_1_1_a_b_l_l_s___assessment" prot="public">sms::models::ABLLS_Assessment</innerclass>
+    <innerclass refid="classsms_1_1models_1_1_achievements" prot="public">sms::models::Achievements</innerclass>
+    <innerclass refid="classsms_1_1models_1_1_news" prot="public">sms::models::News</innerclass>
+    <innerclass refid="classsms_1_1models_1_1_periodical_assessment" prot="public">sms::models::PeriodicalAssessment</innerclass>
+    <innerclass refid="classsms_1_1models_1_1_post" prot="public">sms::models::Post</innerclass>
+    <innerclass refid="classsms_1_1models_1_1_staff" prot="public">sms::models::Staff</innerclass>
+    <innerclass refid="classsms_1_1models_1_1_staff_view" prot="public">sms::models::StaffView</innerclass>
+    <innerclass refid="classsms_1_1models_1_1_students" prot="public">sms::models::Students</innerclass>
+    <innerclass refid="classsms_1_1models_1_1_students_view" prot="public">sms::models::StudentsView</innerclass>
+    <innerclass refid="classsms_1_1models_1_1_subjects" prot="public">sms::models::Subjects</innerclass>
+    <innerclass refid="classsms_1_1models_1_1_team" prot="public">sms::models::Team</innerclass>
+    <innerclass refid="classsms_1_1models_1_1_user" prot="public">sms::models::User</innerclass>
+    <innerclass refid="classsms_1_1models_1_1_user_view" prot="public">sms::models::UserView</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacesms_1_1models_1aebc4ba0ec45babe63fc34aa86a7ed7bd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms::models.students_subjects</definition>
+        <argsstring></argsstring>
+        <name>students_subjects</name>
+        <initializer>=  db.Table(&apos;students_subjects&apos;,
+                             db.Column(&apos;student_id&apos;, db.Integer, db.ForeignKey(&apos;students.id&apos;), primary_key=True),
+                             db.Column(&apos;subject_id&apos;, db.Integer, db.ForeignKey(&apos;subjects.id&apos;), primary_key=True)
+                            )</initializer>
+        <briefdescription>
+<para>Many to many relationship between students and subjects. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="28" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacesms_1_1models_1ac95ebce713f88474403cfeec667c5eaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.models.load_user</definition>
+        <argsstring>(user_id)</argsstring>
+        <name>load_user</name>
+        <param>
+          <type>user_id</type>
+          <defname>user_id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="23" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

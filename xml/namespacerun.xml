@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacerun" kind="namespace" language="Python">
+    <compoundname>run</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacerun_1a7fcda7c89f1e8edb85c99b2a8d625d53" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>run.app</definition>
+        <argsstring></argsstring>
+        <name>app</name>
+        <initializer>=  create_app()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/run.py" line="3" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/run.py" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacerun_1a24785e11198aac41f0051e51857331aa" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>run.debug</definition>
+        <argsstring></argsstring>
+        <name>debug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/run.py" line="6" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/run.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/run.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

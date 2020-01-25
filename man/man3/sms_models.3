@@ -1,0 +1,102 @@
+.TH "sms.models" 3 "Sat Dec 28 2019" "Version 1.2.0" "SMS" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sms.models
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBABLLS_Assessment\fP"
+.br
+.RI "Describes the fields for ABLLS assessment\&. "
+.ti -1c
+.RI "class \fBAchievements\fP"
+.br
+.RI "Describes the fields for achievements\&. "
+.ti -1c
+.RI "class \fBNews\fP"
+.br
+.RI "Describes the fields for news\&. "
+.ti -1c
+.RI "class \fBPeriodicalAssessment\fP"
+.br
+.RI "Describes the fields for periodical assessment\&. "
+.ti -1c
+.RI "class \fBPost\fP"
+.br
+.ti -1c
+.RI "class \fBStaff\fP"
+.br
+.RI "Describes the fields for staff\&. "
+.ti -1c
+.RI "class \fBStaffView\fP"
+.br
+.RI "Describes the fields and behavior of the StaffModel on the administrator dashboard\&. "
+.ti -1c
+.RI "class \fBStudents\fP"
+.br
+.RI "Describes the fields for students\&. "
+.ti -1c
+.RI "class \fBStudentsView\fP"
+.br
+.RI "Describes the fields and behavior of the StudentsModel on the administrator dashboard\&. "
+.ti -1c
+.RI "class \fBSubjects\fP"
+.br
+.RI "Describes the fields for subjects\&. "
+.ti -1c
+.RI "class \fBTeam\fP"
+.br
+.RI "Describes the fields for team\&. "
+.ti -1c
+.RI "class \fBUser\fP"
+.br
+.RI "Describes the fields for administrators\&. "
+.ti -1c
+.RI "class \fBUserView\fP"
+.br
+.RI "Describes the fields and behavior of the UserModel on the administrator dashboard\&. "
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBload_user\fP (user_id)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fBstudents_subjects\fP"
+.br
+.RI "Many to many relationship between students and subjects\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "def sms\&.models\&.load_user ( user_id)"
+
+.PP
+Definition at line 23 of file models\&.py\&.
+.SH "Variable Documentation"
+.PP 
+.SS "sms\&.models\&.students_subjects"
+\fBInitial value:\fP
+.PP
+.nf
+1 =  db\&.Table('students_subjects',
+2                              db\&.Column('student_id', db\&.Integer, db\&.ForeignKey('students\&.id'), primary_key=True),
+3                              db\&.Column('subject_id', db\&.Integer, db\&.ForeignKey('subjects\&.id'), primary_key=True)
+4                             )
+.fi
+.PP
+Many to many relationship between students and subjects\&. 
+.PP
+Definition at line 28 of file models\&.py\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SMS from the source code\&.

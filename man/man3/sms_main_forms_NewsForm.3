@@ -1,0 +1,56 @@
+.TH "sms.main.forms.NewsForm" 3 "Sat Dec 28 2019" "Version 1.2.0" "SMS" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sms.main.forms.NewsForm \- \fBNewsForm\fP class specifies the fields for news published\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits FlaskForm\&.
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBtitle\fP = StringField('Title', validators=[DataRequired()])"
+.br
+.ti -1c
+.RI "\fBcontent\fP = TextAreaField('Content', validators=[DataRequired()])"
+.br
+.ti -1c
+.RI "\fBsubmit\fP = SubmitField('Post')"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBNewsForm\fP class specifies the fields for news published\&. 
+
+
+.PP
+\fBParameters\fP
+.RS 4
+\fIFlaskForm\fP Flask-specific subclass of WTForms 
+.RE
+.PP
+
+.PP
+Definition at line 8 of file forms\&.py\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "sms\&.main\&.forms\&.NewsForm\&.content = TextAreaField('Content', validators=[DataRequired()])\fC [static]\fP"
+Content field for news object 
+.PP
+Definition at line 12 of file forms\&.py\&.
+.SS "sms\&.main\&.forms\&.NewsForm\&.submit = SubmitField('Post')\fC [static]\fP"
+
+.PP
+Definition at line 15 of file forms\&.py\&.
+.SS "sms\&.main\&.forms\&.NewsForm\&.title = StringField('Title', validators=[DataRequired()])\fC [static]\fP"
+Title field for news object 
+.PP
+Definition at line 9 of file forms\&.py\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SMS from the source code\&.

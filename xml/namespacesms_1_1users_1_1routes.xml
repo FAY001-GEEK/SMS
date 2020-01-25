@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacesms_1_1users_1_1routes" kind="namespace" language="Python">
+    <compoundname>sms::users::routes</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacesms_1_1users_1_1routes_1a6e3b5eb4a0ac32fea8dd1c478e15da36" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms::users::routes.users</definition>
+        <argsstring></argsstring>
+        <name>users</name>
+        <initializer>=  Blueprint(&apos;users&apos;, __name__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" line="14" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1_1users_1_1routes_1ad8f179341c3f346b0258fc4551e20c6c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms::users::routes.methods</definition>
+        <argsstring></argsstring>
+        <name>methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" line="17" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacesms_1_1users_1_1routes_1a2e609e29f3edfb13a93a9b708a58b7c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.users.routes.register</definition>
+        <argsstring>()</argsstring>
+        <name>register</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" line="18" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" bodystart="18" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1users_1_1routes_1a10e385aadcc7fb324b460f1e5169e06a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.users.routes.login</definition>
+        <argsstring>()</argsstring>
+        <name>login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" line="35" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" bodystart="35" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1users_1_1routes_1a0c488ca47029766a0564d8af8fdb60d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.users.routes.logout</definition>
+        <argsstring>()</argsstring>
+        <name>logout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" line="51" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" bodystart="51" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1users_1_1routes_1aa7b7fcf8c894695d0f6cef26c2e7de14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.users.routes.account</definition>
+        <argsstring>()</argsstring>
+        <name>account</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" line="58" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" bodystart="58" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1users_1_1routes_1a861c72ab460921d5d4112a378493a8d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.users.routes.user_posts</definition>
+        <argsstring>(username)</argsstring>
+        <name>user_posts</name>
+        <param>
+          <type>username</type>
+          <defname>username</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" line="78" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" bodystart="78" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1users_1_1routes_1a84c9d79c8086dcd85e936b30d4e691bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.users.routes.reset_request</definition>
+        <argsstring>()</argsstring>
+        <name>reset_request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" line="88" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" bodystart="88" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1users_1_1routes_1a3e4d98b7af706f4835f9aa233c0f6628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.users.routes.reset_token</definition>
+        <argsstring>(token)</argsstring>
+        <name>reset_token</name>
+        <param>
+          <type>token</type>
+          <defname>token</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" line="101" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" bodystart="101" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/routes.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

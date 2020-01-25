@@ -1,0 +1,175 @@
+.TH "sms.config.Config" 3 "Sat Dec 28 2019" "Version 1.2.0" "SMS" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sms.config.Config
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBSECRET_KEY\fP = os\&.environ\&.get('SECRET_KEY')"
+.br
+.ti -1c
+.RI "string \fBSQLALCHEMY_DATABASE_URI\fP = 'sqlite:///' + os\&.path\&.join(\fBbasedir\fP, '\fBsms\&.db\fP')"
+.br
+.ti -1c
+.RI "bool \fBSQLALCHEMY_TRACK_MODIFICATIONS\fP = False"
+.br
+.ti -1c
+.RI "string \fBFLASK_ADMIN_SWATCH\fP = 'paper'"
+.br
+.ti -1c
+.RI "string \fBMAIL_SERVER\fP = 'smtp\&.googlemail\&.com'"
+.br
+.ti -1c
+.RI "int \fBMAIL_PORT\fP = 587"
+.br
+.ti -1c
+.RI "bool \fBMAIL_USE_TLS\fP = True"
+.br
+.ti -1c
+.RI "\fBMAIL_USERNAME\fP = os\&.environ\&.get('EMAIL_USER')"
+.br
+.ti -1c
+.RI "\fBMAIL_PASSWORD\fP = os\&.environ\&.get('EMAIL_PASSWORD')"
+.br
+.ti -1c
+.RI "string \fBDATA_FOLDER\fP = 'data'"
+.br
+.ti -1c
+.RI "int \fBMIN_YEAR\fP = 2019"
+.br
+.ti -1c
+.RI "int \fBMAX_YEAR\fP = 2100"
+.br
+.ti -1c
+.RI "string \fBLOCALE\fP = 'es_ES\&.UTF\-8'"
+.br
+.ti -1c
+.RI "string \fBTIMEZONE\fP = 'Europe/Madrid'"
+.br
+.ti -1c
+.RI "int \fBMONTHS_TO_EXPORT\fP = 6"
+.br
+.ti -1c
+.RI "bool \fBFEATURE_FLAG_ICAL_EXPORT\fP = False"
+.br
+.ti -1c
+.RI "int \fBFAILED_LOGIN_DELAY_BASE\fP = 2"
+.br
+.ti -1c
+.RI "bool \fBAUTO_DECORATE_TASK_DETAILS_HYPERLINK\fP = True"
+.br
+.ti -1c
+.RI "bool \fBSHOW_VIEW_PAST_BUTTON\fP = True"
+.br
+.ti -1c
+.RI "bool \fBHIDE_PAST_TASKS\fP = False"
+.br
+.ti -1c
+.RI "int \fBDAYS_PAST_TO_KEEP_HIDDEN_TASKS\fP = 62"
+.br
+.ti -1c
+.RI "bool \fBEMOJIS_ENABLED\fP = True"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 4 of file config\&.py\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "bool sms\&.config\&.Config\&.AUTO_DECORATE_TASK_DETAILS_HYPERLINK = True\fC [static]\fP"
+
+.PP
+Definition at line 32 of file config\&.py\&.
+.SS "string sms\&.config\&.Config\&.DATA_FOLDER = 'data'\fC [static]\fP"
+
+.PP
+Definition at line 16 of file config\&.py\&.
+.SS "int sms\&.config\&.Config\&.DAYS_PAST_TO_KEEP_HIDDEN_TASKS = 62\fC [static]\fP"
+
+.PP
+Definition at line 40 of file config\&.py\&.
+.SS "bool sms\&.config\&.Config\&.EMOJIS_ENABLED = True\fC [static]\fP"
+
+.PP
+Definition at line 43 of file config\&.py\&.
+.SS "int sms\&.config\&.Config\&.FAILED_LOGIN_DELAY_BASE = 2\fC [static]\fP"
+
+.PP
+Definition at line 29 of file config\&.py\&.
+.SS "bool sms\&.config\&.Config\&.FEATURE_FLAG_ICAL_EXPORT = False\fC [static]\fP"
+
+.PP
+Definition at line 26 of file config\&.py\&.
+.SS "string sms\&.config\&.Config\&.FLASK_ADMIN_SWATCH = 'paper'\fC [static]\fP"
+
+.PP
+Definition at line 9 of file config\&.py\&.
+.SS "bool sms\&.config\&.Config\&.HIDE_PAST_TASKS = False\fC [static]\fP"
+
+.PP
+Definition at line 37 of file config\&.py\&.
+.SS "string sms\&.config\&.Config\&.LOCALE = 'es_ES\&.UTF\-8'\fC [static]\fP"
+
+.PP
+Definition at line 21 of file config\&.py\&.
+.SS "sms\&.config\&.Config\&.MAIL_PASSWORD = os\&.environ\&.get('EMAIL_PASSWORD')\fC [static]\fP"
+
+.PP
+Definition at line 14 of file config\&.py\&.
+.SS "int sms\&.config\&.Config\&.MAIL_PORT = 587\fC [static]\fP"
+
+.PP
+Definition at line 11 of file config\&.py\&.
+.SS "string sms\&.config\&.Config\&.MAIL_SERVER = 'smtp\&.googlemail\&.com'\fC [static]\fP"
+
+.PP
+Definition at line 10 of file config\&.py\&.
+.SS "bool sms\&.config\&.Config\&.MAIL_USE_TLS = True\fC [static]\fP"
+
+.PP
+Definition at line 12 of file config\&.py\&.
+.SS "sms\&.config\&.Config\&.MAIL_USERNAME = os\&.environ\&.get('EMAIL_USER')\fC [static]\fP"
+
+.PP
+Definition at line 13 of file config\&.py\&.
+.SS "int sms\&.config\&.Config\&.MAX_YEAR = 2100\fC [static]\fP"
+
+.PP
+Definition at line 19 of file config\&.py\&.
+.SS "int sms\&.config\&.Config\&.MIN_YEAR = 2019\fC [static]\fP"
+
+.PP
+Definition at line 18 of file config\&.py\&.
+.SS "int sms\&.config\&.Config\&.MONTHS_TO_EXPORT = 6\fC [static]\fP"
+
+.PP
+Definition at line 24 of file config\&.py\&.
+.SS "sms\&.config\&.Config\&.SECRET_KEY = os\&.environ\&.get('SECRET_KEY')\fC [static]\fP"
+
+.PP
+Definition at line 5 of file config\&.py\&.
+.SS "bool sms\&.config\&.Config\&.SHOW_VIEW_PAST_BUTTON = True\fC [static]\fP"
+
+.PP
+Definition at line 34 of file config\&.py\&.
+.SS "string sms\&.config\&.Config\&.SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os\&.path\&.join(\fBbasedir\fP, '\fBsms\&.db\fP')\fC [static]\fP"
+
+.PP
+Definition at line 6 of file config\&.py\&.
+.SS "bool sms\&.config\&.Config\&.SQLALCHEMY_TRACK_MODIFICATIONS = False\fC [static]\fP"
+
+.PP
+Definition at line 7 of file config\&.py\&.
+.SS "string sms\&.config\&.Config\&.TIMEZONE = 'Europe/Madrid'\fC [static]\fP"
+
+.PP
+Definition at line 23 of file config\&.py\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SMS from the source code\&.

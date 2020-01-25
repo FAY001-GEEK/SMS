@@ -1,0 +1,64 @@
+.TH "sms.models.Post" 3 "Sat Dec 28 2019" "Version 1.2.0" "SMS" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sms.models.Post
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Model\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fB__repr__\fP (self)"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBid\fP = db\&.Column(db\&.Integer, primary_key=True)"
+.br
+.ti -1c
+.RI "\fBtitle\fP = db\&.Column(db\&.String(100), nullable=False)"
+.br
+.ti -1c
+.RI "\fBdate_posted\fP = db\&.Column(db\&.DateTime(100), nullable=False, default=datetime\&.utcnow)"
+.br
+.ti -1c
+.RI "\fBcontent\fP = db\&.Column(db\&.Text, nullable=False)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 313 of file models\&.py\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "def sms\&.models\&.Post\&.__repr__ ( self)"
+
+.PP
+Definition at line 320 of file models\&.py\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "sms\&.models\&.Post\&.content = db\&.Column(db\&.Text, nullable=False)\fC [static]\fP"
+
+.PP
+Definition at line 317 of file models\&.py\&.
+.SS "sms\&.models\&.Post\&.date_posted = db\&.Column(db\&.DateTime(100), nullable=False, default=datetime\&.utcnow)\fC [static]\fP"
+
+.PP
+Definition at line 316 of file models\&.py\&.
+.SS "sms\&.models\&.Post\&.id = db\&.Column(db\&.Integer, primary_key=True)\fC [static]\fP"
+
+.PP
+Definition at line 314 of file models\&.py\&.
+.SS "sms\&.models\&.Post\&.title = db\&.Column(db\&.String(100), nullable=False)\fC [static]\fP"
+
+.PP
+Definition at line 315 of file models\&.py\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SMS from the source code\&.

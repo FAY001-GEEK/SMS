@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespaceenv" kind="namespace" language="Python">
+    <compoundname>env</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceenv_1a5568485159882bb0d26691968a5c5711" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>env.config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <initializer>=  context.config</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/env.py" line="13" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/env.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceenv_1a6a025f87d2f04a9739a03ad3d8439a28" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>env.logger</definition>
+        <argsstring></argsstring>
+        <name>logger</name>
+        <initializer>=  logging.getLogger(&apos;alembic.env&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/env.py" line="18" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/env.py" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceenv_1abb1ea34bea9fb8fbc6a51b6b3ccb1557" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>env.target_metadata</definition>
+        <argsstring></argsstring>
+        <name>target_metadata</name>
+        <initializer>=  current_app.extensions[&apos;migrate&apos;].db.metadata</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/env.py" line="28" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/env.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceenv_1af5a0f4785a69de8eacb489ad29ebd555" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def env.run_migrations_offline</definition>
+        <argsstring>()</argsstring>
+        <name>run_migrations_offline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Run migrations in &apos;offline&apos; mode.
+
+This configures the context with just a URL
+and not an Engine, though an Engine is acceptable
+here as well.  By skipping the Engine creation
+we don&apos;t even need a DBAPI to be available.
+
+Calls to context.execute() here emit the given string to the
+script output.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/env.py" line="36" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/env.py" bodystart="36" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceenv_1a24ba20c6a253ad3a86827eb0b721d0d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def env.run_migrations_online</definition>
+        <argsstring>()</argsstring>
+        <name>run_migrations_online</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Run migrations in &apos;online&apos; mode.
+
+In this scenario we need to create an Engine
+and associate a connection with the context.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/env.py" line="57" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/env.py" bodystart="57" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/env.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

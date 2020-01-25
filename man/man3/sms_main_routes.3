@@ -1,0 +1,204 @@
+.TH "sms.main.routes" 3 "Sat Dec 28 2019" "Version 1.2.0" "SMS" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sms.main.routes
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBhome\fP ()"
+.br
+.RI "Renders 'home\&.html' template when accessing '\\home' route from the template folder with the given context\&. "
+.ti -1c
+.RI "def \fBnews\fP ()"
+.br
+.RI "Renders 'news\&.html' template when accessing '\\news' route from the template folder with the given context\&. "
+.ti -1c
+.RI "def \fBachievements\fP ()"
+.br
+.RI "Renders 'achievements\&.html' template when accessing '\\achievements' route from the template folder with the given context\&. "
+.ti -1c
+.RI "def \fBteam\fP ()"
+.br
+.RI "Renders 'team\&.html' template when accessing '\\team' route from the template folder with the given context\&. "
+.ti -1c
+.RI "def \fBcontact\fP ()"
+.br
+.RI "Renders 'contact\&.html' template when accessing '\\contact' route from the template folder with the given context\&. "
+.ti -1c
+.RI "def \fBabout\fP ()"
+.br
+.RI "Renders 'about\&.html' template when accessing '\\about' route from the template folder with the given context\&. "
+.ti -1c
+.RI "def \fBcalendar\fP ()"
+.br
+.RI "Renders 'calendar\&.html' template when accessing '\\calendar' route from the template folder with the given context\&. "
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fBmain\fP = Blueprint('main', __name__)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "def sms\&.main\&.routes\&.about ()"
+
+.PP
+Renders 'about\&.html' template when accessing '\\about' route from the template folder with the given context\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI'about\&.html'\fP The name of the template to be rendered\&. 
+.br
+\fI'title'\fP The variable that should be available in the context of the template to replace the 'title' variable with 'ABOUT' value\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+render_template('about\&.html', title='ABOUT') 
+.RE
+.PP
+
+.PP
+Definition at line 76 of file routes\&.py\&.
+.SS "def sms\&.main\&.routes\&.achievements ()"
+
+.PP
+Renders 'achievements\&.html' template when accessing '\\achievements' route from the template folder with the given context\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI'achievements\&.html'\fP The name of the template to be rendered\&. 
+.br
+\fI'title'\fP The variable that should be available in the context of the template to replace the 'title' variable with 'ACHIEVEMENTS' value\&. 
+.br
+\fI'achievements'\fP Variable containing all the achievements entered by the admin in his dashboard\&. It is used to display the achievements in 'achievements\&.html'\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+render_template('achievements\&.html', title='ACHIEVEMENTS', achievements=achievements) 
+.RE
+.PP
+
+.PP
+Definition at line 43 of file routes\&.py\&.
+.SS "def sms\&.main\&.routes\&.calendar ()"
+
+.PP
+Renders 'calendar\&.html' template when accessing '\\calendar' route from the template folder with the given context\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI'calendar\&.html'\fP The name of the template to be rendered\&. 
+.br
+\fI'title'\fP The variable that should be available in the context of the template to replace the 'title' variable with 'CALENDAR' value\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+render_template('calendar\&.html', title='CALENDAR') 
+.RE
+.PP
+
+.PP
+Definition at line 86 of file routes\&.py\&.
+.SS "def sms\&.main\&.routes\&.contact ()"
+
+.PP
+Renders 'contact\&.html' template when accessing '\\contact' route from the template folder with the given context\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI'contact\&.html'\fP The name of the template to be rendered\&. 
+.br
+\fI'title'\fP The variable that should be available in the context of the template to replace the 'title' variable with 'CONTACT' value\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+render_template('contact\&.html', title='CONTACT') 
+.RE
+.PP
+
+.PP
+Definition at line 66 of file routes\&.py\&.
+.SS "def sms\&.main\&.routes\&.home ()"
+
+.PP
+Renders 'home\&.html' template when accessing '\\home' route from the template folder with the given context\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI'home\&.html'\fP The name of the template to be rendered\&. 
+.br
+\fI'title'\fP The variable that should be available in the context of the template to replace the 'title' variable with 'HOME' value\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+render_template('home\&.html', title='HOME') 
+.RE
+.PP
+
+.PP
+Definition at line 20 of file routes\&.py\&.
+.SS "def sms\&.main\&.routes\&.news ()"
+
+.PP
+Renders 'news\&.html' template when accessing '\\news' route from the template folder with the given context\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI'news\&.html'\fP The name of the template to be rendered\&. 
+.br
+\fI'title'\fP The variable that should be available in the context of the template to replace the 'title' variable with 'NEWS' value\&. 
+.br
+\fI'news'\fP Variable containing all the news entered by the admin in his dashboard\&. It is used to display the news in 'news\&.html'\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+render_template('news\&.html', title='NEWS', news=news) 
+.RE
+.PP
+
+.PP
+Definition at line 31 of file routes\&.py\&.
+.SS "def sms\&.main\&.routes\&.team ()"
+
+.PP
+Renders 'team\&.html' template when accessing '\\team' route from the template folder with the given context\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI'team\&.html'\fP The name of the template to be rendered\&. 
+.br
+\fI'title'\fP The variable that should be available in the context of the template to replace the 'title' variable with 'TEAM' value\&. 
+.br
+\fI'team'\fP Variable containing all the team entered by the admin in his dashboard\&. It is used to display the team in 'team\&.html'\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+render_template('team\&.html', title='TEAM', team=team) 
+.RE
+.PP
+
+.PP
+Definition at line 55 of file routes\&.py\&.
+.SH "Variable Documentation"
+.PP 
+.SS "sms\&.main\&.routes\&.main = Blueprint('main', __name__)"
+
+.PP
+Definition at line 10 of file routes\&.py\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SMS from the source code\&.

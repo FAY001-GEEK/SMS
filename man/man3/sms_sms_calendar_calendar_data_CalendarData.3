@@ -1,0 +1,184 @@
+.TH "sms.sms_calendar.calendar_data.CalendarData" 3 "Sat Dec 28 2019" "Version 1.2.0" "SMS" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sms.sms_calendar.calendar_data.CalendarData
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "None \fB__init__\fP (self, str \fBdata_folder\fP)"
+.br
+.ti -1c
+.RI "Dict \fBload_calendar\fP (self, str filename)"
+.br
+.ti -1c
+.RI "List \fBusers_list\fP (self, Optional[Dict] data=None, Optional[str] calendar_id=None)"
+.br
+.ti -1c
+.RI "Dict \fBuser_details\fP (self, str username, Optional[Dict] data=None, Optional[str] calendar_id=None)"
+.br
+.ti -1c
+.RI "Dict \fBtasks_from_calendar\fP (self, int year, int month, Dict data)"
+.br
+.ti -1c
+.RI "None \fBhide_past_tasks\fP (self, int year, int month, Dict tasks)"
+.br
+.ti -1c
+.RI "Dict \fBtask_from_calendar\fP (self, str calendar_id, int year, int month, int day, int task_id)"
+.br
+.ti -1c
+.RI "Dict \fBrepetitive_task_from_calendar\fP (self, str calendar_id, int year, int month, int task_id)"
+.br
+.ti -1c
+.RI "Dict \fBadd_repetitive_tasks_from_calendar\fP (self, int year, int month, Dict data, Dict tasks)"
+.br
+.ti -1c
+.RI "None \fBdelete_task\fP (self, str calendar_id, str year_str, str month_str, str day_str, int task_id)"
+.br
+.ti -1c
+.RI "None \fBupdate_task_day\fP (self, str calendar_id, str year_str, str month_str, str day_str, int task_id, str new_day_str)"
+.br
+.ti -1c
+.RI "bool \fBcreate_task\fP (self, str calendar_id, Optional[int] year, Optional[int] month, Optional[int] day, str title, bool is_all_day, str due_time, str details, str color, bool has_repetition, Optional[str] repetition_type, Optional[str] repetition_subtype, int repetition_value)"
+.br
+.ti -1c
+.RI "None \fBhide_repetition_task_instance\fP (self, str calendar_id, str year_str, str month_str, str day_str, str task_id_str)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBis_past\fP (int year, int month, int current_year, int current_month)"
+.br
+.ti -1c
+.RI "str \fBdate_for_frontend\fP (int year, int month, int day)"
+.br
+.ti -1c
+.RI "None \fBadd_task_to_list\fP (Dict tasks, str day_str, str month_str, Dict new_task)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBdata_folder\fP"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "string \fBREPETITION_TYPE_WEEKLY\fP = 'w'"
+.br
+.ti -1c
+.RI "string \fBREPETITION_TYPE_MONTHLY\fP = 'm'"
+.br
+.ti -1c
+.RI "string \fBREPETITION_SUBTYPE_WEEK_DAY\fP = 'w'"
+.br
+.ti -1c
+.RI "string \fBREPETITION_SUBTYPE_MONTH_DAY\fP = 'm'"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 19 of file calendar_data\&.py\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS " None sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.__init__ ( self, str data_folder)"
+
+.PP
+Definition at line 26 of file calendar_data\&.py\&.
+.SH "Member Function Documentation"
+.PP 
+.SS " Dict sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.add_repetitive_tasks_from_calendar ( self, int year, int month, Dict data, Dict tasks)"
+
+.PP
+Definition at line 132 of file calendar_data\&.py\&.
+.SS " None sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.add_task_to_list (Dict tasks, str day_str, str month_str, Dict new_task)\fC [static]\fP"
+
+.PP
+Definition at line 241 of file calendar_data\&.py\&.
+.SS " bool sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.create_task ( self, str calendar_id, Optional[int] year, Optional[int] month, Optional[int] day, str title, bool is_all_day, str due_time, str details, str color, bool has_repetition, Optional[str] repetition_type, Optional[str] repetition_subtype, int repetition_value)"
+
+.PP
+Definition at line 188 of file calendar_data\&.py\&.
+.SS " str sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.date_for_frontend (int year, int month, int day)\fC [static]\fP"
+
+.PP
+Definition at line 129 of file calendar_data\&.py\&.
+.SS " None sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.delete_task ( self, str calendar_id, str year_str, str month_str, str day_str, int task_id)"
+
+.PP
+Definition at line 149 of file calendar_data\&.py\&.
+.SS " None sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.hide_past_tasks ( self, int year, int month, Dict tasks)"
+
+.PP
+Definition at line 93 of file calendar_data\&.py\&.
+.SS " None sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.hide_repetition_task_instance ( self, str calendar_id, str year_str, str month_str, str day_str, str task_id_str)"
+
+.PP
+Definition at line 226 of file calendar_data\&.py\&.
+.SS " bool sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.is_past (int year, int month, int current_year, int current_month)\fC [static]\fP"
+
+.PP
+Definition at line 59 of file calendar_data\&.py\&.
+.SS " Dict sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.load_calendar ( self, str filename)"
+
+.PP
+Definition at line 29 of file calendar_data\&.py\&.
+.SS " Dict sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.repetitive_task_from_calendar ( self, str calendar_id, int year, int month, int task_id)"
+
+.PP
+Definition at line 120 of file calendar_data\&.py\&.
+.SS " Dict sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.task_from_calendar ( self, str calendar_id, int year, int month, int day, int task_id)"
+
+.PP
+Definition at line 106 of file calendar_data\&.py\&.
+.SS " Dict sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.tasks_from_calendar ( self, int year, int month, Dict data)"
+
+.PP
+Definition at line 67 of file calendar_data\&.py\&.
+.SS " None sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.update_task_day ( self, str calendar_id, str year_str, str month_str, str day_str, int task_id, str new_day_str)"
+
+.PP
+Definition at line 170 of file calendar_data\&.py\&.
+.SS " Dict sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.user_details ( self, str username, Optional[Dict]  data = \fCNone\fP, Optional[str]  calendar_id = \fCNone\fP)"
+
+.PP
+Definition at line 47 of file calendar_data\&.py\&.
+.SS " List sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.users_list ( self, Optional[Dict]  data = \fCNone\fP, Optional[str]  calendar_id = \fCNone\fP)"
+
+.PP
+Definition at line 36 of file calendar_data\&.py\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.data_folder"
+
+.PP
+Definition at line 27 of file calendar_data\&.py\&.
+.SS "string sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.REPETITION_SUBTYPE_MONTH_DAY = 'm'\fC [static]\fP"
+
+.PP
+Definition at line 24 of file calendar_data\&.py\&.
+.SS "string sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.REPETITION_SUBTYPE_WEEK_DAY = 'w'\fC [static]\fP"
+
+.PP
+Definition at line 23 of file calendar_data\&.py\&.
+.SS "string sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.REPETITION_TYPE_MONTHLY = 'm'\fC [static]\fP"
+
+.PP
+Definition at line 22 of file calendar_data\&.py\&.
+.SS "string sms\&.sms_calendar\&.calendar_data\&.CalendarData\&.REPETITION_TYPE_WEEKLY = 'w'\fC [static]\fP"
+
+.PP
+Definition at line 21 of file calendar_data\&.py\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SMS from the source code\&.

@@ -1,0 +1,143 @@
+.TH "sms" 3 "Sat Dec 28 2019" "Version 1.2.0" "SMS" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sms
+.SH SYNOPSIS
+.br
+.PP
+.SS "Namespaces"
+
+.in +1c
+.ti -1c
+.RI " \fBconfig\fP"
+.br
+.ti -1c
+.RI " \fBerrors\fP"
+.br
+.ti -1c
+.RI " \fBmain\fP"
+.br
+.ti -1c
+.RI " \fBmodels\fP"
+.br
+.ti -1c
+.RI " \fBposts\fP"
+.br
+.ti -1c
+.RI " \fBsms_calendar\fP"
+.br
+.ti -1c
+.RI " \fBusers\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBcreate_app\fP (config_class=\fBConfig\fP)"
+.br
+.RI "A Flask application is an instance of the Flask class\&. "
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fBdb\fP = SQLAlchemy()"
+.br
+.RI "Creates instances of imported libraries to use in the application\&. "
+.ti -1c
+.RI "\fBmigrate\fP = Migrate()"
+.br
+.ti -1c
+.RI "\fBmanager\fP = Manager()"
+.br
+.ti -1c
+.RI "\fBbcrypt\fP = Bcrypt()"
+.br
+.ti -1c
+.RI "\fBlogin_manager\fP = LoginManager()"
+.br
+.ti -1c
+.RI "\fBlogin_view\fP"
+.br
+.ti -1c
+.RI "\fBlogin_message_category\fP"
+.br
+.ti -1c
+.RI "\fBmail\fP = Mail()"
+.br
+.ti -1c
+.RI "\fBadmin\fP = Admin(name='ALI for ABA', template_mode='bootstrap3')"
+.br
+.RI "Creates an instance of Flask-Admin dashboard\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "def sms\&.create_app ( config_class = \fC\fBConfig\fP\fP)"
+
+.PP
+A Flask application is an instance of the Flask class\&. It contains everything about the application, such as configuration and URLs\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIConfig\fP A Config file is a configuration file used by the application\&. It defines settings or preferences for building or running the program\&. 
+.RE
+.PP
+
+.PP
+Definition at line 47 of file __init__\&.py\&.
+.SH "Variable Documentation"
+.PP 
+.SS "sms\&.admin = Admin(name='ALI for ABA', template_mode='bootstrap3')"
+
+.PP
+Creates an instance of Flask-Admin dashboard\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIname\fP Project Name 
+.br
+\fItemplate_mode\fP Dashboard Style 
+.RE
+.PP
+
+.PP
+Definition at line 40 of file __init__\&.py\&.
+.SS "sms\&.bcrypt = Bcrypt()"
+
+.PP
+Definition at line 31 of file __init__\&.py\&.
+.SS "sms\&.db = SQLAlchemy()"
+
+.PP
+Creates instances of imported libraries to use in the application\&. 
+.PP
+Definition at line 28 of file __init__\&.py\&.
+.SS "sms\&.login_manager = LoginManager()"
+
+.PP
+Definition at line 32 of file __init__\&.py\&.
+.SS "sms\&.login_message_category"
+
+.PP
+Definition at line 34 of file __init__\&.py\&.
+.SS "sms\&.login_view"
+
+.PP
+Definition at line 33 of file __init__\&.py\&.
+.SS "sms\&.mail = Mail()"
+
+.PP
+Definition at line 35 of file __init__\&.py\&.
+.SS "sms\&.manager = Manager()"
+
+.PP
+Definition at line 30 of file __init__\&.py\&.
+.SS "sms\&.migrate = Migrate()"
+
+.PP
+Definition at line 29 of file __init__\&.py\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SMS from the source code\&.

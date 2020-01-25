@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="posts_2routes_8py" kind="file" language="Python">
+    <compoundname>routes.py</compoundname>
+    <innernamespace refid="namespacesms_1_1posts_1_1routes">sms::posts::routes</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacesms_1_1posts_1_1routes" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>flask<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>(render_template,<sp/>url_for,<sp/>flash,<sp/>redirect,<sp/>request,<sp/>abort,<sp/>Blueprint)</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>flask_login<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>current_user,<sp/>login_required</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>sms<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>db</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacesms_1_1models" kindref="compound">sms.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Post</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacesms_1_1posts_1_1forms" kindref="compound">sms.posts.forms</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>PostForm</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespacesms_1_1posts_1_1routes_1ac725e96937618f7aaa381e72d2dce4d4" refkind="member"><highlight class="normal">posts<sp/>=<sp/>Blueprint(</highlight><highlight class="stringliteral">&apos;posts&apos;</highlight><highlight class="normal">,<sp/>__name__)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="namespacesms_1_1posts_1_1routes_1a8b4a0092febded8f1ee8cb21255ee12f" refkind="member"><highlight class="normal">@posts.route(</highlight><highlight class="stringliteral">&apos;/post/new&apos;</highlight><highlight class="normal">,<sp/>methods=[</highlight><highlight class="stringliteral">&apos;GET&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;POST&apos;</highlight><highlight class="normal">])</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">@login_required<sp/><sp/></highlight><highlight class="comment">#<sp/>REQUIRES<sp/>LOGIN<sp/>TO<sp/>VIEW</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="namespacesms_1_1posts_1_1routes_1aefb744586e7220c487666f807cb0cae1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1posts_1_1routes_1aefb744586e7220c487666f807cb0cae1" kindref="member">new_post</ref>():</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>form<sp/>=<sp/><ref refid="classsms_1_1posts_1_1forms_1_1_post_form" kindref="compound">PostForm</ref>()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>form.validate_on_submit():</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>post<sp/>=<sp/><ref refid="classsms_1_1models_1_1_post" kindref="compound">Post</ref>(title=form.title.data,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>content=form.content.data,<sp/>author=current_user)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>db.session.add(post)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>db.session.commit()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flash(</highlight><highlight class="stringliteral">&apos;Your<sp/>post<sp/>has<sp/>been<sp/>created!&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;success&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>redirect(url_for(</highlight><highlight class="stringliteral">&apos;main.home&apos;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>render_template(</highlight><highlight class="stringliteral">&apos;create_post.html&apos;</highlight><highlight class="normal">,<sp/>title=</highlight><highlight class="stringliteral">&apos;NEW_POST&apos;</highlight><highlight class="normal">,<sp/>form=form,<sp/>legend=</highlight><highlight class="stringliteral">&apos;Add<sp/>Post&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">@posts.route(</highlight><highlight class="stringliteral">&apos;/post/&lt;int:post_id&gt;&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="25" refid="namespacesms_1_1posts_1_1routes_1a725d1aedb98910bc21353416258782d7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1posts_1_1routes_1a725d1aedb98910bc21353416258782d7" kindref="member">post</ref>(post_id):</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>post<sp/>=<sp/>Post.query.get_or_404(post_id)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>render_template(</highlight><highlight class="stringliteral">&apos;post.html&apos;</highlight><highlight class="normal">,<sp/>title=post.title,<sp/>post=post)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">@posts.route(</highlight><highlight class="stringliteral">&apos;/post/&lt;int:post_id&gt;/update&apos;</highlight><highlight class="normal">,<sp/>methods=[</highlight><highlight class="stringliteral">&apos;GET&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;POST&apos;</highlight><highlight class="normal">])</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">@login_required<sp/><sp/></highlight><highlight class="comment">#<sp/>REQUIRES<sp/>LOGIN<sp/>TO<sp/>VIEW</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="namespacesms_1_1posts_1_1routes_1a4a806432feb2eefc93cab99a21e6c94b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1posts_1_1routes_1a4a806432feb2eefc93cab99a21e6c94b" kindref="member">update_post</ref>(post_id):</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>post<sp/>=<sp/>Post.query.get_or_404(post_id)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>post.author<sp/>!=<sp/>current_user:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>abort(403)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>form<sp/>=<sp/><ref refid="classsms_1_1posts_1_1forms_1_1_post_form" kindref="compound">PostForm</ref>()</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>form.validate_on_submit():</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>post.title<sp/>=<sp/>form.title.data</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>post.content<sp/>=<sp/>form.content.data</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>db.session.commit()</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flash(</highlight><highlight class="stringliteral">&apos;Your<sp/>post<sp/>has<sp/>been<sp/>updated!&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;success&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>redirect(url_for(</highlight><highlight class="stringliteral">&apos;posts.post&apos;</highlight><highlight class="normal">,<sp/>post_id=post_id))</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>request.method<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;GET&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>form.title.data<sp/>=<sp/>post.title</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>form.content.data<sp/>=<sp/>post.content</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>render_template(</highlight><highlight class="stringliteral">&apos;create_post.html&apos;</highlight><highlight class="normal">,<sp/>title=</highlight><highlight class="stringliteral">&apos;UPDATE_POST&apos;</highlight><highlight class="normal">,<sp/>form=form,<sp/>legend=</highlight><highlight class="stringliteral">&apos;Update<sp/>Post&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">@posts.route(</highlight><highlight class="stringliteral">&apos;/post/&lt;int:post_id&gt;/delete&apos;</highlight><highlight class="normal">,<sp/>methods=[</highlight><highlight class="stringliteral">&apos;POST&apos;</highlight><highlight class="normal">])</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">@login_required<sp/><sp/></highlight><highlight class="comment">#<sp/>REQUIRES<sp/>LOGIN<sp/>TO<sp/>VIEW</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="namespacesms_1_1posts_1_1routes_1aef4a19a0f9a35c231157dc3f8a5653cb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1posts_1_1routes_1aef4a19a0f9a35c231157dc3f8a5653cb" kindref="member">delete_post</ref>(post_id):</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>post<sp/>=<sp/>Post.query.get_or_404(post_id)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>post.author<sp/>!=<sp/>current_user:</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>abort(403)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>db.session.delete(post)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>db.session.commit()</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>flash(</highlight><highlight class="stringliteral">&apos;Your<sp/>post<sp/>has<sp/>been<sp/>deleted!&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;success&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>redirect(url_for(</highlight><highlight class="stringliteral">&apos;main.home&apos;</highlight><highlight class="normal">))</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/posts/routes.py"/>
+  </compounddef>
+</doxygen>

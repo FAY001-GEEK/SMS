@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classsms_1_1models_1_1_achievements" kind="class" language="Python" prot="public">
+    <compoundname>sms::models::Achievements</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1models_1_1_achievements_1ac98cef56cc25f582780cbd51ba55cde0" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.models.Achievements::__tablename__</definition>
+        <argsstring></argsstring>
+        <name>__tablename__</name>
+        <initializer>=  &apos;achievements&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="289" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1models_1_1_achievements_1adda7c71e9060e798f6beef09ce35aee7" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.Achievements::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <initializer>=  db.Column(db.Integer, primary_key=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="290" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_achievements_1a009015787e2eabbd702061ee7f8ccfd9" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.Achievements::date_posted</definition>
+        <argsstring></argsstring>
+        <name>date_posted</name>
+        <initializer>=  db.Column(db.DateTime(
+        100), nullable=False, default=datetime.utcnow)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="291" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_achievements_1a879e6bfa4281be9e8616f30d69ff3ffc" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.Achievements::content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <initializer>=  db.Column(db.Text, nullable=False)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="293" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_achievements_1a1752717e0c561d1ec7025e0d3a00289e" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.Achievements::image_file</definition>
+        <argsstring></argsstring>
+        <name>image_file</name>
+        <initializer>=  db.Column(db.String(20), nullable=False,
+                           default=&apos;placeholder_1.jpg&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="294" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsms_1_1models_1_1_achievements_1a0f8fb2df14811f4bd6b71efca52ac934" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.models.Achievements.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="297" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="297" bodyend="300"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Describes the fields for achievements. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>sms.models.Achievements</label>
+        <link refid="classsms_1_1models_1_1_achievements"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>sms.models.Achievements</label>
+        <link refid="classsms_1_1models_1_1_achievements"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="288" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="288" bodyend="301"/>
+    <listofallmembers>
+      <member refid="classsms_1_1models_1_1_achievements_1a0f8fb2df14811f4bd6b71efca52ac934" prot="public" virt="non-virtual"><scope>sms::models::Achievements</scope><name>__repr__</name></member>
+      <member refid="classsms_1_1models_1_1_achievements_1ac98cef56cc25f582780cbd51ba55cde0" prot="private" virt="non-virtual"><scope>sms::models::Achievements</scope><name>__tablename__</name></member>
+      <member refid="classsms_1_1models_1_1_achievements_1a879e6bfa4281be9e8616f30d69ff3ffc" prot="public" virt="non-virtual"><scope>sms::models::Achievements</scope><name>content</name></member>
+      <member refid="classsms_1_1models_1_1_achievements_1a009015787e2eabbd702061ee7f8ccfd9" prot="public" virt="non-virtual"><scope>sms::models::Achievements</scope><name>date_posted</name></member>
+      <member refid="classsms_1_1models_1_1_achievements_1adda7c71e9060e798f6beef09ce35aee7" prot="public" virt="non-virtual"><scope>sms::models::Achievements</scope><name>id</name></member>
+      <member refid="classsms_1_1models_1_1_achievements_1a1752717e0c561d1ec7025e0d3a00289e" prot="public" virt="non-virtual"><scope>sms::models::Achievements</scope><name>image_file</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="gregorian__calendar_8py" kind="file" language="Python">
+    <compoundname>gregorian_calendar.py</compoundname>
+    <innerclass refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar" prot="public">sms::sms_calendar::gregorian_calendar::GregorianCalendar</innerclass>
+    <innernamespace refid="namespacesms_1_1sms__calendar_1_1gregorian__calendar">sms::sms_calendar::gregorian_calendar</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacesms_1_1sms__calendar_1_1gregorian__calendar" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>calendar<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Calendar,<sp/>monthrange</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>datetime<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>date,<sp/>datetime,<sp/>timedelta</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>typing<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Iterable,<sp/>List,<sp/>Tuple</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar" kindref="compound">GregorianCalendar</ref>:</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a9dbb40573189c1473fc80ea6c718c9f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MONTH_NAMES<sp/>=<sp/>[</highlight><highlight class="stringliteral">&quot;January&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;February&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;March&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;April&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;May&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;June&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;July&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;August&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;September&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;October&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;November&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;December&quot;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>@staticmethod</highlight></codeline>
+<codeline lineno="22" refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a7494979b73cc500d48ab4bf052336b88" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a7494979b73cc500d48ab4bf052336b88" kindref="member">previous_month_and_year</ref>(year:<sp/>int,<sp/>month:<sp/>int)<sp/>-&gt;<sp/>Tuple[int,<sp/>int]:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>previous_month_date<sp/>=<sp/>date(year,<sp/>month,<sp/>1)<sp/>-<sp/>timedelta(days=2)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>previous_month_date.month,<sp/>previous_month_date.year</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>@staticmethod</highlight></codeline>
+<codeline lineno="27" refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a30d630a101a55e6e1d48ef15fc8c85c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a30d630a101a55e6e1d48ef15fc8c85c6" kindref="member">next_month_and_year</ref>(year:<sp/>int,<sp/>month:<sp/>int)<sp/>-&gt;<sp/>Tuple[int,<sp/>int]:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>last_day_of_month<sp/>=<sp/>monthrange(year,<sp/>month)[1]</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>next_month_date<sp/>=<sp/>date(year,<sp/>month,<sp/>last_day_of_month)<sp/>+<sp/>timedelta(days=2)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>next_month_date.month,<sp/>next_month_date.year</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>@staticmethod</highlight></codeline>
+<codeline lineno="33" refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a58c22234086b9443112db21683ac09ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a58c22234086b9443112db21683ac09ec" kindref="member">current_date</ref>()<sp/>-&gt;<sp/>Tuple[int,<sp/>int,<sp/>int]:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>today_date<sp/>=<sp/>datetime.date(datetime.now())</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>today_date.day,<sp/>today_date.month,<sp/>today_date.year</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>@staticmethod</highlight></codeline>
+<codeline lineno="38" refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a16e361cce3df185c6233143dd4d4b9fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1a16e361cce3df185c6233143dd4d4b9fc" kindref="member">month_days</ref>(year:<sp/>int,<sp/>month:<sp/>int)<sp/>-&gt;<sp/>Iterable[date]:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Calendar().itermonthdates(year,<sp/>month)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>@staticmethod</highlight></codeline>
+<codeline lineno="42" refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1abf97761369bbb350500717ec8ae0af88" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classsms_1_1sms__calendar_1_1gregorian__calendar_1_1_gregorian_calendar_1abf97761369bbb350500717ec8ae0af88" kindref="member">month_days_with_weekday</ref>(year:<sp/>int,<sp/>month:<sp/>int)<sp/>-&gt;<sp/>List[List[int]]:</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Calendar().monthdayscalendar(year,<sp/>month)</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/gregorian_calendar.py"/>
+  </compounddef>
+</doxygen>

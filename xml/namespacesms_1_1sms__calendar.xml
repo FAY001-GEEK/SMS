@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacesms_1_1sms__calendar" kind="namespace" language="Python">
+    <compoundname>sms::sms_calendar</compoundname>
+    <innernamespace refid="namespacesms_1_1sms__calendar_1_1actions">sms::sms_calendar::actions</innernamespace>
+    <innernamespace refid="namespacesms_1_1sms__calendar_1_1app__utils">sms::sms_calendar::app_utils</innernamespace>
+    <innernamespace refid="namespacesms_1_1sms__calendar_1_1calendar__data">sms::sms_calendar::calendar_data</innernamespace>
+    <innernamespace refid="namespacesms_1_1sms__calendar_1_1constants">sms::sms_calendar::constants</innernamespace>
+    <innernamespace refid="namespacesms_1_1sms__calendar_1_1gregorian__calendar">sms::sms_calendar::gregorian_calendar</innernamespace>
+    <innernamespace refid="namespacesms_1_1sms__calendar_1_1routes">sms::sms_calendar::routes</innernamespace>
+    <innernamespace refid="namespacesms_1_1sms__calendar_1_1uwsgi">sms::sms_calendar::uwsgi</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

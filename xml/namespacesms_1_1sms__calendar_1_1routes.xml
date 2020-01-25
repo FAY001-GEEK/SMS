@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacesms_1_1sms__calendar_1_1routes" kind="namespace" language="Python">
+    <compoundname>sms::sms_calendar::routes</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacesms_1_1sms__calendar_1_1routes_1a854cc61842f14a352db41e140d54862f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms::sms_calendar::routes.sms_calendar</definition>
+        <argsstring></argsstring>
+        <name>sms_calendar</name>
+        <initializer>=  Blueprint(&apos;sms_calendar&apos;, __name__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/routes.py" line="7" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/routes.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1routes_1a405f04df0a5dc578d9dc280c663bc227" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Response</type>
+        <definition> Response sms.sms_calendar.routes.favicon</definition>
+        <argsstring>()</argsstring>
+        <name>favicon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/routes.py" line="10" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/routes.py" bodystart="10" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1sms__calendar_1_1routes_1a626b24f66693f04d4ad1e21551b98327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.sms_calendar.routes.calendar</definition>
+        <argsstring>()</argsstring>
+        <name>calendar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/routes.py" line="17" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/routes.py" bodystart="17" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/routes.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classsms_1_1main_1_1forms_1_1_news_form" kind="class" language="Python" prot="public">
+    <compoundname>sms::main::forms::NewsForm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FlaskForm</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1main_1_1forms_1_1_news_form_1ae0d53b01ccaa147703b1a06b153b0aa1" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.main.forms.NewsForm::title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <initializer>=  StringField(&apos;Title&apos;, validators=[DataRequired()])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Title field for news object </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/forms.py" line="9" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/forms.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1main_1_1forms_1_1_news_form_1ae0da1b1bc77e065749b411c9734b63e9" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.main.forms.NewsForm::content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <initializer>=  TextAreaField(&apos;Content&apos;, validators=[DataRequired()])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Content field for news object </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/forms.py" line="12" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/forms.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1main_1_1forms_1_1_news_form_1acbbc4c6ca228e7ef3af2f8f4de0ddb2c" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.main.forms.NewsForm::submit</definition>
+        <argsstring></argsstring>
+        <name>submit</name>
+        <initializer>=  SubmitField(&apos;Post&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/forms.py" line="15" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/forms.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classsms_1_1main_1_1forms_1_1_news_form" kindref="compound">NewsForm</ref> class specifies the fields for news published. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>FlaskForm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flask-specific subclass of WTForms </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>sms.main.forms.NewsForm</label>
+        <link refid="classsms_1_1main_1_1forms_1_1_news_form"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FlaskForm</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>sms.main.forms.NewsForm</label>
+        <link refid="classsms_1_1main_1_1forms_1_1_news_form"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FlaskForm</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/forms.py" line="8" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/forms.py" bodystart="8" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classsms_1_1main_1_1forms_1_1_news_form_1ae0da1b1bc77e065749b411c9734b63e9" prot="public" virt="non-virtual"><scope>sms::main::forms::NewsForm</scope><name>content</name></member>
+      <member refid="classsms_1_1main_1_1forms_1_1_news_form_1acbbc4c6ca228e7ef3af2f8f4de0ddb2c" prot="public" virt="non-virtual"><scope>sms::main::forms::NewsForm</scope><name>submit</name></member>
+      <member refid="classsms_1_1main_1_1forms_1_1_news_form_1ae0d53b01ccaa147703b1a06b153b0aa1" prot="public" virt="non-virtual"><scope>sms::main::forms::NewsForm</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

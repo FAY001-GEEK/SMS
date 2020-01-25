@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="app__utils_8py" kind="file" language="Python">
+    <compoundname>app_utils.py</compoundname>
+    <innernamespace refid="namespacesms_1_1sms__calendar_1_1app__utils">sms::sms_calendar::app_utils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacesms_1_1sms__calendar_1_1app__utils" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>functools<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>wraps</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>re</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>typing<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Any,<sp/>Callable</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>uuid</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>cachelib.simple<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>SimpleCache</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>flask<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>abort,<sp/>redirect,<sp/>request,<sp/>current_app</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacesms_1_1sms__calendar_1_1calendar__data" kindref="compound">sms.sms_calendar.calendar_data</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>CalendarData</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacesms_1_1sms__calendar_1_1constants" kindref="compound">sms.sms_calendar.constants</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>SESSION_ID</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacesms_1_1sms__calendar_1_1gregorian__calendar" kindref="compound">sms.sms_calendar.gregorian_calendar</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>GregorianCalendar</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="namespacesms_1_1sms__calendar_1_1app__utils_1a94327fd891401cb0e9917819d0866c9a" refkind="member"><highlight class="normal">cache<sp/>=<sp/>SimpleCache()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">#<sp/>captures<sp/>patterns<sp/>like<sp/>www.xxx<sp/>xxx.<sp/>plus<sp/>querystring<sp/>parameters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="namespacesms_1_1sms__calendar_1_1app__utils_1a2d6cc849278a4675b9321a74e2fc1de4" refkind="member"><highlight class="normal">URLS_REGEX_PATTERN<sp/>=<sp/></highlight><highlight class="stringliteral">r&quot;((?:(?:https?):\/\/)?[\w/\-?=%.]+\.[\w/\-?=%.&amp;]+)&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="namespacesms_1_1sms__calendar_1_1app__utils_1a5e162e9c1b896e11664476d970e04ef1" refkind="member"><highlight class="normal">DECORATED_URL_FORMAT<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&lt;a<sp/>href=\&quot;{}\&quot;<sp/>target=\&quot;_blank\&quot;&gt;{}&lt;/a&gt;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="namespacesms_1_1sms__calendar_1_1app__utils_1a427d0b98130b93877a8a82489074194c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1sms__calendar_1_1app__utils_1a427d0b98130b93877a8a82489074194c" kindref="member">previous_month_link</ref>(year:<sp/>int,<sp/>month:<sp/>int)<sp/>-&gt;<sp/>str:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>month,<sp/>year<sp/>=<sp/>GregorianCalendar.previous_month_and_year(year=year,<sp/>month=month)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>year<sp/>&lt;<sp/>current_app.config[</highlight><highlight class="stringliteral">&apos;MIN_YEAR&apos;</highlight><highlight class="normal">]<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>year<sp/>&gt;<sp/>current_app.config[</highlight><highlight class="stringliteral">&apos;MAX_YEAR&apos;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;?y={}&amp;m={}&quot;</highlight><highlight class="normal">.format(year,<sp/>month)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="namespacesms_1_1sms__calendar_1_1app__utils_1acb549ff3f181ac2fa649155f34f4c5e8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1sms__calendar_1_1app__utils_1acb549ff3f181ac2fa649155f34f4c5e8" kindref="member">next_month_link</ref>(year:<sp/>int,<sp/>month:<sp/>int)<sp/>-&gt;<sp/>str:</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>month,<sp/>year<sp/>=<sp/>GregorianCalendar.next_month_and_year(year=year,<sp/>month=month)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>year<sp/>&lt;<sp/>current_app.config[</highlight><highlight class="stringliteral">&apos;MIN_YEAR&apos;</highlight><highlight class="normal">]<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>year<sp/>&gt;<sp/>current_app.config[</highlight><highlight class="stringliteral">&apos;MAX_YEAR&apos;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;?y={}&amp;m={}&quot;</highlight><highlight class="normal">.format(year,<sp/>month)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="namespacesms_1_1sms__calendar_1_1app__utils_1a86e6be4f1e0b297d61f5a20dc13dfaec" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1sms__calendar_1_1app__utils_1a86e6be4f1e0b297d61f5a20dc13dfaec" kindref="member">new_session_id</ref>()<sp/>-&gt;<sp/>str:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str(uuid.uuid4())</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="namespacesms_1_1sms__calendar_1_1app__utils_1af7da0f97d48615d96f6f6ea521103e87" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1sms__calendar_1_1app__utils_1af7da0f97d48615d96f6f6ea521103e87" kindref="member">is_session_valid</ref>(session_id:<sp/>str)<sp/>-&gt;<sp/>bool:</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cache.get(session_id)<sp/></highlight><highlight class="keywordflow">is</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="namespacesms_1_1sms__calendar_1_1app__utils_1a12f5b8dc1cb847209d61aec089a087e8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1sms__calendar_1_1app__utils_1a12f5b8dc1cb847209d61aec089a087e8" kindref="member">add_session</ref>(session_id:<sp/>str,<sp/>username:<sp/>str)<sp/>-&gt;<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>cache.set(session_id,<sp/>username,<sp/>timeout=2678400)<sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>1<sp/>month</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="namespacesms_1_1sms__calendar_1_1app__utils_1a26f70063c59ab02c73a2af7e979bc79c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1sms__calendar_1_1app__utils_1a26f70063c59ab02c73a2af7e979bc79c" kindref="member">get_session_username</ref>(session_id:<sp/>str)<sp/>-&gt;<sp/>str:</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str(cache.get(session_id))</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="namespacesms_1_1sms__calendar_1_1app__utils_1a73fd715d60085b88a556f61da3a58568" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesms_1_1sms__calendar_1_1app__utils_1a73fd715d60085b88a556f61da3a58568" kindref="member">task_details_for_markup</ref>(details:<sp/>str)<sp/>-&gt;<sp/>str:</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>current_app.config[</highlight><highlight class="stringliteral">&apos;AUTO_DECORATE_TASK_DETAILS_HYPERLINK&apos;</highlight><highlight class="normal">]:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>details</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>decorated_fragments<sp/>=<sp/>[]</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>fragments<sp/>=<sp/>re.split(URLS_REGEX_PATTERN,<sp/>details)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>index,<sp/>fragment<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>enumerate(fragments):</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>index<sp/>%<sp/>2<sp/>==<sp/>1:</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>decorated_fragments.append(DECORATED_URL_FORMAT.format(fragment,<sp/>fragment))</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>decorated_fragments.append(fragment)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">.join(decorated_fragments)</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/app_utils.py"/>
+  </compounddef>
+</doxygen>

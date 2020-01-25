@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_b8d4d81da4390e9c6190b802413383a4" kind="dir">
+    <compoundname>C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations</compoundname>
+    <innerdir refid="dir_1c15e01b384c1a35657a684375cedc07">C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/versions</innerdir>
+    <innerfile refid="env_8py">env.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/migrations/"/>
+  </compounddef>
+</doxygen>

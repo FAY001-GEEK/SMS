@@ -1,0 +1,808 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data" kind="class" language="Python" prot="public">
+    <compoundname>sms::sms_calendar::calendar_data::CalendarData</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a58f2999cc08701fb6c2f1b708341ea7b" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.sms_calendar.calendar_data.CalendarData::REPETITION_TYPE_WEEKLY</definition>
+        <argsstring></argsstring>
+        <name>REPETITION_TYPE_WEEKLY</name>
+        <initializer>=  &quot;w&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="21" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a88cadbedd181dc337344b3515ae98cd0" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.sms_calendar.calendar_data.CalendarData::REPETITION_TYPE_MONTHLY</definition>
+        <argsstring></argsstring>
+        <name>REPETITION_TYPE_MONTHLY</name>
+        <initializer>=  &quot;m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="22" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1ab1dd83459123f46b05c846a01f6e21c5" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.sms_calendar.calendar_data.CalendarData::REPETITION_SUBTYPE_WEEK_DAY</definition>
+        <argsstring></argsstring>
+        <name>REPETITION_SUBTYPE_WEEK_DAY</name>
+        <initializer>=  &quot;w&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="23" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a15652b99200537f571a31a16e7a2cf32" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.sms_calendar.calendar_data.CalendarData::REPETITION_SUBTYPE_MONTH_DAY</definition>
+        <argsstring></argsstring>
+        <name>REPETITION_SUBTYPE_MONTH_DAY</name>
+        <initializer>=  &quot;m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="24" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a007657e9154d6e71162e3eda16e94e66" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms.sms_calendar.calendar_data.CalendarData::data_folder</definition>
+        <argsstring></argsstring>
+        <name>data_folder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="27" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a20ae524a77dd07f80cf295e0b45c058f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None sms.sms_calendar.calendar_data.CalendarData.__init__</definition>
+        <argsstring>(self, str data_folder)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>data_folder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="26" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1afe1ac603b72afba4d48196f9f4fc3189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Dict</type>
+        <definition> Dict sms.sms_calendar.calendar_data.CalendarData.load_calendar</definition>
+        <argsstring>(self, str filename)</argsstring>
+        <name>load_calendar</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="29" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="29" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a5da0e8513f2ee3b5ea6f8ebf9c30345b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List</type>
+        <definition> List sms.sms_calendar.calendar_data.CalendarData.users_list</definition>
+        <argsstring>(self, Optional[Dict] data=None, Optional[str] calendar_id=None)</argsstring>
+        <name>users_list</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>data</declname>
+          <array>[Dict]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>calendar_id</declname>
+          <array>[str]</array>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="36" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="36" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a864dde82195295c63e1125580aa76286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Dict</type>
+        <definition> Dict sms.sms_calendar.calendar_data.CalendarData.user_details</definition>
+        <argsstring>(self, str username, Optional[Dict] data=None, Optional[str] calendar_id=None)</argsstring>
+        <name>user_details</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>data</declname>
+          <array>[Dict]</array>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>calendar_id</declname>
+          <array>[str]</array>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="47" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="47" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a3769193fcef26bb5c22cc52e01180ecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Dict</type>
+        <definition> Dict sms.sms_calendar.calendar_data.CalendarData.tasks_from_calendar</definition>
+        <argsstring>(self, int year, int month, Dict data)</argsstring>
+        <name>tasks_from_calendar</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>Dict</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="67" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="67" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1afa4c486eb7cc920374d39a92ee53a13a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None sms.sms_calendar.calendar_data.CalendarData.hide_past_tasks</definition>
+        <argsstring>(self, int year, int month, Dict tasks)</argsstring>
+        <name>hide_past_tasks</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>Dict</type>
+          <declname>tasks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="93" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="93" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a9972d5180047ce87d6f547a58211bc79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Dict</type>
+        <definition> Dict sms.sms_calendar.calendar_data.CalendarData.task_from_calendar</definition>
+        <argsstring>(self, str calendar_id, int year, int month, int day, int task_id)</argsstring>
+        <name>task_from_calendar</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>calendar_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>task_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="106" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="106" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1ae748317cbc9d68af611e695e81367305" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Dict</type>
+        <definition> Dict sms.sms_calendar.calendar_data.CalendarData.repetitive_task_from_calendar</definition>
+        <argsstring>(self, str calendar_id, int year, int month, int task_id)</argsstring>
+        <name>repetitive_task_from_calendar</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>calendar_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>task_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="120" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="120" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1abc90207511ca7ce2526cd868d4b1e3db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Dict</type>
+        <definition> Dict sms.sms_calendar.calendar_data.CalendarData.add_repetitive_tasks_from_calendar</definition>
+        <argsstring>(self, int year, int month, Dict data, Dict tasks)</argsstring>
+        <name>add_repetitive_tasks_from_calendar</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>Dict</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Dict</type>
+          <declname>tasks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="132" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="132" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1af258bc9e6c6f9736c27974420dee23de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None sms.sms_calendar.calendar_data.CalendarData.delete_task</definition>
+        <argsstring>(self, str calendar_id, str year_str, str month_str, str day_str, int task_id)</argsstring>
+        <name>delete_task</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>calendar_id</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>year_str</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>month_str</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>day_str</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>task_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="149" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="149" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a3b4a68520c3504495227b963751e09e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None sms.sms_calendar.calendar_data.CalendarData.update_task_day</definition>
+        <argsstring>(self, str calendar_id, str year_str, str month_str, str day_str, int task_id, str new_day_str)</argsstring>
+        <name>update_task_day</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>calendar_id</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>year_str</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>month_str</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>day_str</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>task_id</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>new_day_str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="170" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="170" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a3904dff4ae5dfcc358ebf28c56e0187d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool sms.sms_calendar.calendar_data.CalendarData.create_task</definition>
+        <argsstring>(self, str calendar_id, Optional[int] year, Optional[int] month, Optional[int] day, str title, bool is_all_day, str due_time, str details, str color, bool has_repetition, Optional[str] repetition_type, Optional[str] repetition_subtype, int repetition_value)</argsstring>
+        <name>create_task</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>calendar_id</declname>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>year</declname>
+          <array>[int]</array>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>month</declname>
+          <array>[int]</array>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>day</declname>
+          <array>[int]</array>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_all_day</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>due_time</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>details</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>has_repetition</declname>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>repetition_type</declname>
+          <array>[str]</array>
+        </param>
+        <param>
+          <type>Optional</type>
+          <declname>repetition_subtype</declname>
+          <array>[str]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>repetition_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="188" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="188" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1ac510f6074ec91bdf66fdf7d12bb5c148" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None sms.sms_calendar.calendar_data.CalendarData.hide_repetition_task_instance</definition>
+        <argsstring>(self, str calendar_id, str year_str, str month_str, str day_str, str task_id_str)</argsstring>
+        <name>hide_repetition_task_instance</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>calendar_id</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>year_str</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>month_str</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>day_str</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>task_id_str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="226" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="226" bodyend="239"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1afcbcab16d79a406f0a560bf1000c287e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool sms.sms_calendar.calendar_data.CalendarData.is_past</definition>
+        <argsstring>(int year, int month, int current_year, int current_month)</argsstring>
+        <name>is_past</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>current_year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>current_month</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="59" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="59" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a8a710487c5f72dc336107d784635a3b1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str sms.sms_calendar.calendar_data.CalendarData.date_for_frontend</definition>
+        <argsstring>(int year, int month, int day)</argsstring>
+        <name>date_for_frontend</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="129" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="129" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1aaf8ae979e1ba5bafc51f7a447fe3da3e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None sms.sms_calendar.calendar_data.CalendarData.add_task_to_list</definition>
+        <argsstring>(Dict tasks, str day_str, str month_str, Dict new_task)</argsstring>
+        <name>add_task_to_list</name>
+        <param>
+          <type>Dict</type>
+          <declname>tasks</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>day_str</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>month_str</declname>
+        </param>
+        <param>
+          <type>Dict</type>
+          <declname>new_task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="241" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="241" bodyend="245"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1af5b8464a05b1f6b19fc712fb649fa3b5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Dict</type>
+        <definition> Dict sms.sms_calendar.calendar_data.CalendarData._repetitive_tasks_from_calendar</definition>
+        <argsstring>(self, int year, int month, Dict data)</argsstring>
+        <name>_repetitive_tasks_from_calendar</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>Dict</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="246" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="246" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a0e7ee8b62623b5780aba9b6eaef3a466" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None sms.sms_calendar.calendar_data.CalendarData._save_calendar</definition>
+        <argsstring>(self, Dict data, str filename)</argsstring>
+        <name>_save_calendar</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Dict</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="307" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="307" bodyend="312"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a55a4735b66180a6355ff4c358f0dbf06" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool sms.sms_calendar.calendar_data.CalendarData._is_repetition_hidden_for_day</definition>
+        <argsstring>(Dict data, str id_str, str year_str, str month_str, str day_str)</argsstring>
+        <name>_is_repetition_hidden_for_day</name>
+        <param>
+          <type>Dict</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>id_str</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>year_str</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>month_str</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>day_str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="291" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="291" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1afb28f8ee25d7663ebe25ada9bd5602e5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool sms.sms_calendar.calendar_data.CalendarData._is_repetition_hidden</definition>
+        <argsstring>(Dict data, str id_str, str year_str, str month_str)</argsstring>
+        <name>_is_repetition_hidden</name>
+        <param>
+          <type>Dict</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>id_str</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>year_str</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>month_str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="300" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="300" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a0a7518a3d4212ad716ff0f8be0cdb170" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None sms.sms_calendar.calendar_data.CalendarData._clear_empty_entries</definition>
+        <argsstring>(Dict data)</argsstring>
+        <name>_clear_empty_entries</name>
+        <param>
+          <type>Dict</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="314" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="314" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1ac74d2dd2d5b9b86294120334b4d874c2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None sms.sms_calendar.calendar_data.CalendarData._clear_past_hidden_entries</definition>
+        <argsstring>(Dict data)</argsstring>
+        <name>_clear_past_hidden_entries</name>
+        <param>
+          <type>Dict</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="337" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="337" bodyend="355"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="19" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="19" bodyend="355"/>
+    <listofallmembers>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a20ae524a77dd07f80cf295e0b45c058f" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>__init__</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a0a7518a3d4212ad716ff0f8be0cdb170" prot="private" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>_clear_empty_entries</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1ac74d2dd2d5b9b86294120334b4d874c2" prot="private" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>_clear_past_hidden_entries</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1afb28f8ee25d7663ebe25ada9bd5602e5" prot="private" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>_is_repetition_hidden</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a55a4735b66180a6355ff4c358f0dbf06" prot="private" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>_is_repetition_hidden_for_day</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1af5b8464a05b1f6b19fc712fb649fa3b5" prot="private" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>_repetitive_tasks_from_calendar</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a0e7ee8b62623b5780aba9b6eaef3a466" prot="private" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>_save_calendar</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1abc90207511ca7ce2526cd868d4b1e3db" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>add_repetitive_tasks_from_calendar</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1aaf8ae979e1ba5bafc51f7a447fe3da3e" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>add_task_to_list</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a3904dff4ae5dfcc358ebf28c56e0187d" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>create_task</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a007657e9154d6e71162e3eda16e94e66" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>data_folder</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a8a710487c5f72dc336107d784635a3b1" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>date_for_frontend</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1af258bc9e6c6f9736c27974420dee23de" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>delete_task</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1afa4c486eb7cc920374d39a92ee53a13a" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>hide_past_tasks</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1ac510f6074ec91bdf66fdf7d12bb5c148" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>hide_repetition_task_instance</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1afcbcab16d79a406f0a560bf1000c287e" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>is_past</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1afe1ac603b72afba4d48196f9f4fc3189" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>load_calendar</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a15652b99200537f571a31a16e7a2cf32" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>REPETITION_SUBTYPE_MONTH_DAY</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1ab1dd83459123f46b05c846a01f6e21c5" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>REPETITION_SUBTYPE_WEEK_DAY</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a88cadbedd181dc337344b3515ae98cd0" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>REPETITION_TYPE_MONTHLY</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a58f2999cc08701fb6c2f1b708341ea7b" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>REPETITION_TYPE_WEEKLY</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1ae748317cbc9d68af611e695e81367305" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>repetitive_task_from_calendar</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a9972d5180047ce87d6f547a58211bc79" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>task_from_calendar</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a3769193fcef26bb5c22cc52e01180ecd" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>tasks_from_calendar</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a3b4a68520c3504495227b963751e09e2" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>update_task_day</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a864dde82195295c63e1125580aa76286" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>user_details</name></member>
+      <member refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data_1a5da0e8513f2ee3b5ea6f8ebf9c30345b" prot="public" virt="non-virtual"><scope>sms::sms_calendar::calendar_data::CalendarData</scope><name>users_list</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

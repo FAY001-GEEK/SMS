@@ -1,0 +1,147 @@
+.TH "sms.models.Students" 3 "Sat Dec 28 2019" "Version 1.2.0" "SMS" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sms.models.Students \- Describes the fields for students\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Model, and UserMixin\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBpassword\fP (self)"
+.br
+.ti -1c
+.RI "def \fBpassword\fP (self, new_password)"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBid\fP = db\&.Column(db\&.Integer, primary_key=True)"
+.br
+.ti -1c
+.RI "\fBusername\fP = db\&.Column(db\&.String(20), unique=True, nullable=False)"
+.br
+.ti -1c
+.RI "\fBfirst_name\fP = db\&.Column(db\&.String(), unique=False, nullable=False)"
+.br
+.ti -1c
+.RI "\fBmiddle_name\fP = db\&.Column(db\&.String(), unique=False, nullable=False)"
+.br
+.ti -1c
+.RI "\fBlast_name\fP = db\&.Column(db\&.String(), unique=False, nullable=False)"
+.br
+.ti -1c
+.RI "\fBmother_name\fP = db\&.Column(db\&.String(), unique=False, nullable=False)"
+.br
+.ti -1c
+.RI "\fBemail\fP = db\&.Column(db\&.String(100), unique=True, nullable=False)"
+.br
+.ti -1c
+.RI "\fBphone_number\fP = db\&.Column(db\&.String(), unique=True, nullable=False)"
+.br
+.ti -1c
+.RI "\fBaddress\fP = db\&.Column(db\&.Text(), unique=False, nullable=False)"
+.br
+.ti -1c
+.RI "\fBimage_file\fP"
+.br
+.ti -1c
+.RI "\fBdate_created\fP = db\&.Column(db\&.Date(), default=datetime\&.utcnow)"
+.br
+.ti -1c
+.RI "\fBdate_updated\fP = db\&.Column(db\&.Date(), onupdate=datetime\&.utcnow)"
+.br
+.ti -1c
+.RI "\fBstudents_subjects\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Describes the fields for students\&. 
+.PP
+Definition at line 117 of file models\&.py\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "def sms\&.models\&.Students\&.password ( self)"
+
+.PP
+Definition at line 137 of file models\&.py\&.
+.SS "def sms\&.models\&.Students\&.password ( self,  new_password)"
+
+.PP
+Definition at line 141 of file models\&.py\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "sms\&.models\&.Students\&.address = db\&.Column(db\&.Text(), unique=False, nullable=False)\fC [static]\fP"
+
+.PP
+Definition at line 128 of file models\&.py\&.
+.SS "sms\&.models\&.Students\&.date_created = db\&.Column(db\&.Date(), default=datetime\&.utcnow)\fC [static]\fP"
+
+.PP
+Definition at line 131 of file models\&.py\&.
+.SS "sms\&.models\&.Students\&.date_updated = db\&.Column(db\&.Date(), onupdate=datetime\&.utcnow)\fC [static]\fP"
+
+.PP
+Definition at line 132 of file models\&.py\&.
+.SS "sms\&.models\&.Students\&.email = db\&.Column(db\&.String(100), unique=True, nullable=False)\fC [static]\fP"
+
+.PP
+Definition at line 125 of file models\&.py\&.
+.SS "sms\&.models\&.Students\&.first_name = db\&.Column(db\&.String(), unique=False, nullable=False)\fC [static]\fP"
+
+.PP
+Definition at line 121 of file models\&.py\&.
+.SS "sms\&.models\&.Students\&.id = db\&.Column(db\&.Integer, primary_key=True)\fC [static]\fP"
+
+.PP
+Definition at line 119 of file models\&.py\&.
+.SS "sms\&.models\&.Students\&.image_file\fC [static]\fP"
+\fBInitial value:\fP
+.PP
+.nf
+=  db\&.Column(db\&.String(20), nullable=False,
+                           default='default\&.jpg')
+.fi
+.PP
+Definition at line 129 of file models\&.py\&.
+.SS "sms\&.models\&.Students\&.last_name = db\&.Column(db\&.String(), unique=False, nullable=False)\fC [static]\fP"
+
+.PP
+Definition at line 123 of file models\&.py\&.
+.SS "sms\&.models\&.Students\&.middle_name = db\&.Column(db\&.String(), unique=False, nullable=False)\fC [static]\fP"
+
+.PP
+Definition at line 122 of file models\&.py\&.
+.SS "sms\&.models\&.Students\&.mother_name = db\&.Column(db\&.String(), unique=False, nullable=False)\fC [static]\fP"
+
+.PP
+Definition at line 124 of file models\&.py\&.
+.SS "sms\&.models\&.Students\&.phone_number = db\&.Column(db\&.String(), unique=True, nullable=False)\fC [static]\fP"
+
+.PP
+Definition at line 127 of file models\&.py\&.
+.SS "sms\&.models\&.Students\&.students_subjects\fC [static]\fP"
+\fBInitial value:\fP
+.PP
+.nf
+=  db\&.relationship('Subjects', secondary=students_subjects, lazy='subquery',
+                           backref=db\&.backref('students', lazy=True))
+.fi
+.PP
+Definition at line 133 of file models\&.py\&.
+.SS "sms\&.models\&.Students\&.username = db\&.Column(db\&.String(20), unique=True, nullable=False)\fC [static]\fP"
+
+.PP
+Definition at line 120 of file models\&.py\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SMS from the source code\&.

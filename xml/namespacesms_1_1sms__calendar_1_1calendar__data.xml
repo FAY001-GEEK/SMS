@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacesms_1_1sms__calendar_1_1calendar__data" kind="namespace" language="Python">
+    <compoundname>sms::sms_calendar::calendar_data</compoundname>
+    <innerclass refid="classsms_1_1sms__calendar_1_1calendar__data_1_1_calendar_data" prot="public">sms::sms_calendar::calendar_data::CalendarData</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacesms_1_1sms__calendar_1_1calendar__data_1a62622d35525d192b9f83610feba1810c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string sms::sms_calendar::calendar_data.KEY_TASKS</definition>
+        <argsstring></argsstring>
+        <name>KEY_TASKS</name>
+        <initializer>=  &quot;tasks&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="12" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1_1sms__calendar_1_1calendar__data_1a16576dbe79985787cd272f42c3b55cd9" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string sms::sms_calendar::calendar_data.KEY_USERS</definition>
+        <argsstring></argsstring>
+        <name>KEY_USERS</name>
+        <initializer>=  &quot;users&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="13" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1_1sms__calendar_1_1calendar__data_1a696e02f128d79a90c503b2a9f46cafaf" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string sms::sms_calendar::calendar_data.KEY_NORMAL_TASK</definition>
+        <argsstring></argsstring>
+        <name>KEY_NORMAL_TASK</name>
+        <initializer>=  &quot;normal&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="14" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1_1sms__calendar_1_1calendar__data_1a3d398b17a6c73aa8ff50e97e3851604f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string sms::sms_calendar::calendar_data.KEY_REPETITIVE_TASK</definition>
+        <argsstring></argsstring>
+        <name>KEY_REPETITIVE_TASK</name>
+        <initializer>=  &quot;repetition&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="15" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1_1sms__calendar_1_1calendar__data_1a9af69564e70b0199217b37fadb12c67b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string sms::sms_calendar::calendar_data.KEY_REPETITIVE_HIDDEN_TASK</definition>
+        <argsstring></argsstring>
+        <name>KEY_REPETITIVE_HIDDEN_TASK</name>
+        <initializer>=  &quot;hidden_repetition&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="16" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/calendar_data.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

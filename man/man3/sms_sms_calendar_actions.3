@@ -1,0 +1,73 @@
+.TH "sms.sms_calendar.actions" 3 "Sat Dec 28 2019" "Version 1.2.0" "SMS" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sms.sms_calendar.actions
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "Response \fBmain_calendar_action\fP (str calendar_id)"
+.br
+.ti -1c
+.RI "Response \fBnew_task_action\fP (str calendar_id, int year, int month)"
+.br
+.ti -1c
+.RI "Response \fBedit_task_action\fP (str calendar_id, int year, int month, int day, int task_id)"
+.br
+.ti -1c
+.RI "Response \fBupdate_task_action\fP (str calendar_id, str year, str month, str day, str task_id)"
+.br
+.ti -1c
+.RI "Response \fBsave_task_action\fP (str calendar_id)"
+.br
+.ti -1c
+.RI "Response \fBdelete_task_action\fP (str calendar_id, str year, str month, str day, str task_id)"
+.br
+.ti -1c
+.RI "Response \fBupdate_task_day_action\fP (str calendar_id, str year, str month, str day, str task_id)"
+.br
+.ti -1c
+.RI "Response \fBhide_repetition_task_instance_action\fP (str calendar_id, str year, str month, str day, str task_id)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS " Response sms\&.sms_calendar\&.actions\&.delete_task_action (str calendar_id, str year, str month, str day, str task_id)"
+
+.PP
+Definition at line 218 of file actions\&.py\&.
+.SS " Response sms\&.sms_calendar\&.actions\&.edit_task_action (str calendar_id, int year, int month, int day, int task_id)"
+
+.PP
+Definition at line 89 of file actions\&.py\&.
+.SS " Response sms\&.sms_calendar\&.actions\&.hide_repetition_task_instance_action (str calendar_id, str year, str month, str day, str task_id)"
+
+.PP
+Definition at line 245 of file actions\&.py\&.
+.SS " Response sms\&.sms_calendar\&.actions\&.main_calendar_action (str calendar_id)"
+
+.PP
+Definition at line 13 of file actions\&.py\&.
+.SS " Response sms\&.sms_calendar\&.actions\&.new_task_action (str calendar_id, int year, int month)"
+
+.PP
+Definition at line 55 of file actions\&.py\&.
+.SS " Response sms\&.sms_calendar\&.actions\&.save_task_action (str calendar_id)"
+
+.PP
+Definition at line 178 of file actions\&.py\&.
+.SS " Response sms\&.sms_calendar\&.actions\&.update_task_action (str calendar_id, str year, str month, str day, str task_id)"
+
+.PP
+Definition at line 126 of file actions\&.py\&.
+.SS " Response sms\&.sms_calendar\&.actions\&.update_task_day_action (str calendar_id, str year, str month, str day, str task_id)"
+
+.PP
+Definition at line 230 of file actions\&.py\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SMS from the source code\&.

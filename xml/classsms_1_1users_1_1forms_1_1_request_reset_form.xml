@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classsms_1_1users_1_1forms_1_1_request_reset_form" kind="class" language="Python" prot="public">
+    <compoundname>sms::users::forms::RequestResetForm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FlaskForm</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1users_1_1forms_1_1_request_reset_form_1a0136f36f543d795d717741cee3f5c189" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.users.forms.RequestResetForm::email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <initializer>=  StringField(&apos;Email&apos;, validators=[DataRequired(), Email()])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="61" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1users_1_1forms_1_1_request_reset_form_1a3cedd56cc2a4b4615e04c8eac2ba12db" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.users.forms.RequestResetForm::submit</definition>
+        <argsstring></argsstring>
+        <name>submit</name>
+        <initializer>=  SubmitField(&apos;Request Password Reset&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="62" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsms_1_1users_1_1forms_1_1_request_reset_form_1ac93632c5dfdc32c268b6c6648ff4e4a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.users.forms.RequestResetForm.validate_email</definition>
+        <argsstring>(self, email)</argsstring>
+        <name>validate_email</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classsms_1_1users_1_1forms_1_1_request_reset_form_1a0136f36f543d795d717741cee3f5c189" kindref="member">email</ref></type>
+          <defname>email</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="64" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="64" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>sms.users.forms.RequestResetForm</label>
+        <link refid="classsms_1_1users_1_1forms_1_1_request_reset_form"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FlaskForm</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>sms.users.forms.RequestResetForm</label>
+        <link refid="classsms_1_1users_1_1forms_1_1_request_reset_form"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FlaskForm</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="60" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="60" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classsms_1_1users_1_1forms_1_1_request_reset_form_1a0136f36f543d795d717741cee3f5c189" prot="public" virt="non-virtual"><scope>sms::users::forms::RequestResetForm</scope><name>email</name></member>
+      <member refid="classsms_1_1users_1_1forms_1_1_request_reset_form_1a3cedd56cc2a4b4615e04c8eac2ba12db" prot="public" virt="non-virtual"><scope>sms::users::forms::RequestResetForm</scope><name>submit</name></member>
+      <member refid="classsms_1_1users_1_1forms_1_1_request_reset_form_1ac93632c5dfdc32c268b6c6648ff4e4a7" prot="public" virt="non-virtual"><scope>sms::users::forms::RequestResetForm</scope><name>validate_email</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

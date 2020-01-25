@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="main_2forms_8py" kind="file" language="Python">
+    <compoundname>forms.py</compoundname>
+    <innerclass refid="classsms_1_1main_1_1forms_1_1_news_form" prot="public">sms::main::forms::NewsForm</innerclass>
+    <innernamespace refid="namespacesms_1_1main_1_1forms">sms::main::forms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacesms_1_1main_1_1forms" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>flask_wtf<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>FlaskForm</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>wtforms<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>StringField,<sp/>SubmitField,<sp/>TextAreaField</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>wtforms.validators<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>DataRequired</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classsms_1_1main_1_1forms_1_1_news_form" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsms_1_1main_1_1forms_1_1_news_form" kindref="compound">NewsForm</ref>(FlaskForm):</highlight></codeline>
+<codeline lineno="9" refid="classsms_1_1main_1_1forms_1_1_news_form_1ae0d53b01ccaa147703b1a06b153b0aa1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>title<sp/>=<sp/>StringField(</highlight><highlight class="stringliteral">&apos;Title&apos;</highlight><highlight class="normal">,<sp/>validators=[DataRequired()])</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12" refid="classsms_1_1main_1_1forms_1_1_news_form_1ae0da1b1bc77e065749b411c9734b63e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>content<sp/>=<sp/>TextAreaField(</highlight><highlight class="stringliteral">&apos;Content&apos;</highlight><highlight class="normal">,<sp/>validators=[DataRequired()])</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="15" refid="classsms_1_1main_1_1forms_1_1_news_form_1acbbc4c6ca228e7ef3af2f8f4de0ddb2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>submit<sp/>=<sp/>SubmitField(</highlight><highlight class="stringliteral">&apos;Post&apos;</highlight><highlight class="normal">)</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/main/forms.py"/>
+  </compounddef>
+</doxygen>

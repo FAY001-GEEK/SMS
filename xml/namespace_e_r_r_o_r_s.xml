@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespace_e_r_r_o_r_s" kind="namespace" language="Python">
+    <compoundname>ERRORS</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The &apos;<ref refid="namespace_e_r_r_o_r_s" kindref="compound">ERRORS</ref>&apos; package renders the error pages templates according to the error.</para>
+<para>&apos;403&apos;, &apos;404&apos;, and &apos;500&apos; error values are handled </para>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/errors/handlers.py" line="3" column="1"/>
+  </compounddef>
+</doxygen>

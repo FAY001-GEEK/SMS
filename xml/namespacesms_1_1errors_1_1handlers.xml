@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacesms_1_1errors_1_1handlers" kind="namespace" language="Python">
+    <compoundname>sms::errors::handlers</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacesms_1_1errors_1_1handlers_1a95ab08016f024df363aa03f818e2b1b2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms::errors::handlers.errors</definition>
+        <argsstring></argsstring>
+        <name>errors</name>
+        <initializer>=  Blueprint(&apos;errors&apos;, __name__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/errors/handlers.py" line="9" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/errors/handlers.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacesms_1_1errors_1_1handlers_1a173dd660d052c25a0b8e84af166a5451" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.errors.handlers.error_404</definition>
+        <argsstring>(error)</argsstring>
+        <name>error_404</name>
+        <param>
+          <type>error</type>
+          <defname>error</defname>
+        </param>
+        <briefdescription>
+<para>Method handling error 404. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>404</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The error value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/errors/handlers.py" line="14" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/errors/handlers.py" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1errors_1_1handlers_1aa32eafeb9d0a63cf1ca8531e0c7ab967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.errors.handlers.error_403</definition>
+        <argsstring>(error)</argsstring>
+        <name>error_403</name>
+        <param>
+          <type>error</type>
+          <defname>error</defname>
+        </param>
+        <briefdescription>
+<para>Method handling error 403. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>403</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The error value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/errors/handlers.py" line="21" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/errors/handlers.py" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesms_1_1errors_1_1handlers_1ae971019fbde0327dc07cfd4cdbad4590" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.errors.handlers.error_500</definition>
+        <argsstring>(error)</argsstring>
+        <name>error_500</name>
+        <param>
+          <type>error</type>
+          <defname>error</defname>
+        </param>
+        <briefdescription>
+<para>Method handling error 500. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>500</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The error value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/errors/handlers.py" line="28" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/errors/handlers.py" bodystart="28" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/errors/handlers.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

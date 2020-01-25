@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classsms_1_1users_1_1forms_1_1_update_account_form" kind="class" language="Python" prot="public">
+    <compoundname>sms::users::forms::UpdateAccountForm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FlaskForm</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1users_1_1forms_1_1_update_account_form_1adc894935be50747362b5cca81772e0c0" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.users.forms.UpdateAccountForm::username</definition>
+        <argsstring></argsstring>
+        <name>username</name>
+        <initializer>=  StringField(&apos;Username&apos;, validators=[
+                           DataRequired(), Length(min=2, max=20)])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="40" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1users_1_1forms_1_1_update_account_form_1a09b8aec7fcda66ded5e005b752abee21" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.users.forms.UpdateAccountForm::email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <initializer>=  StringField(&apos;Email&apos;, validators=[DataRequired(), Email()])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="42" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1users_1_1forms_1_1_update_account_form_1acd0cec96beb04955105a4639557af77d" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.users.forms.UpdateAccountForm::picture</definition>
+        <argsstring></argsstring>
+        <name>picture</name>
+        <initializer>=  FileField(&apos;Update Profile Picture&apos;, validators=[
+                        FileAllowed([&apos;jpg&apos;, &apos;png&apos;])])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="43" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1users_1_1forms_1_1_update_account_form_1a53a640d411f1d5bacc43a75b993a4ec0" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.users.forms.UpdateAccountForm::submit</definition>
+        <argsstring></argsstring>
+        <name>submit</name>
+        <initializer>=  SubmitField(&apos;Update&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="45" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsms_1_1users_1_1forms_1_1_update_account_form_1acd97e0619a8748623f8c4b9e53be85c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.users.forms.UpdateAccountForm.validate_username</definition>
+        <argsstring>(self, username)</argsstring>
+        <name>validate_username</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classsms_1_1users_1_1forms_1_1_update_account_form_1adc894935be50747362b5cca81772e0c0" kindref="member">username</ref></type>
+          <defname>username</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="47" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1users_1_1forms_1_1_update_account_form_1a10a2c32fe2dd70835f5fd842ae8ec0bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.users.forms.UpdateAccountForm.validate_email</definition>
+        <argsstring>(self, email)</argsstring>
+        <name>validate_email</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classsms_1_1users_1_1forms_1_1_update_account_form_1a09b8aec7fcda66ded5e005b752abee21" kindref="member">email</ref></type>
+          <defname>email</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="53" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="53" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>sms.users.forms.UpdateAccountForm</label>
+        <link refid="classsms_1_1users_1_1forms_1_1_update_account_form"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FlaskForm</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>sms.users.forms.UpdateAccountForm</label>
+        <link refid="classsms_1_1users_1_1forms_1_1_update_account_form"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FlaskForm</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="39" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" bodystart="39" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classsms_1_1users_1_1forms_1_1_update_account_form_1a09b8aec7fcda66ded5e005b752abee21" prot="public" virt="non-virtual"><scope>sms::users::forms::UpdateAccountForm</scope><name>email</name></member>
+      <member refid="classsms_1_1users_1_1forms_1_1_update_account_form_1acd0cec96beb04955105a4639557af77d" prot="public" virt="non-virtual"><scope>sms::users::forms::UpdateAccountForm</scope><name>picture</name></member>
+      <member refid="classsms_1_1users_1_1forms_1_1_update_account_form_1a53a640d411f1d5bacc43a75b993a4ec0" prot="public" virt="non-virtual"><scope>sms::users::forms::UpdateAccountForm</scope><name>submit</name></member>
+      <member refid="classsms_1_1users_1_1forms_1_1_update_account_form_1adc894935be50747362b5cca81772e0c0" prot="public" virt="non-virtual"><scope>sms::users::forms::UpdateAccountForm</scope><name>username</name></member>
+      <member refid="classsms_1_1users_1_1forms_1_1_update_account_form_1a10a2c32fe2dd70835f5fd842ae8ec0bb" prot="public" virt="non-virtual"><scope>sms::users::forms::UpdateAccountForm</scope><name>validate_email</name></member>
+      <member refid="classsms_1_1users_1_1forms_1_1_update_account_form_1acd97e0619a8748623f8c4b9e53be85c7" prot="public" virt="non-virtual"><scope>sms::users::forms::UpdateAccountForm</scope><name>validate_username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

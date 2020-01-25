@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacesms_1_1users_1_1forms" kind="namespace" language="Python">
+    <compoundname>sms::users::forms</compoundname>
+    <innerclass refid="classsms_1_1users_1_1forms_1_1_login_form" prot="public">sms::users::forms::LoginForm</innerclass>
+    <innerclass refid="classsms_1_1users_1_1forms_1_1_registration_form" prot="public">sms::users::forms::RegistrationForm</innerclass>
+    <innerclass refid="classsms_1_1users_1_1forms_1_1_request_reset_form" prot="public">sms::users::forms::RequestResetForm</innerclass>
+    <innerclass refid="classsms_1_1users_1_1forms_1_1_reset_password_form" prot="public">sms::users::forms::ResetPasswordForm</innerclass>
+    <innerclass refid="classsms_1_1users_1_1forms_1_1_update_account_form" prot="public">sms::users::forms::UpdateAccountForm</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/users/forms.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

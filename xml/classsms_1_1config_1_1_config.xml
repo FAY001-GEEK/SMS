@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classsms_1_1config_1_1_config" kind="class" language="Python" prot="public">
+    <compoundname>sms::config::Config</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1a65c23939cfa5d9edcd0d5ee6f440d75b" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.config.Config::SECRET_KEY</definition>
+        <argsstring></argsstring>
+        <name>SECRET_KEY</name>
+        <initializer>=  os.environ.get(&apos;SECRET_KEY&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="5" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1aaa67cce3e9cebc9370f9e98b20849d3a" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.config.Config::SQLALCHEMY_DATABASE_URI</definition>
+        <argsstring></argsstring>
+        <name>SQLALCHEMY_DATABASE_URI</name>
+        <initializer>=  &apos;sqlite:///&apos; + os.path.join(<ref refid="namespacesms_1_1config_1a34e50171f7aba5a2ac43fd6448e050ff" kindref="member">basedir</ref>, &apos;<ref refid="namespacesms_1a1f3f5a8d11d0e7530b39489a38784043" kindref="member">sms.db</ref>&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="6" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1a87b40912b931c7beb93b52bede694f0c" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool sms.config.Config::SQLALCHEMY_TRACK_MODIFICATIONS</definition>
+        <argsstring></argsstring>
+        <name>SQLALCHEMY_TRACK_MODIFICATIONS</name>
+        <initializer>=  False</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="7" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1a5204dad8525195c7a36aaf28144d0f8e" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.config.Config::FLASK_ADMIN_SWATCH</definition>
+        <argsstring></argsstring>
+        <name>FLASK_ADMIN_SWATCH</name>
+        <initializer>=  &apos;paper&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="9" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1a6d069502b5a03fa003ccd9489cb5e2e0" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.config.Config::MAIL_SERVER</definition>
+        <argsstring></argsstring>
+        <name>MAIL_SERVER</name>
+        <initializer>=  &apos;smtp.googlemail.com&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="10" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1a754f3405fe6ae965c191a60518219328" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sms.config.Config::MAIL_PORT</definition>
+        <argsstring></argsstring>
+        <name>MAIL_PORT</name>
+        <initializer>=  587</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="11" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1ac930152031973cbb908909c6260ae33d" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool sms.config.Config::MAIL_USE_TLS</definition>
+        <argsstring></argsstring>
+        <name>MAIL_USE_TLS</name>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="12" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1a26cf13c621c170026c18aff19752b3b8" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.config.Config::MAIL_USERNAME</definition>
+        <argsstring></argsstring>
+        <name>MAIL_USERNAME</name>
+        <initializer>=  os.environ.get(&apos;EMAIL_USER&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="13" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1a1d1b5411903826cb59b665e5ea10a319" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.config.Config::MAIL_PASSWORD</definition>
+        <argsstring></argsstring>
+        <name>MAIL_PASSWORD</name>
+        <initializer>=  os.environ.get(&apos;EMAIL_PASSWORD&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="14" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1ad3a5444cf7a685d55fb71392cc960f4f" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.config.Config::DATA_FOLDER</definition>
+        <argsstring></argsstring>
+        <name>DATA_FOLDER</name>
+        <initializer>=  &quot;data&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="16" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1aac253cf9d660a2e980a0cd445f9f6108" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sms.config.Config::MIN_YEAR</definition>
+        <argsstring></argsstring>
+        <name>MIN_YEAR</name>
+        <initializer>=  2019</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="18" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1a6786d62b690782432deb0ecd0d6e284f" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sms.config.Config::MAX_YEAR</definition>
+        <argsstring></argsstring>
+        <name>MAX_YEAR</name>
+        <initializer>=  2100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="19" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1a39b2d6f935fb90911ebde43c86c39ed8" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.config.Config::LOCALE</definition>
+        <argsstring></argsstring>
+        <name>LOCALE</name>
+        <initializer>=  &quot;es_ES.UTF-8&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="21" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1a0d1a4ea882fcb05138c644077e5df052" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.config.Config::TIMEZONE</definition>
+        <argsstring></argsstring>
+        <name>TIMEZONE</name>
+        <initializer>=  &quot;Europe/Madrid&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="23" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1ac2528fc81b9adf89d1ba7440ace71cc3" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sms.config.Config::MONTHS_TO_EXPORT</definition>
+        <argsstring></argsstring>
+        <name>MONTHS_TO_EXPORT</name>
+        <initializer>=  6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="24" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1ad658a6461218ddd2d24eb297ee03a0db" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool sms.config.Config::FEATURE_FLAG_ICAL_EXPORT</definition>
+        <argsstring></argsstring>
+        <name>FEATURE_FLAG_ICAL_EXPORT</name>
+        <initializer>=  False</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="26" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1a08889dd3e781f5077974bbd4ad9295d4" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sms.config.Config::FAILED_LOGIN_DELAY_BASE</definition>
+        <argsstring></argsstring>
+        <name>FAILED_LOGIN_DELAY_BASE</name>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="29" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1aae26fd343d0478f05d6dfa50c1d0cdf8" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool sms.config.Config::AUTO_DECORATE_TASK_DETAILS_HYPERLINK</definition>
+        <argsstring></argsstring>
+        <name>AUTO_DECORATE_TASK_DETAILS_HYPERLINK</name>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="32" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1abf7a5fc1eba60caffe01c5f8f1a16c5e" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool sms.config.Config::SHOW_VIEW_PAST_BUTTON</definition>
+        <argsstring></argsstring>
+        <name>SHOW_VIEW_PAST_BUTTON</name>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="34" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1afd3036ea22578aadca7c276a290dce2d" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool sms.config.Config::HIDE_PAST_TASKS</definition>
+        <argsstring></argsstring>
+        <name>HIDE_PAST_TASKS</name>
+        <initializer>=  False</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="37" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1afde41787b1a83ccc517ec06d2c78e8f1" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sms.config.Config::DAYS_PAST_TO_KEEP_HIDDEN_TASKS</definition>
+        <argsstring></argsstring>
+        <name>DAYS_PAST_TO_KEEP_HIDDEN_TASKS</name>
+        <initializer>=  62</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="40" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1config_1_1_config_1adc35240b483672651c6c1cdb2ec1501d" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool sms.config.Config::EMOJIS_ENABLED</definition>
+        <argsstring></argsstring>
+        <name>EMOJIS_ENABLED</name>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="43" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" line="4" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/config.py" bodystart="4" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classsms_1_1config_1_1_config_1aae26fd343d0478f05d6dfa50c1d0cdf8" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>AUTO_DECORATE_TASK_DETAILS_HYPERLINK</name></member>
+      <member refid="classsms_1_1config_1_1_config_1ad3a5444cf7a685d55fb71392cc960f4f" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>DATA_FOLDER</name></member>
+      <member refid="classsms_1_1config_1_1_config_1afde41787b1a83ccc517ec06d2c78e8f1" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>DAYS_PAST_TO_KEEP_HIDDEN_TASKS</name></member>
+      <member refid="classsms_1_1config_1_1_config_1adc35240b483672651c6c1cdb2ec1501d" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>EMOJIS_ENABLED</name></member>
+      <member refid="classsms_1_1config_1_1_config_1a08889dd3e781f5077974bbd4ad9295d4" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>FAILED_LOGIN_DELAY_BASE</name></member>
+      <member refid="classsms_1_1config_1_1_config_1ad658a6461218ddd2d24eb297ee03a0db" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>FEATURE_FLAG_ICAL_EXPORT</name></member>
+      <member refid="classsms_1_1config_1_1_config_1a5204dad8525195c7a36aaf28144d0f8e" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>FLASK_ADMIN_SWATCH</name></member>
+      <member refid="classsms_1_1config_1_1_config_1afd3036ea22578aadca7c276a290dce2d" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>HIDE_PAST_TASKS</name></member>
+      <member refid="classsms_1_1config_1_1_config_1a39b2d6f935fb90911ebde43c86c39ed8" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>LOCALE</name></member>
+      <member refid="classsms_1_1config_1_1_config_1a1d1b5411903826cb59b665e5ea10a319" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>MAIL_PASSWORD</name></member>
+      <member refid="classsms_1_1config_1_1_config_1a754f3405fe6ae965c191a60518219328" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>MAIL_PORT</name></member>
+      <member refid="classsms_1_1config_1_1_config_1a6d069502b5a03fa003ccd9489cb5e2e0" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>MAIL_SERVER</name></member>
+      <member refid="classsms_1_1config_1_1_config_1ac930152031973cbb908909c6260ae33d" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>MAIL_USE_TLS</name></member>
+      <member refid="classsms_1_1config_1_1_config_1a26cf13c621c170026c18aff19752b3b8" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>MAIL_USERNAME</name></member>
+      <member refid="classsms_1_1config_1_1_config_1a6786d62b690782432deb0ecd0d6e284f" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>MAX_YEAR</name></member>
+      <member refid="classsms_1_1config_1_1_config_1aac253cf9d660a2e980a0cd445f9f6108" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>MIN_YEAR</name></member>
+      <member refid="classsms_1_1config_1_1_config_1ac2528fc81b9adf89d1ba7440ace71cc3" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>MONTHS_TO_EXPORT</name></member>
+      <member refid="classsms_1_1config_1_1_config_1a65c23939cfa5d9edcd0d5ee6f440d75b" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>SECRET_KEY</name></member>
+      <member refid="classsms_1_1config_1_1_config_1abf7a5fc1eba60caffe01c5f8f1a16c5e" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>SHOW_VIEW_PAST_BUTTON</name></member>
+      <member refid="classsms_1_1config_1_1_config_1aaa67cce3e9cebc9370f9e98b20849d3a" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>SQLALCHEMY_DATABASE_URI</name></member>
+      <member refid="classsms_1_1config_1_1_config_1a87b40912b931c7beb93b52bede694f0c" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>SQLALCHEMY_TRACK_MODIFICATIONS</name></member>
+      <member refid="classsms_1_1config_1_1_config_1a0d1a4ea882fcb05138c644077e5df052" prot="public" virt="non-virtual"><scope>sms::config::Config</scope><name>TIMEZONE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

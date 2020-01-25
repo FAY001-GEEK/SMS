@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classsms_1_1models_1_1_staff_view" kind="class" language="Python" prot="public">
+    <compoundname>sms::models::StaffView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModelView</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1models_1_1_staff_view_1a1f231753fc8602dd17698ea6722fda11" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int sms.models.StaffView::page_size</definition>
+        <argsstring></argsstring>
+        <name>page_size</name>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="213" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_staff_view_1a4a30b1d744db500dae0ce9e7d0c5c71b" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool sms.models.StaffView::can_view_details</definition>
+        <argsstring></argsstring>
+        <name>can_view_details</name>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="214" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_staff_view_1a45a26c0ecb0cc021fdefad977bd8fe7a" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list sms.models.StaffView::column_list</definition>
+        <argsstring></argsstring>
+        <name>column_list</name>
+        <initializer>=  [&apos;username&apos;,&apos;first_name&apos;,&apos;middle_name&apos;,&apos;last_name&apos;,&apos;mother_name&apos;,&apos;email&apos;,&apos;phone_number&apos;,&apos;address&apos;,&apos;image_file&apos;,&apos;date_created&apos;,&apos;date_updated&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="215" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_staff_view_1a4e02e824a20c883e643c559ec131cf10" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list sms.models.StaffView::column_exclude_list</definition>
+        <argsstring></argsstring>
+        <name>column_exclude_list</name>
+        <initializer>=  [&apos;&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="217" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_staff_view_1a1e45935197f3320b9668e31ceefd4be9" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list sms.models.StaffView::form_columns</definition>
+        <argsstring></argsstring>
+        <name>form_columns</name>
+        <initializer>=  [&apos;username&apos;, &apos;first_name&apos;, &apos;middle_name&apos;, &apos;last_name&apos;, &apos;mother_name&apos;,
+    &apos;email&apos;,&apos;password&apos;, &apos;phone_number&apos;, &apos;address&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="218" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_staff_view_1ad3700283edf491b2a72e672962149fb6" prot="public" static="yes" mutable="no">
+        <type>dictionary</type>
+        <definition>dictionary sms.models.StaffView::form_widget_args</definition>
+        <argsstring></argsstring>
+        <name>form_widget_args</name>
+        <initializer>=  {
+        &apos;date_updated&apos;: {
+            &apos;disabled&apos;: True
+        },
+        &apos;date_created&apos;: {
+            &apos;disabled&apos;: True
+        },
+        &apos;image_file&apos;:{
+            &apos;disabled&apos;: True
+        }
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="220" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_staff_view_1af44e2f05ad7253b8fd0d60bc2b2ae5da" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list sms.models.StaffView::column_searchable_list</definition>
+        <argsstring></argsstring>
+        <name>column_searchable_list</name>
+        <initializer>=  [&apos;username&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="234" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_staff_view_1a24200ca1fe3859ff255d85d881ea11af" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.models.StaffView::column_default_sort</definition>
+        <argsstring></argsstring>
+        <name>column_default_sort</name>
+        <initializer>=  &apos;username&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="235" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_staff_view_1a57015d56d6b05f55d8bba883cc3428bb" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list sms.models.StaffView::column_sortable_list</definition>
+        <argsstring></argsstring>
+        <name>column_sortable_list</name>
+        <initializer>=  [&apos;username&apos;,&apos;date_created&apos;,&apos;date_updated&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="236" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_staff_view_1ad6035db78237f37188f1b97c41811151" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool sms.models.StaffView::can_export</definition>
+        <argsstring></argsstring>
+        <name>can_export</name>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="237" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_staff_view_1a39d4ca0da579d24aeafb1650e2a5f721" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list sms.models.StaffView::column_filters</definition>
+        <argsstring></argsstring>
+        <name>column_filters</name>
+        <initializer>=  [
+        FilterEqual(column=<ref refid="classsms_1_1models_1_1_user_1a66570184b6bed6c5312bf18066543bab" kindref="member">User.username</ref>, name = &apos;Name&apos;),
+        FilterNotEqual(column=<ref refid="classsms_1_1models_1_1_user_1a66570184b6bed6c5312bf18066543bab" kindref="member">User.username</ref>, name = &apos;Name&apos;),
+        FilterLike(column=<ref refid="classsms_1_1models_1_1_user_1a66570184b6bed6c5312bf18066543bab" kindref="member">User.username</ref>, name=&apos;Name&apos;),
+        FilterNotLike(column=<ref refid="classsms_1_1models_1_1_user_1a66570184b6bed6c5312bf18066543bab" kindref="member">User.username</ref>, name=&apos;Name&apos;),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="238" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_staff_view_1a7def39678c8d4ab4ecfa9ff1137a5e9f" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list sms.models.StaffView::column_export_list</definition>
+        <argsstring></argsstring>
+        <name>column_export_list</name>
+        <initializer>=  [&apos;name&apos;, &apos;first_name&apos;, &apos;middle_name&apos;, &apos;last_name&apos;, &apos;mother_name&apos;,&apos;address&apos;, &apos;phone_number&apos;,&apos;date_created&apos;, &apos;date_updated&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="244" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Describes the fields and behavior of the StaffModel on the administrator dashboard. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>sms.models.StaffView</label>
+        <link refid="classsms_1_1models_1_1_staff_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ModelView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>sms.models.StaffView</label>
+        <link refid="classsms_1_1models_1_1_staff_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ModelView</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="212" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="212" bodyend="247"/>
+    <listofallmembers>
+      <member refid="classsms_1_1models_1_1_staff_view_1ad6035db78237f37188f1b97c41811151" prot="public" virt="non-virtual"><scope>sms::models::StaffView</scope><name>can_export</name></member>
+      <member refid="classsms_1_1models_1_1_staff_view_1a4a30b1d744db500dae0ce9e7d0c5c71b" prot="public" virt="non-virtual"><scope>sms::models::StaffView</scope><name>can_view_details</name></member>
+      <member refid="classsms_1_1models_1_1_staff_view_1a24200ca1fe3859ff255d85d881ea11af" prot="public" virt="non-virtual"><scope>sms::models::StaffView</scope><name>column_default_sort</name></member>
+      <member refid="classsms_1_1models_1_1_staff_view_1a4e02e824a20c883e643c559ec131cf10" prot="public" virt="non-virtual"><scope>sms::models::StaffView</scope><name>column_exclude_list</name></member>
+      <member refid="classsms_1_1models_1_1_staff_view_1a7def39678c8d4ab4ecfa9ff1137a5e9f" prot="public" virt="non-virtual"><scope>sms::models::StaffView</scope><name>column_export_list</name></member>
+      <member refid="classsms_1_1models_1_1_staff_view_1a39d4ca0da579d24aeafb1650e2a5f721" prot="public" virt="non-virtual"><scope>sms::models::StaffView</scope><name>column_filters</name></member>
+      <member refid="classsms_1_1models_1_1_staff_view_1a45a26c0ecb0cc021fdefad977bd8fe7a" prot="public" virt="non-virtual"><scope>sms::models::StaffView</scope><name>column_list</name></member>
+      <member refid="classsms_1_1models_1_1_staff_view_1af44e2f05ad7253b8fd0d60bc2b2ae5da" prot="public" virt="non-virtual"><scope>sms::models::StaffView</scope><name>column_searchable_list</name></member>
+      <member refid="classsms_1_1models_1_1_staff_view_1a57015d56d6b05f55d8bba883cc3428bb" prot="public" virt="non-virtual"><scope>sms::models::StaffView</scope><name>column_sortable_list</name></member>
+      <member refid="classsms_1_1models_1_1_staff_view_1a1e45935197f3320b9668e31ceefd4be9" prot="public" virt="non-virtual"><scope>sms::models::StaffView</scope><name>form_columns</name></member>
+      <member refid="classsms_1_1models_1_1_staff_view_1ad3700283edf491b2a72e672962149fb6" prot="public" virt="non-virtual"><scope>sms::models::StaffView</scope><name>form_widget_args</name></member>
+      <member refid="classsms_1_1models_1_1_staff_view_1a1f231753fc8602dd17698ea6722fda11" prot="public" virt="non-virtual"><scope>sms::models::StaffView</scope><name>page_size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

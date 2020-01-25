@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacesms_1_1sms__calendar_1_1uwsgi" kind="namespace" language="Python">
+    <compoundname>sms::sms_calendar::uwsgi</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacesms_1_1sms__calendar_1_1uwsgi_1a401cec14b3efa746c676952b87fa824d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms::sms_calendar::uwsgi.app</definition>
+        <argsstring></argsstring>
+        <name>app</name>
+        <initializer>=  flask_app.create_app()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/uwsgi.py" line="4" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/uwsgi.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1_1sms__calendar_1_1uwsgi_1ab78e8f4af12a0be814977c9c67b5d7c8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms::sms_calendar::uwsgi.debug</definition>
+        <argsstring></argsstring>
+        <name>debug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/uwsgi.py" line="7" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/uwsgi.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesms_1_1sms__calendar_1_1uwsgi_1ad0b4949df49e867fe549d03ab3d0acdd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sms::sms_calendar::uwsgi.host</definition>
+        <argsstring></argsstring>
+        <name>host</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/uwsgi.py" line="7" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/uwsgi.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/sms_calendar/uwsgi.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

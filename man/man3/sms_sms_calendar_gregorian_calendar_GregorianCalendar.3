@@ -1,0 +1,84 @@
+.TH "sms.sms_calendar.gregorian_calendar.GregorianCalendar" 3 "Sat Dec 28 2019" "Version 1.2.0" "SMS" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sms.sms_calendar.gregorian_calendar.GregorianCalendar
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "Tuple[int, int] \fBprevious_month_and_year\fP (int year, int month)"
+.br
+.ti -1c
+.RI "Tuple[int, int] \fBnext_month_and_year\fP (int year, int month)"
+.br
+.ti -1c
+.RI "Tuple[int, int, int] \fBcurrent_date\fP ()"
+.br
+.ti -1c
+.RI "Iterable[date] \fBmonth_days\fP (int year, int month)"
+.br
+.ti -1c
+.RI "List[List[int]] \fBmonth_days_with_weekday\fP (int year, int month)"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "list \fBMONTH_NAMES\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 6 of file gregorian_calendar\&.py\&.
+.SH "Member Function Documentation"
+.PP 
+.SS " Tuple[int, int, int] sms\&.sms_calendar\&.gregorian_calendar\&.GregorianCalendar\&.current_date ()\fC [static]\fP"
+
+.PP
+Definition at line 33 of file gregorian_calendar\&.py\&.
+.SS " Iterable[date] sms\&.sms_calendar\&.gregorian_calendar\&.GregorianCalendar\&.month_days (int year, int month)\fC [static]\fP"
+
+.PP
+Definition at line 38 of file gregorian_calendar\&.py\&.
+.SS " List[List[int]] sms\&.sms_calendar\&.gregorian_calendar\&.GregorianCalendar\&.month_days_with_weekday (int year, int month)\fC [static]\fP"
+
+.PP
+Definition at line 42 of file gregorian_calendar\&.py\&.
+.SS " Tuple[int, int] sms\&.sms_calendar\&.gregorian_calendar\&.GregorianCalendar\&.next_month_and_year (int year, int month)\fC [static]\fP"
+
+.PP
+Definition at line 27 of file gregorian_calendar\&.py\&.
+.SS " Tuple[int, int] sms\&.sms_calendar\&.gregorian_calendar\&.GregorianCalendar\&.previous_month_and_year (int year, int month)\fC [static]\fP"
+
+.PP
+Definition at line 22 of file gregorian_calendar\&.py\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "list sms\&.sms_calendar\&.gregorian_calendar\&.GregorianCalendar\&.MONTH_NAMES\fC [static]\fP"
+\fBInitial value:\fP
+.PP
+.nf
+=  ["January",
+                   "February",
+                   "March",
+                   "April",
+                   "May",
+                   "June",
+                   "July",
+                   "August",
+                   "September",
+                   "October",
+                   "November",
+                   "December"]
+.fi
+.PP
+Definition at line 8 of file gregorian_calendar\&.py\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SMS from the source code\&.

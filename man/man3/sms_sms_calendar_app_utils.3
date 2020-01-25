@@ -1,0 +1,93 @@
+.TH "sms.sms_calendar.app_utils" 3 "Sat Dec 28 2019" "Version 1.2.0" "SMS" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sms.sms_calendar.app_utils
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "str \fBprevious_month_link\fP (int year, int month)"
+.br
+.ti -1c
+.RI "str \fBnext_month_link\fP (int year, int month)"
+.br
+.ti -1c
+.RI "str \fBnew_session_id\fP ()"
+.br
+.ti -1c
+.RI "bool \fBis_session_valid\fP (str session_id)"
+.br
+.ti -1c
+.RI "None \fBadd_session\fP (str session_id, str username)"
+.br
+.ti -1c
+.RI "str \fBget_session_username\fP (str session_id)"
+.br
+.ti -1c
+.RI "str \fBtask_details_for_markup\fP (str details)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fBcache\fP = SimpleCache()"
+.br
+.ti -1c
+.RI "string \fBURLS_REGEX_PATTERN\fP = r'((?:(?:https?):\\/\\/)?[\\w/\\\-?=%\&.]+\\\&.[\\w/\\\-?=%\&.&]+)'"
+.br
+.ti -1c
+.RI "string \fBDECORATED_URL_FORMAT\fP = '<a href=\\'{}\\' target=\\'_blank\\'>{}</a>'"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS " None sms\&.sms_calendar\&.app_utils\&.add_session (str session_id, str username)"
+
+.PP
+Definition at line 46 of file app_utils\&.py\&.
+.SS " str sms\&.sms_calendar\&.app_utils\&.get_session_username (str session_id)"
+
+.PP
+Definition at line 50 of file app_utils\&.py\&.
+.SS " bool sms\&.sms_calendar\&.app_utils\&.is_session_valid (str session_id)"
+
+.PP
+Definition at line 42 of file app_utils\&.py\&.
+.SS " str sms\&.sms_calendar\&.app_utils\&.new_session_id ()"
+
+.PP
+Definition at line 38 of file app_utils\&.py\&.
+.SS " str sms\&.sms_calendar\&.app_utils\&.next_month_link (int year, int month)"
+
+.PP
+Definition at line 29 of file app_utils\&.py\&.
+.SS " str sms\&.sms_calendar\&.app_utils\&.previous_month_link (int year, int month)"
+
+.PP
+Definition at line 20 of file app_utils\&.py\&.
+.SS " str sms\&.sms_calendar\&.app_utils\&.task_details_for_markup (str details)"
+
+.PP
+Definition at line 54 of file app_utils\&.py\&.
+.SH "Variable Documentation"
+.PP 
+.SS "sms\&.sms_calendar\&.app_utils\&.cache = SimpleCache()"
+
+.PP
+Definition at line 13 of file app_utils\&.py\&.
+.SS "string sms\&.sms_calendar\&.app_utils\&.DECORATED_URL_FORMAT = '<a href=\\'{}\\' target=\\'_blank\\'>{}</a>'"
+
+.PP
+Definition at line 17 of file app_utils\&.py\&.
+.SS "string sms\&.sms_calendar\&.app_utils\&.URLS_REGEX_PATTERN = r'((?:(?:https?):\\/\\/)?[\\w/\\\-?=%\&.]+\\\&.[\\w/\\\-?=%\&.&]+)'"
+
+.PP
+Definition at line 16 of file app_utils\&.py\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SMS from the source code\&.

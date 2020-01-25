@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classsms_1_1models_1_1_user" kind="class" language="Python" prot="public">
+    <compoundname>sms::models::User</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserMixin</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1models_1_1_user_1a8faa592536d1ab17279e439a336ac766" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.models.User::__tablename__</definition>
+        <argsstring></argsstring>
+        <name>__tablename__</name>
+        <initializer>=  &apos;users&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="36" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_user_1ae421d5f33646b4f51e430dbc2301e063" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.User::_password</definition>
+        <argsstring></argsstring>
+        <name>_password</name>
+        <initializer>=  db.Column(db.String(60), nullable=False)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="44" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1models_1_1_user_1a665af804b272b41390e686bbda5255c8" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.User::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <initializer>=  db.Column(db.Integer, primary_key=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="37" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_user_1a66570184b6bed6c5312bf18066543bab" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.User::username</definition>
+        <argsstring></argsstring>
+        <name>username</name>
+        <initializer>=  db.Column(db.String(20), unique=True, nullable=False)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="38" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_user_1a6056241051afc456b511a9fc367851fb" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.User::first_name</definition>
+        <argsstring></argsstring>
+        <name>first_name</name>
+        <initializer>=  db.Column(db.String(), unique=False, nullable=False)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="39" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_user_1a215330c6e60b908796303d6a1b6b6bb4" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.User::middle_name</definition>
+        <argsstring></argsstring>
+        <name>middle_name</name>
+        <initializer>=  db.Column(db.String(), unique=False, nullable=False)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="40" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_user_1a01c62d8c40431142930cbd23a1baf212" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.User::last_name</definition>
+        <argsstring></argsstring>
+        <name>last_name</name>
+        <initializer>=  db.Column(db.String(), unique=False, nullable=False)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="41" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_user_1a07cdeb59ad2373e4ffe5d583c07fd50a" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.User::mother_name</definition>
+        <argsstring></argsstring>
+        <name>mother_name</name>
+        <initializer>=  db.Column(db.String(), unique=False, nullable=False)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="42" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_user_1a05a7523afc916882f9695a8bba698d91" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.User::email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <initializer>=  db.Column(db.String(100), unique=True, nullable=False)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="43" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_user_1a9d3e9c839c677ce6922bb94d2caccda2" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.User::phone_number</definition>
+        <argsstring></argsstring>
+        <name>phone_number</name>
+        <initializer>=  db.Column(db.String(), unique=True, nullable=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="45" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_user_1a5c423e0ca548bb7663cbd7ae5cb8f5fc" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.User::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <initializer>=  db.Column(db.Text(), unique=False, nullable=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="46" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_user_1a3d2538d40a10b40f0270c631388ce123" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.User::image_file</definition>
+        <argsstring></argsstring>
+        <name>image_file</name>
+        <initializer>=  db.Column(db.String(20), nullable=False, default=&apos;default.jpg&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="47" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_user_1a07d22a9a8a78f7bb683ea9feb05c64b9" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.User::date_created</definition>
+        <argsstring></argsstring>
+        <name>date_created</name>
+        <initializer>=  db.Column(db.Date(), default=datetime.utcnow)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="48" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_user_1a2517282e43da3903541565af9aab6d68" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.User::date_updated</definition>
+        <argsstring></argsstring>
+        <name>date_updated</name>
+        <initializer>=  db.Column(db.Date(), onupdate=datetime.utcnow)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="49" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsms_1_1models_1_1_user_1a0fcebafd9f5e02b452e2c440adbdceec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.models.User.password</definition>
+        <argsstring>(self)</argsstring>
+        <name>password</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="53" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1models_1_1_user_1a5faf183c50115d0ccf0973884e62d8b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.models.User.password</definition>
+        <argsstring>(self, new_password)</argsstring>
+        <name>password</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>new_password</type>
+          <defname>new_password</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="57" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1models_1_1_user_1ad79d67a7c943edbf1b7cd1282535141c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.models.User.get_reset_token</definition>
+        <argsstring>(self, expires_sec=1800)</argsstring>
+        <name>get_reset_token</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>expires_sec</type>
+          <defname>expires_sec</defname>
+          <defval>1800</defval>
+        </param>
+        <briefdescription>
+<para>Generates the token needed to be send to a user in case he/she forgets his password. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="62" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classsms_1_1models_1_1_user_1aa4cfb2f4ba1aaec6d7318b8f47c97134" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.models.User.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="76" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="76" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsms_1_1models_1_1_user_1aa95e825b928b6c23a5bc91f384bc9566" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sms.models.User.verify_reset_token</definition>
+        <argsstring>(token)</argsstring>
+        <name>verify_reset_token</name>
+        <param>
+          <type>token</type>
+          <defname>token</defname>
+        </param>
+        <briefdescription>
+<para>Verifies the token when the user clicks on the link sent to his email. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="68" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="68" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Describes the fields for administrators. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>UserMixin</label>
+      </node>
+      <node id="1">
+        <label>sms.models.User</label>
+        <link refid="classsms_1_1models_1_1_user"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>UserMixin</label>
+      </node>
+      <node id="1">
+        <label>sms.models.User</label>
+        <link refid="classsms_1_1models_1_1_user"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="35" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="35" bodyend="80"/>
+    <listofallmembers>
+      <member refid="classsms_1_1models_1_1_user_1aa4cfb2f4ba1aaec6d7318b8f47c97134" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>__repr__</name></member>
+      <member refid="classsms_1_1models_1_1_user_1a8faa592536d1ab17279e439a336ac766" prot="private" virt="non-virtual"><scope>sms::models::User</scope><name>__tablename__</name></member>
+      <member refid="classsms_1_1models_1_1_user_1ae421d5f33646b4f51e430dbc2301e063" prot="private" virt="non-virtual"><scope>sms::models::User</scope><name>_password</name></member>
+      <member refid="classsms_1_1models_1_1_user_1a5c423e0ca548bb7663cbd7ae5cb8f5fc" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>address</name></member>
+      <member refid="classsms_1_1models_1_1_user_1a07d22a9a8a78f7bb683ea9feb05c64b9" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>date_created</name></member>
+      <member refid="classsms_1_1models_1_1_user_1a2517282e43da3903541565af9aab6d68" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>date_updated</name></member>
+      <member refid="classsms_1_1models_1_1_user_1a05a7523afc916882f9695a8bba698d91" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>email</name></member>
+      <member refid="classsms_1_1models_1_1_user_1a6056241051afc456b511a9fc367851fb" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>first_name</name></member>
+      <member refid="classsms_1_1models_1_1_user_1ad79d67a7c943edbf1b7cd1282535141c" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>get_reset_token</name></member>
+      <member refid="classsms_1_1models_1_1_user_1a665af804b272b41390e686bbda5255c8" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>id</name></member>
+      <member refid="classsms_1_1models_1_1_user_1a3d2538d40a10b40f0270c631388ce123" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>image_file</name></member>
+      <member refid="classsms_1_1models_1_1_user_1a01c62d8c40431142930cbd23a1baf212" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>last_name</name></member>
+      <member refid="classsms_1_1models_1_1_user_1a215330c6e60b908796303d6a1b6b6bb4" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>middle_name</name></member>
+      <member refid="classsms_1_1models_1_1_user_1a07cdeb59ad2373e4ffe5d583c07fd50a" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>mother_name</name></member>
+      <member refid="classsms_1_1models_1_1_user_1a0fcebafd9f5e02b452e2c440adbdceec" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>password</name></member>
+      <member refid="classsms_1_1models_1_1_user_1a5faf183c50115d0ccf0973884e62d8b7" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>password</name></member>
+      <member refid="classsms_1_1models_1_1_user_1a9d3e9c839c677ce6922bb94d2caccda2" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>phone_number</name></member>
+      <member refid="classsms_1_1models_1_1_user_1a66570184b6bed6c5312bf18066543bab" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>username</name></member>
+      <member refid="classsms_1_1models_1_1_user_1aa95e825b928b6c23a5bc91f384bc9566" prot="public" virt="non-virtual"><scope>sms::models::User</scope><name>verify_reset_token</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

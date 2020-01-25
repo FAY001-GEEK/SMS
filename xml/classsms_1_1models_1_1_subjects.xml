@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classsms_1_1models_1_1_subjects" kind="class" language="Python" prot="public">
+    <compoundname>sms::models::Subjects</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1models_1_1_subjects_1af7d790fcdebfe2fa472ecbd9e3c12c1e" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string sms.models.Subjects::__tablename__</definition>
+        <argsstring></argsstring>
+        <name>__tablename__</name>
+        <initializer>=  &apos;subjects&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="249" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsms_1_1models_1_1_subjects_1a78cb1861d7da2cf39ca5f9519d8c8ee1" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.Subjects::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <initializer>=  db.Column(db.Integer, primary_key=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="250" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_subjects_1a8bfc0712aa5bb0f441e130b30122387f" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.Subjects::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <initializer>=  db.Column(db.String(100), nullable=False)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="251" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsms_1_1models_1_1_subjects_1ad58e962437a3f94b265d1d66b1579b6b" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>sms.models.Subjects::description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <initializer>=  db.Column(db.Text(), unique=False, nullable=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="252" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Describes the fields for subjects. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>sms.models.Subjects</label>
+        <link refid="classsms_1_1models_1_1_subjects"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>sms.models.Subjects</label>
+        <link refid="classsms_1_1models_1_1_subjects"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" line="248" column="1" bodyfile="C:/Users/HP/Desktop/CODE/PROJECTS/SMS/sms/models.py" bodystart="248" bodyend="255"/>
+    <listofallmembers>
+      <member refid="classsms_1_1models_1_1_subjects_1af7d790fcdebfe2fa472ecbd9e3c12c1e" prot="private" virt="non-virtual"><scope>sms::models::Subjects</scope><name>__tablename__</name></member>
+      <member refid="classsms_1_1models_1_1_subjects_1ad58e962437a3f94b265d1d66b1579b6b" prot="public" virt="non-virtual"><scope>sms::models::Subjects</scope><name>description</name></member>
+      <member refid="classsms_1_1models_1_1_subjects_1a78cb1861d7da2cf39ca5f9519d8c8ee1" prot="public" virt="non-virtual"><scope>sms::models::Subjects</scope><name>id</name></member>
+      <member refid="classsms_1_1models_1_1_subjects_1a8bfc0712aa5bb0f441e130b30122387f" prot="public" virt="non-virtual"><scope>sms::models::Subjects</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

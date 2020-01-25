@@ -1,0 +1,138 @@
+.TH "sms.models.UserView" 3 "Sat Dec 28 2019" "Version 1.2.0" "SMS" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+sms.models.UserView \- Describes the fields and behavior of the UserModel on the administrator dashboard\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits ModelView\&.
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBpage_size\fP = 20"
+.br
+.ti -1c
+.RI "bool \fBcan_view_details\fP = True"
+.br
+.ti -1c
+.RI "list \fBcolumn_list\fP = ['username','email','phone_number','address','date_created','date_updated']"
+.br
+.ti -1c
+.RI "list \fBcolumn_exclude_list\fP"
+.br
+.ti -1c
+.RI "list \fBform_columns\fP = ['username', 'first_name', 'middle_name', 'last_name','mother_name','email','password','phone_number','address']"
+.br
+.ti -1c
+.RI "dictionary \fBform_widget_args\fP"
+.br
+.ti -1c
+.RI "list \fBcolumn_searchable_list\fP = ['username']"
+.br
+.ti -1c
+.RI "string \fBcolumn_default_sort\fP = 'username'"
+.br
+.ti -1c
+.RI "list \fBcolumn_sortable_list\fP = ['username','date_created','date_updated']"
+.br
+.ti -1c
+.RI "bool \fBcan_export\fP = True"
+.br
+.ti -1c
+.RI "list \fBcolumn_filters\fP"
+.br
+.ti -1c
+.RI "list \fBcolumn_export_list\fP = ['name', 'first_name', 'middle_name', 'last_name', 'mother_name','address', 'phone_number','date_created', 'date_updated']"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Describes the fields and behavior of the UserModel on the administrator dashboard\&. 
+.PP
+Definition at line 81 of file models\&.py\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "bool sms\&.models\&.UserView\&.can_export = True\fC [static]\fP"
+
+.PP
+Definition at line 106 of file models\&.py\&.
+.SS "bool sms\&.models\&.UserView\&.can_view_details = True\fC [static]\fP"
+
+.PP
+Definition at line 83 of file models\&.py\&.
+.SS "string sms\&.models\&.UserView\&.column_default_sort = 'username'\fC [static]\fP"
+
+.PP
+Definition at line 104 of file models\&.py\&.
+.SS "list sms\&.models\&.UserView\&.column_exclude_list\fC [static]\fP"
+\fBInitial value:\fP
+.PP
+.nf
+=  ['first_name', 'middle_name',
+                           'last_name', 'mother_name', 'password', 'image_file']
+.fi
+.PP
+Definition at line 86 of file models\&.py\&.
+.SS "list sms\&.models\&.UserView\&.column_export_list = ['name', 'first_name', 'middle_name', 'last_name', 'mother_name','address', 'phone_number','date_created', 'date_updated']\fC [static]\fP"
+
+.PP
+Definition at line 113 of file models\&.py\&.
+.SS "list sms\&.models\&.UserView\&.column_filters\fC [static]\fP"
+\fBInitial value:\fP
+.PP
+.nf
+=  [
+        FilterEqual(column=User\&.username, name = 'Name'),
+        FilterNotEqual(column=User\&.username, name = 'Name'),
+        FilterLike(column=User\&.username, name='Name'),
+        FilterNotLike(column=User\&.username, name='Name'),
+    ]
+.fi
+.PP
+Definition at line 107 of file models\&.py\&.
+.SS "list sms\&.models\&.UserView\&.column_list = ['username','email','phone_number','address','date_created','date_updated']\fC [static]\fP"
+
+.PP
+Definition at line 84 of file models\&.py\&.
+.SS "list sms\&.models\&.UserView\&.column_searchable_list = ['username']\fC [static]\fP"
+
+.PP
+Definition at line 103 of file models\&.py\&.
+.SS "list sms\&.models\&.UserView\&.column_sortable_list = ['username','date_created','date_updated']\fC [static]\fP"
+
+.PP
+Definition at line 105 of file models\&.py\&.
+.SS "list sms\&.models\&.UserView\&.form_columns = ['username', 'first_name', 'middle_name', 'last_name','mother_name','email','password','phone_number','address']\fC [static]\fP"
+
+.PP
+Definition at line 88 of file models\&.py\&.
+.SS "dictionary sms\&.models\&.UserView\&.form_widget_args\fC [static]\fP"
+\fBInitial value:\fP
+.PP
+.nf
+=  {
+        'date_updated': {
+            'disabled': True
+        },
+        'date_created': {
+            'disabled': True
+        },
+        'image_file':{
+            'disabled': True
+        }
+    }
+.fi
+.PP
+Definition at line 89 of file models\&.py\&.
+.SS "int sms\&.models\&.UserView\&.page_size = 20\fC [static]\fP"
+
+.PP
+Definition at line 82 of file models\&.py\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SMS from the source code\&.
